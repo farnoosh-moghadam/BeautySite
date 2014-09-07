@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: @screen-sm-max) {
+@media (min-width: @screen-md-min) {
 
     .main-menu-list li:before {
         content: '|';
@@ -40,10 +40,13 @@
 }
 
 .main-menu-list li {
-    @media (min-width: @screen-sm-max) {
+    @media (min-width: @screen-md-min) {
         display: inline-block;
     }
-
+    @media(max-width:@screen-sm-max)
+    {
+        border-bottom: 1px @colorBlue solid;
+    }
     .ml(-7px);
     vertical-align: top;
     list-style: none;
