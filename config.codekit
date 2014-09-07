@@ -1648,925 +1648,914 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/bower_components\/jquery\/dist\/jquery.js": {
+	"\/bower_components\/less\/dist\/less-1.1.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/dist\/jquery.min.js": {
+	"\/bower_components\/less\/dist\/less-1.1.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax.js": {
+	"\/bower_components\/less\/dist\/less-1.1.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/ajax-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/jsonp.js": {
+	"\/bower_components\/less\/dist\/less-1.1.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/jsonp.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/jsonp-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/load.js": {
+	"\/bower_components\/less\/dist\/less-1.1.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/load.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/load-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/parseJSON.js": {
+	"\/bower_components\/less\/dist\/less-1.1.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/parseJSON.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseJSON-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/parseXML.js": {
+	"\/bower_components\/less\/dist\/less-1.1.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/parseXML.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/parseXML-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/script.js": {
+	"\/bower_components\/less\/dist\/less-1.1.3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/script.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/script-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.3.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/var\/nonce.js": {
+	"\/bower_components\/less\/dist\/less-1.1.4.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/nonce.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/nonce-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.4.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.4-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/var\/rquery.js": {
+	"\/bower_components\/less\/dist\/less-1.1.4.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/rquery.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/var\/min\/rquery-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.4.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.4.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/ajax\/xhr.js": {
+	"\/bower_components\/less\/dist\/less-1.1.5.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/xhr.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/ajax\/min\/xhr-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.5.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.5-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/attributes.js": {
+	"\/bower_components\/less\/dist\/less-1.1.5.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/attributes-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.5.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.5.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/attributes\/attr.js": {
+	"\/bower_components\/less\/dist\/less-1.1.6.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/attr.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/attr-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.6.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.6-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/attributes\/classes.js": {
+	"\/bower_components\/less\/dist\/less-1.1.6.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/classes.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/classes-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.1.6.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.1.6.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/attributes\/prop.js": {
+	"\/bower_components\/less\/dist\/less-1.2.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/prop.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/prop-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.2.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.2.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/attributes\/support.js": {
+	"\/bower_components\/less\/dist\/less-1.2.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/support.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/support-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.2.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.2.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/attributes\/val.js": {
+	"\/bower_components\/less\/dist\/less-1.2.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/val.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/attributes\/min\/val-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.2.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.2.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/callbacks.js": {
+	"\/bower_components\/less\/dist\/less-1.2.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/callbacks.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/callbacks-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.2.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.2.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/core.js": {
+	"\/bower_components\/less\/dist\/less-1.2.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/core-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.2.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.2.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/core\/access.js": {
+	"\/bower_components\/less\/dist\/less-1.2.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/access.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/access-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.2.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.2.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/core\/init.js": {
+	"\/bower_components\/less\/dist\/less-1.3.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/init.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/init-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/core\/parseHTML.js": {
+	"\/bower_components\/less\/dist\/less-1.3.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/parseHTML.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/parseHTML-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/core\/ready.js": {
+	"\/bower_components\/less\/dist\/less-1.3.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/ready.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/min\/ready-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js": {
+	"\/bower_components\/less\/dist\/less-1.3.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/var\/rsingleTag.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/core\/var\/min\/rsingleTag-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css.js": {
+	"\/bower_components\/less\/dist\/less-1.3.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/css-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/addGetHookIf.js": {
+	"\/bower_components\/less\/dist\/less-1.3.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/addGetHookIf.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/addGetHookIf-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/curCSS.js": {
+	"\/bower_components\/less\/dist\/less-1.3.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/curCSS.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/curCSS-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/defaultDisplay.js": {
+	"\/bower_components\/less\/dist\/less-1.3.3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/defaultDisplay.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/defaultDisplay-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.3.3.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.3.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js": {
+	"\/bower_components\/less\/dist\/less-1.4.0-beta.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/hiddenVisibleSelectors.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/hiddenVisibleSelectors-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.0-beta.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.0-beta-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/support.js": {
+	"\/bower_components\/less\/dist\/less-1.4.0-beta.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/support.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/support-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.0-beta.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.0-beta.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/swap.js": {
+	"\/bower_components\/less\/dist\/less-1.4.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/swap.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/min\/swap-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/cssExpand.js": {
+	"\/bower_components\/less\/dist\/less-1.4.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/cssExpand.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/cssExpand-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/getStyles.js": {
+	"\/bower_components\/less\/dist\/less-1.4.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/getStyles.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/getStyles-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/isHidden.js": {
+	"\/bower_components\/less\/dist\/less-1.4.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/isHidden.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/isHidden-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/rmargin.js": {
+	"\/bower_components\/less\/dist\/less-1.4.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/rmargin.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rmargin-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js": {
+	"\/bower_components\/less\/dist\/less-1.4.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/rnumnonpx.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/css\/var\/min\/rnumnonpx-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.4.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.4.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/data.js": {
+	"\/bower_components\/less\/dist\/less-1.5.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/data-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.5.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.5.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/data\/accepts.js": {
+	"\/bower_components\/less\/dist\/less-1.5.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/accepts.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/accepts-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.5.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.5.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/data\/Data.js": {
+	"\/bower_components\/less\/dist\/less-1.5.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/Data.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/min\/Data-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.5.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.5.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/data\/var\/data_priv.js": {
+	"\/bower_components\/less\/dist\/less-1.5.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/data_priv.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_priv-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.5.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.5.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/data\/var\/data_user.js": {
+	"\/bower_components\/less\/dist\/less-1.6.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/data_user.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/data\/var\/min\/data_user-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/deferred.js": {
+	"\/bower_components\/less\/dist\/less-1.6.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/deferred.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deferred-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/deprecated.js": {
+	"\/bower_components\/less\/dist\/less-1.6.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/deprecated.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/deprecated-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/dimensions.js": {
+	"\/bower_components\/less\/dist\/less-1.6.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/dimensions.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/dimensions-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/effects.js": {
+	"\/bower_components\/less\/dist\/less-1.6.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/effects-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/effects\/animatedSelector.js": {
+	"\/bower_components\/less\/dist\/less-1.6.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/animatedSelector.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/animatedSelector-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/effects\/Tween.js": {
+	"\/bower_components\/less\/dist\/less-1.6.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/Tween.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/effects\/min\/Tween-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/event.js": {
+	"\/bower_components\/less\/dist\/less-1.6.3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/event-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.6.3.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.6.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/event\/alias.js": {
+	"\/bower_components\/less\/dist\/less-1.7.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/alias.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/alias-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/event\/support.js": {
+	"\/bower_components\/less\/dist\/less-1.7.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/support.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/event\/min\/support-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.0.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.0.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/exports\/amd.js": {
+	"\/bower_components\/less\/dist\/less-1.7.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/amd.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/amd-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/exports\/global.js": {
+	"\/bower_components\/less\/dist\/less-1.7.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/global.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/exports\/min\/global-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.1.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/intro.js": {
+	"\/bower_components\/less\/dist\/less-1.7.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/intro.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/intro-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/jquery.js": {
+	"\/bower_components\/less\/dist\/less-1.7.2.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/jquery.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/jquery-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.2.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.2.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/manipulation.js": {
+	"\/bower_components\/less\/dist\/less-1.7.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/manipulation-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js": {
+	"\/bower_components\/less\/dist\/less-1.7.3.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/_evalUrl.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/_evalUrl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/bower_components\/jquery\/src\/manipulation\/support.js": {
-		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/support.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/min\/support-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.3.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js": {
+	"\/bower_components\/less\/dist\/less-1.7.4.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/rcheckableType.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/manipulation\/var\/min\/rcheckableType-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.4.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.4-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/offset.js": {
+	"\/bower_components\/less\/dist\/less-1.7.4.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/offset.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/offset-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.4.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.4.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/outro.js": {
+	"\/bower_components\/less\/dist\/less-1.7.5.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/outro.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/outro-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.5.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.5-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/queue.js": {
+	"\/bower_components\/less\/dist\/less-1.7.5.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/queue-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-1.7.5.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-1.7.5.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/queue\/delay.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.1.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue\/delay.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/queue\/min\/delay-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.1.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.1.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/selector-native.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.1.5.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/selector-native.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-native-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.1.5.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.1.5-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/selector-sizzle.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.3.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/selector-sizzle.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-sizzle-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.3.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.3.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/selector.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.3.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/selector.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/selector-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.3.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.3.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/serialize.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.3.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/serialize.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/serialize-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.3.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.3.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.4.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.4.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.4.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.5.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/sizzle.min.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/sizzle\/dist\/min\/sizzle.min-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.5.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.5.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/traversing.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.6.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/traversing-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.6.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.6.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/traversing\/findFilter.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.6.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/findFilter.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/min\/findFilter-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.6.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.6.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.7.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/var\/rneedsContext.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/traversing\/var\/min\/rneedsContext-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.7.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.7.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/arr.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.7.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/arr.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/arr-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.7.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.7.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/class2type.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.7.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/class2type.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/class2type-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.7.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.7.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/concat.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.7.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/concat.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/concat-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.7.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.7.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/hasOwn.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.7.4.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/hasOwn.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/hasOwn-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.7.4.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.7.4-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/indexOf.js": {
+	"\/bower_components\/less\/dist\/less-rhino-1.7.5.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/indexOf.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/indexOf-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/less-rhino-1.7.5.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/less-rhino-1.7.5-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/pnum.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.6.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/pnum.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/pnum-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.6.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.6.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/push.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.6.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/push.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/push-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.6.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.6.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/rnotwhite.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.7.0.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/rnotwhite.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/rnotwhite-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.7.0.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.7.0-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/slice.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.7.1.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/slice.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/slice-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.7.1.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.7.1-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/strundefined.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.7.2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/strundefined.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/strundefined-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.7.2.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.7.2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/support.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.7.3.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/support.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/support-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.7.3.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.7.3-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/var\/toString.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.7.4.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/toString.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/var\/min\/toString-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.7.4.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.7.4-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/bower_components\/jquery\/src\/wrap.js": {
+	"\/bower_components\/less\/dist\/lessc-rhino-1.7.5.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/bower_components\/jquery\/src\/wrap.js",
-		"outputAbbreviatedPath": "\/bower_components\/jquery\/src\/min\/wrap-min.js",
+		"inputAbbreviatedPath": "\/bower_components\/less\/dist\/lessc-rhino-1.7.5.js",
+		"outputAbbreviatedPath": "\/bower_components\/less\/dist\/min\/lessc-rhino-1.7.5-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2605,29 +2594,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/CSS\/homepage.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/CSS\/homepage.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/CSS\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/CSS\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/CSS\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/CSS\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2659,6 +2630,17 @@
 		"initialSize": 13972,
 		"inputAbbreviatedPath": "\/images\/BeautyTherapy-Menu-img.jpg",
 		"outputAbbreviatedPath": "\/images\/BeautyTherapy-Menu-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/burger.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1126,
+		"inputAbbreviatedPath": "\/images\/burger.png",
+		"outputAbbreviatedPath": "\/images\/burger.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2818,7 +2800,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Beauty-HTML",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_gray"
 	},
 "projectSettings": {
