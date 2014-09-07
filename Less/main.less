@@ -16,18 +16,7 @@ Description: The 2014 Django theme for Open College's Beauty microsite
 /* ==========================================================================
    LESS Vars - setup
    ========================================================================== */
-
-
-/* ==========================================================================
-   Colors
-   ========================================================================== */
-
-@colorGray: #f3f3f3;
-@colorBlue: #05a8ba;
-@colorGreenL: #94bb37;
-@colorGreenD: #108432;
-@colorGrayD:#222222;
-@colorWhite:#fff;
+@import url(base.less);
 
 
 /* ==========================================================================
@@ -140,56 +129,6 @@ h4 {
 	font-size: 1em;
 	margin-bottom: 0.8em;
 }
-.border-radius (@radius: 5px) {
-	-webkit-border-radius: @radius;
-	-moz-border-radius:    @radius;
-	border-radius:         @radius;
-
-	-moz-background-clip:    padding;
-	-webkit-background-clip: padding-box;
-	background-clip:         padding-box;
-}
-.gradient (@startColor: #eee, @endColor: white) {
-	background-color: @startColor;
-	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
-	background: -webkit-linear-gradient(top, @startColor, @endColor);
-	background: -moz-linear-gradient(top, @startColor, @endColor);
-	background: -ms-linear-gradient(top, @startColor, @endColor);
-	background: -o-linear-gradient(top, @startColor, @endColor);
-}
-.transition (@transition) {
-	-webkit-transition: @transition;  
-	-moz-transition:    @transition;
-	-ms-transition:     @transition; 
-	-o-transition:      @transition;  
-}
-.mt(@margin) {
-	margin-top: @margin;
-}
-.mr(@margin) {
-	margin-right: @margin;
-}
-.mb(@margin) {
-	margin-bottom: @margin;
-}
-.ml(@margin) {
-	margin-left: @margin;
-}
-.pt(@padding) {
-	padding-top: @padding;
-}
-.pr(@padding) {
-padding-right: @padding;
-}
-.pb(@padding) {
-padding-bottom: @padding;
-}
-.pl(@padding) {
-padding-left: @padding;
-}
- .float(@side) {
- float:@side;
-}
 .floatLeft {
  .float(left);
 }
@@ -200,6 +139,13 @@ padding-left: @padding;
 .logo {
 	max-width: 210px;
 	max-height: 56px;
+}
+
+.stickRight
+{
+    .float(right);
+    .pr(10px);
+    text-align:right;
 }
 
 /******************************* 
@@ -230,51 +176,6 @@ padding-left: @padding;
 #main-header nav {
 	text-align: right;
 }
-#main-menu-list li a {
-	.pl(0px);
-	.pr(15px);
-	display: inline-block;
-	color: #444444;
-	font-size: 16px;
-	
-		&:hover{
-			color:@colorWhite;
-			.transition(color 0.2s linear);
-			text-decoration:none;
-		}
-			
-}
-
-#main-menu-list li:before {
-	content: '|';
-	color:@colorBlue;
-	font-size:14px;
-	font-weight:bold;
-	.pr(13px);
-}
-
-#main-menu-list li:first-child:before {
-	content: '';
-}
-
-#main-menu-list {
-	padding: 0;
-	margin: 0;
-	z-index:2;
-}
-#main-menu-list li {
-	display: inline-block;
-	.ml(-5px);
-	vertical-align: top;
-	list-style: none;
-	text-align: center;
-	
-		&:hover {
-			background-color:@colorBlue;
-			.border-radius(3px);
-			.transition(background-color 0.3s linear);
-		}
-}
 
 body > section {
 	background-color: #FFFFFF;
@@ -297,34 +198,9 @@ body > section, body > img {
 .pl-negative-10 {
 	.pl(-10px);
 }
-
-/*  ==========================================================================
-	Menu 
-	========================================================================== */
-
-.burgerWrapper
-{
-	.float(right);
-	.pr(7px);
-}
-
-.burgerWrapper .checkbox {
-  display: none;
-} 
-
-.label{
-	box-shadow: 1px 1px 5px rgba(0, 135, 255,0.5);
-	height:20px;
-}
-
-.checkbox:checked + .label{
-  	.transition(0.3s);
-  	box-shadow : inset 0px 0px 10px rgba(0, 135, 255,0.5);
-} 
+ 
 /* ==========================================================================
    Imports
    ========================================================================== */
 
-/* Selectbox Plugin styling */
-@import 'media-query.less';
 @import 'print.less';

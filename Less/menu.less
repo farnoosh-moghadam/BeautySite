@@ -1,0 +1,57 @@
+﻿@import url(base.less);
+@import url(../bower_components/bootstrap/less/variables.less);
+
+.main-menu-list li a {
+    .pl(0px);
+    .pr(15px);
+    display: inline-block;
+    color: #444444;
+    font-size: 16px;
+
+    &:hover {
+        color: @colorWhite;
+        .transition(color 0.2s linear);
+        text-decoration: none;
+    }
+}
+
+@media (min-width: @screen-sm-max) {
+
+    .main-menu-list li:before {
+        content: '|';
+        color: @colorBlue;
+        font-size: 14px;
+        font-weight: bold;
+        .pr(15px);
+    }
+}
+
+.main-menu-list li:first-child:before {
+    content: '';
+}
+
+.main-menu-list {
+    @media (max-width: @screen-sm-max) {
+        display: none;
+    }
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+.main-menu-list li {
+    @media (min-width: @screen-sm-max) {
+        display: inline-block;
+    }
+
+    .ml(-7px);
+    vertical-align: top;
+    list-style: none;
+    text-align: center;
+
+    &:hover {
+        background-color: @colorBlue;
+        .border-radius(3px);
+        .transition(background-color 0.3s linear);
+    }
+}

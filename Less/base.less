@@ -1,0 +1,66 @@
+﻿/* ==========================================================================
+   Colors
+   ========================================================================== */
+
+@colorGray: #f3f3f3;
+@colorBlue: #05a8ba;
+@colorGreenL: #94bb37;
+@colorGreenD: #108432;
+@colorGrayD:#222222;
+@colorWhite:#fff;
+
+/* ==========================================================================
+   Classes
+   ========================================================================== */
+
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+.gradient (@startColor: #eee, @endColor: white) {
+	background-color: @startColor;
+	background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+	background: -webkit-linear-gradient(top, @startColor, @endColor);
+	background: -moz-linear-gradient(top, @startColor, @endColor);
+	background: -ms-linear-gradient(top, @startColor, @endColor);
+	background: -o-linear-gradient(top, @startColor, @endColor);
+}
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}
+.mt(@margin) {
+	margin-top: @margin;
+}
+.mr(@margin) {
+	margin-right: @margin;
+}
+.mb(@margin) {
+	margin-bottom: @margin;
+}
+.ml(@margin) {
+	margin-left: @margin;
+}
+.pt(@padding) {
+	padding-top: @padding;
+}
+.pr(@padding) {
+padding-right: @padding;
+}
+.pb(@padding) {
+padding-bottom: @padding;
+}
+.pl(@padding) {
+padding-left: @padding;
+}
+ .float(@side) {
+ float:@side;
+}
+
