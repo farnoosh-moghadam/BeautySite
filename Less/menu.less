@@ -2,6 +2,10 @@
 @import url(../bower_components/bootstrap/less/variables.less);
 
 .main-menu-list li a {
+	@media (max-width: @screen-sm-max) {
+        .pt(10px);
+		.pb(10px);
+    }
     .pl(0px);
     .pr(15px);
     display: inline-block;
@@ -57,4 +61,11 @@
         .border-radius(3px);
         .transition(background-color 0.3s linear);
     }
+}
+
+#burgerWrapper
+{
+	font-size:3em;
+	color:@colorBlue;
+	.mt(-5px);
 }

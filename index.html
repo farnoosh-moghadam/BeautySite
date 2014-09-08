@@ -1,55 +1,57 @@
 ﻿<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Beauty microsite-Homepage</title>
-    <!-- JQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet/less" type="text/css" href="Less/main.less">
-    <link rel="stylesheet/less" type="text/css" href="Less/menu.less">
-    <script src="js/main.js"></script>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!--[if lt IE 9]>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beauty microsite-Homepage</title>
+<!-- JQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet/less" type="text/css" href="Less/main.less">
+<link rel="stylesheet/less" type="text/css" href="Less/menu.less">
+<link rel="stylesheet/less" type="text/css" href="Less/Mediaquery.less">
+<script src="js/main.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/less/dist/less-1.7.5.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/less/dist/less-1.7.5.min.js"></script>
 </head>
-
 <body>
-    <div>
-        <!-- Header -->
-        <header id="main-header">
-            <div class="wrapper container">
-                <div class="row pt-10">
-                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7">
-                        <a href="#"><img src="images/OC-logo.png" alt="" class="logo img-responsive"></a>
-                    </div>
-                    <div class="visible-xs-inline-block visible-sm-inline-block stickRight">
-                        <img src="images/burger.png" alt="burger" class="burger">
-                    </div>
-                    <div class="stickRight">
-                        <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225"><span class="icon icon-phone"></span> <span class="plume pr-10"> Free call on 1300 309 225 </span></a>
-                    </div>
-                </div>
-                <nav class="col-xs-12 stickRight">
-                    <ul class="main-menu-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Studying online</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!-- /Header -->
+<!-- Header -->
+<div class="topBorder">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+<header class="shadow">
+  <div class="container">
+    <div class="row pt-10 maxLenght">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7"> <a href="#"><img src="images/OC-logo.png" alt="" class="logo img-responsive"></a> </div>
+      <div id="burgerWrapper" class="visible-xs-block visible-sm-block stickRight"> <span id="burger" class="icon icon-burger"> </span></div>
+      <div class="stickRight"> <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225"> <span class="icon icon-phone"></span> <span class="plume pr-10"> Free call on 1300 309 225 </span></a> </div>
     </div>
+    <div class="row">
+      <nav class="stickRight col-xs-12">
+        <ul class="main-menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Studying online</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- /Header -->
 </body>
 </html>

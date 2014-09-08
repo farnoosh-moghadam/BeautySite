@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#burger").click(function(){$(".main-menu-list").toggle("slow")})}),$(window).resize(function(){$(window).width()>=992?$(".main-menu-list").show():$(window).width()<991&&$(".main-menu-list").hide()});
