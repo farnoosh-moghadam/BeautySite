@@ -141,20 +141,31 @@ h1, h2, h3, h4 {
 	margin-top: 0;
 }
 h1 {
-	font-size: 2.1em;
+	font-size: 1.8em;
 	line-height: 1em;
 	color: #444444;
 }
 h2 {
-	font-weight: normal;
-	font-size: 1.5em;
+	font-weight:normal;
+	font-size: 1.4em;
 	line-height: 1.3em;
 	margin-bottom: 0.8em;
 }
+h3 {
+	font-weight: normal;
+	font-size: 1.1em;
+	margin-bottom: 1em;
+}
 h4 {
 	font-weight: normal;
-	font-size: 1em;
-	margin-bottom: 0.8em;
+	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+.white{
+	color:#FFFFFF;
+}
+.blue{
+	background-color:#05a8ba;
 }
 .floatLeft {
  .float(left);
@@ -182,29 +193,14 @@ h4 {
 	max-width:1200px;
 }
 
-.topBorder ul{
-	list-style:none;
-  	width:100%;
-  	font-size:0;
-	margin:0;
-	padding:0;
-}
-
-.topBorder li{
-	display:inline-block;
-  	height:4px;
-	width:86%;
-	background:@colorBlue;
-}
-
-.topBorder li:first-child {
-	width:7%;
+.topBorder{
   	background:@colorGrayD;
+	height:4px;
 }
 
-.topBorder li:last-child {
-	width:7%;
-  	background:@colorGrayD;
+.blueBorder{
+	background-color:@colorBlue;
+	height:4px;
 }
 
 .pt-10 {
@@ -219,10 +215,60 @@ h4 {
 .pr-10 {
 	.pr(10px);
 }
+.pl-30 {
+	.pl(30px);
+}
+.pb-10{
+	.pb(10px);
+}
 .pl-negative-10 {
 	.pl(-10px);
 }
- 
+/******************************* 
+**** Hero img
+********************************/
+.home-heroImg {
+	overflow:hidden;
+	left:0;
+}
+
+/******************************* 
+**** Triangle
+********************************/
+.main-featured-triangle {
+    display: none;
+  }
+.main-featured-triangle.bg {
+    left: -42px;
+    bottom: -41px;
+  }
+.main-featured-triangle.bg:after {
+    border-width: 19px 42px 0 42px;
+  }
+.main-featured-triangle.white {
+    bottom: -36px;
+    left: -35px;
+  }
+.main-featured-triangle.white:after {
+    border-width: 15px 35px 0 35px;
+  }
+/******************************* 
+**** Form
+********************************/
+form input, form select{
+	color: #151515;
+  font-size: 0.85em;
+  width: 96%;
+  padding: 5px 2%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #93c2c7;
+ }
+ form input:hover,
+ form select:hover {
+  border: 1px solid #17a0ae;
+}
 /* ==========================================================================
    Imports
    ========================================================================== */
