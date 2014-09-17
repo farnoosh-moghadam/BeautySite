@@ -18,6 +18,47 @@ Description: The 2014 Django theme for Open College's Beauty microsite
    ========================================================================== */
 @import url(base.less);
 
+/* ==========================================================================
+   Tags
+   ========================================================================== */
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #808080;
+	font-size: 0.8em;
+	line-height: 1.3em;
+}
+h1, h2, h3, h4 {
+	font-weight: normal;
+	margin: 0;
+}
+h1 {
+	font-size: 1.8em;
+	line-height: 1em;
+	color: #444444;
+}
+h2 {
+	font-weight:normal;
+	font-size: 1.4em;
+	line-height: 1.3em;
+}
+h3 {
+	font-weight: normal;
+	font-size: 1em;
+}
+h4 {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+a:-webkit-any-link
+{
+	text-decoration:none !important;
+}
 
 /* ==========================================================================
    Fonts
@@ -126,46 +167,58 @@ Description: The 2014 Django theme for Open College's Beauty microsite
 .icon-arrow-round-u:before {
 	content: "\e001";
 }
-html, body {
-	height: 100%;
-	min-height: 100%;
+.icon-minus-plus  {
+	border-radius: 50%;
+	border: 2px solid @colorWhite;
+	text-align: center;
+	padding-left:5px;
+	width: 24px;
+	height: 24px;
+	font-size:1.2em;
+	font-family:"Courier";
 }
-body {
-	font-family: 'Open Sans', sans-serif;
-	color: #808080;
-	font-size: 0.8em;
-	line-height: 1.3em;
+.icon-minus{
+	padding-top:-2px;
+	.icon-minus-plus;
 }
-h1, h2, h3, h4 {
-	font-weight: normal;
-	margin-top: 0;
+.icon-plus
+{
+	padding-top:1px;
+	.icon-minus-plus;
 }
-h1 {
-	font-size: 1.8em;
-	line-height: 1em;
-	color: #444444;
+
+.icon-plus:after {
+	content: "+";
 }
-h2 {
-	font-weight:normal;
-	font-size: 1.4em;
-	line-height: 1.3em;
-	margin-bottom: 0.8em;
+.icon-minus:after {
+	content: "-";
 }
-h3 {
-	font-weight: normal;
-	font-size: 1.1em;
-	margin-bottom: 1em;
-}
-h4 {
-	font-weight: normal;
-	font-size: 0.9em;
-	margin-bottom: 1em;
+.grayL-bg{
+	background-color:@colorGray;
 }
 .white{
 	color:#FFFFFF;
 }
-.blue{
+.white-bg{
+	background-color:#FFFFFF;
+}
+.blue-bg{
 	background-color:#05a8ba;
+	color:#FFFFFF;
+}
+.blue-bg, .greenL-bg, .greenD-bg a{
+	color:#FFFFFF;
+}
+.greenL-bg{
+	background-color:@colorGreenL;
+	color:#FFFFFF;
+}
+.greenD-bg{
+	background-color:@colorGreenD;
+	color:#FFFFFF;
+}
+.homepageHero-bg{
+	background-color: #e5efeb;
 }
 .floatLeft {
  .float(left);
@@ -203,33 +256,59 @@ h4 {
 	height:4px;
 }
 
+.pt-5 {
+ .pt(5px);
+}
 .pt-10 {
  .pt(10px);
 }
 .pt-20 {
  .pt(20px);
 }
-.pr-20 {
- .pr(20px);
+.pr-5-important{
+	.pr(5px) !important;
 }
 .pr-10 {
 	.pr(10px);
 }
+.pr-15 {
+	.pr(10px);
+}
+.pr-20 {
+ .pr(20px);
+}
+.pl-5-important {
+	.pl(5px) !important;
+}
+.pl-10 {
+	.pl(10px);
+}
+.pl-15 {
+	.pl(10px);
+}
+.pl-20 {
+	.pl(20px);
+}
 .pl-30 {
 	.pl(30px);
+}
+.pl-negative-10 {
+	.pl(-10px);
 }
 .pb-10{
 	.pb(10px);
 }
-.pl-negative-10 {
-	.pl(-10px);
+.pb-20{
+	.pb(20px);
+}
+.mt-negative-20{
+	margin-top:-20px;
 }
 /******************************* 
 **** Hero img
 ********************************/
 .home-heroImg {
-	overflow:hidden;
-	left:0;
+	text-align:center;
 }
 
 /******************************* 
@@ -268,6 +347,51 @@ form input, form select{
  form input:hover,
  form select:hover {
   border: 1px solid #17a0ae;
+}
+.button-submit{
+	font-family: 'Plume-font';
+	background-color:#b2d953;
+	border: 1px solid #a1c54b;
+	color:#000000;
+	.pt(14px);
+	.pb(14px);
+	.pr(8px);
+	.pl(8px);
+	display:inline-block;
+	.border-radius;
+	cursor:pointer;
+	margin:0px;
+	vertical-align:middle;
+	text-align:left;
+}
+/******************************* 
+**** Homepage-Course area
+********************************/
+.button-courseArea{
+	font-family: 'Plume-font';
+	background-color:#94bb37;
+	border: 1px solid #a1c54b;
+	color:#FFFFFF;
+	.pt(8px);
+	.pb(8px);
+	.pr(8px);
+	.pl(8px);
+	display:inline-block;
+	.border-radius;
+	cursor:pointer;
+	margin:0px;
+	vertical-align:middle;
+	text-align:left;
+}
+/******************************* 
+**** How you learn
+********************************/
+.learningProsess-img {
+	max-width: 100%;
+}
+.learningProcess-box{
+	border-top:5px solid @colorBlue;
+	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
 }
 /* ==========================================================================
    Imports
