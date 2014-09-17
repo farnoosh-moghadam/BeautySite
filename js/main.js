@@ -33,14 +33,23 @@ $(document).ready(function () {
 			  	  $(e.target.parentNode).not($(e.target).prev('.panel-heading')).find('.icon').removeClass('icon-minus').addClass('icon-plus');
 			});  
 	});
+
+	if (isMobile) {
+	    $(".collapse").each(function (index, element) {
+	        $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
+	    });
+	}
 });
 
 $(window).resize(function () {
     if ($(window).width() >= 992) {
 		isMobile = false;
         $(".main-menu-list").show();
-    } else if ($(window).width() < 991) {
+    } else {
 		isMobile = true;
-        $(".main-menu-list").hide();
+		$(".main-menu-list").hide();
+		$(".collapse").each(function (index, element) {
+		    $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
+		});
     }
 });

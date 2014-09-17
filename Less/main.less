@@ -167,24 +167,15 @@ a:-webkit-any-link
 .icon-arrow-round-u:before {
 	content: "\e001";
 }
-.icon-minus-plus  {
-	border-radius: 50%;
+.icon-circle  {
+	border-radius: @iconCircleSize;
 	border: 2px solid @colorWhite;
 	text-align: center;
-	padding-left:5px;
-	width: 24px;
-	height: 24px;
-	font-size:1.2em;
-	font-family:"Courier";
-}
-.icon-minus{
-	padding-top:-2px;
-	.icon-minus-plus;
-}
-.icon-plus
-{
-	padding-top:1px;
-	.icon-minus-plus;
+	vertical-align:middle;
+	width: @iconCircleSize;
+	height: @iconCircleSize;
+	font-size:1.4em;
+	font-family:"Courier New", Courier, monospace;
 }
 
 .icon-plus:after {
