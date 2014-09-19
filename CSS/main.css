@@ -1,0 +1,518 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*
+Theme Name: Open Colleges Beauty microsite 2014
+Author: The Open Colleges Dev Team
+Author URI: http://opencolleges.edu.au
+Description: The 2014 Django theme for Open College's Beauty microsite
+*/
+/*
+ * Author: Farnoosh Moghadam
+ *
+ * Based on HTML5 Boilerplate v4.3.0
+ */
+/* ==========================================================================
+   LESS Vars - setup
+   ========================================================================== */
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+/* ==========================================================================
+   Classes
+   ========================================================================== */
+/* ==========================================================================
+   Tags
+   ========================================================================== */
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #808080;
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+  margin: 0;
+}
+h1 {
+  font-size: 1.8em;
+  line-height: 1em;
+  color: #444444;
+}
+h2 {
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+h3 {
+  font-weight: normal;
+  font-size: 1em;
+}
+h4 {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+a:-webkit-any-link {
+  text-decoration: none !important;
+}
+.text-center {
+  text-align: center;
+}
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+  font-family: 'Plume-font';
+  src: url(../fonts/Plume_Std_Rg.ttf);
+}
+@font-face {
+  font-family: 'beauty-font';
+  src: url(../fonts/Beauty-font.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+.plume {
+  font-family: 'Plume-font';
+  font-size: 16px;
+}
+.icon {
+  font-family: 'beauty-font';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Enable Ligatures ================ */
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-left:before {
+  content: '\e600';
+}
+.icon-arrow-right:before {
+  content: '\e601';
+}
+.icon-arrow:before {
+  content: '\e602';
+}
+.icon-burger:before {
+  content: '\e608';
+}
+.icon-phone:before {
+  content: '\e609';
+}
+.icon-leaf:before {
+  content: '\e605';
+}
+.icon-quality:before {
+  content: '\e60c';
+}
+.icon-affordability:before {
+  content: '\e60a';
+}
+.icon-study:before {
+  content: '\e60e';
+}
+.icon-support:before {
+  content: '\e60f';
+}
+.icon-quote:before {
+  content: '\e60d';
+}
+.icon-mail:before {
+  content: '\e607';
+}
+.icon-phone {
+  border-radius: 50%;
+  border: 2px solid #05a8ba;
+  padding: 3px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+.icon-pen:before {
+  content: "\e01b";
+}
+.icon-calendar:before {
+  content: "\e007";
+}
+.icon-support:before {
+  content: "\e006";
+}
+.icon-affordable:before {
+  content: "\e005";
+}
+.icon-arrow-round-l:before {
+  content: "\e004";
+}
+.icon-arrow-round-d:before {
+  content: "\e003";
+}
+.icon-arrow-round-r:before {
+  content: "\e002";
+}
+.icon-arrow-round-u:before {
+  content: "\e001";
+}
+.icon-circle {
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  font-size: 1.4em;
+  font-family: "Courier New", Courier, monospace;
+}
+.icon-plus:after {
+  content: "+";
+}
+.icon-minus:after {
+  content: "-";
+}
+.grayL-bg {
+  background-color: #f3f3f3;
+}
+.white {
+  color: #FFFFFF;
+}
+.white-bg {
+  background-color: #FFFFFF;
+}
+.blue-bg {
+  background-color: #05a8ba;
+  color: #FFFFFF;
+}
+.blue-bg,
+.greenL-bg,
+.greenD-bg a {
+  color: #FFFFFF;
+}
+.greenL-bg {
+  background-color: #94bb37;
+  color: #FFFFFF;
+}
+.greenD-bg {
+  background-color: #108432;
+  color: #FFFFFF;
+}
+.homepageHero-bg {
+  background-color: #e5efeb;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+.logo {
+  max-width: 210px;
+  max-height: 56px;
+}
+.stickRight {
+  float: right;
+  padding-right: 10px;
+  text-align: right;
+}
+/******************************* 
+**** Header
+********************************/
+.maxLenght {
+  max-width: 1200px;
+}
+.topBorder {
+  background: #222222;
+  height: 4px;
+}
+.blueBorder {
+  background-color: #05a8ba;
+  height: 4px;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pr-5-important {
+  padding-right: 5px !important;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-15 {
+  padding-right: 10px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pl-5-important {
+  padding-left: 5px !important;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 10px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pl-30 {
+  padding-left: 30px;
+}
+.pl-negative-10 {
+  padding-left: -10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.ml-150 {
+  margin-left: 150px;
+}
+/******************************* 
+**** Hero img
+********************************/
+.home-heroImg {
+  text-align: center;
+}
+/******************************* 
+**** Triangle
+********************************/
+.main-triangle {
+  border-bottom: 20px solid;
+  width: 0px;
+  height: 0px;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  display: block;
+}
+.border-blue {
+  border-bottom-color: #05a8ba;
+}
+.border-greenL {
+  border-bottom-color: #94bb37;
+}
+.border-greenD {
+  border-bottom-color: #108432;
+}
+/******************************* 
+**** Form
+********************************/
+form input,
+form select {
+  color: #151515;
+  font-size: 0.85em;
+  width: 96%;
+  padding: 5px 2%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #93c2c7;
+}
+form input:hover,
+form select:hover {
+  border: 1px solid #17a0ae;
+}
+.button-submit {
+  font-family: 'Plume-font';
+  background-color: #b2d953;
+  border: 1px solid #a1c54b;
+  color: #000000;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 8px;
+  padding-left: 8px;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  margin: 0px;
+  vertical-align: middle;
+  text-align: left;
+}
+/******************************* 
+**** Homepage-Course area
+********************************/
+.button-courseArea {
+  font-family: 'Plume-font';
+  background-color: #94bb37;
+  border: 1px solid #a1c54b;
+  color: #FFFFFF;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  margin: 0px;
+  vertical-align: middle;
+  text-align: left;
+}
+/******************************* 
+**** How you learn
+********************************/
+.learningProsess-img {
+  max-width: 100%;
+}
+.learningProcess-box-blue {
+  border-top: 5px solid #05a8ba;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.learningProcess-box-greenL {
+  border-top: 5px solid #94bb37;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+.learningProcess-box-greenD {
+  border-top: 5px solid #108432;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+/******************************* 
+**** Something about OC
+********************************/
+.icon-UPS-circle-blue {
+  border-radius: 50%;
+  border: 4px solid #05a8ba;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  color: #05a8ba;
+}
+.icon-UPS-circle-greenL {
+  border-radius: 50%;
+  border: 4px solid #94bb37;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  color: #94bb37;
+}
+.icon-UPS-circle-greenD {
+  border-radius: 50%;
+  border: 4px solid #108432;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  color: #108432;
+}
+.benefits-blue-bg {
+  background-color: #05a8ba;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #FFFFFF;
+}
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links for images, or javascript/internal links
+     */
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

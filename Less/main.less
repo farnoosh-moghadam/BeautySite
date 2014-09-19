@@ -59,6 +59,9 @@ a:-webkit-any-link
 {
 	text-decoration:none !important;
 }
+.text-center{
+	text-align:center;
+}
 
 /* ==========================================================================
    Fonts
@@ -246,7 +249,11 @@ a:-webkit-any-link
 	background-color:@colorBlue;
 	height:4px;
 }
-
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .pt-5 {
  .pt(5px);
 }
@@ -292,8 +299,11 @@ a:-webkit-any-link
 .pb-20{
 	.pb(20px);
 }
-.mt-negative-20{
-	margin-top:-20px;
+.mt-10{
+	.mt(10px);
+}
+.ml-150{
+	.ml(150px);
 }
 /******************************* 
 **** Hero img
@@ -305,23 +315,24 @@ a:-webkit-any-link
 /******************************* 
 **** Triangle
 ********************************/
-.main-featured-triangle {
-    display: none;
-  }
-.main-featured-triangle.bg {
-    left: -42px;
-    bottom: -41px;
-  }
-.main-featured-triangle.bg:after {
-    border-width: 19px 42px 0 42px;
-  }
-.main-featured-triangle.white {
-    bottom: -36px;
-    left: -35px;
-  }
-.main-featured-triangle.white:after {
-    border-width: 15px 35px 0 35px;
-  }
+.main-triangle{
+	border-bottom: 20px solid;
+	width:0px;
+	height:0px;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	display:block;
+}
+.border-blue{
+	border-bottom-color:@colorBlue;
+}
+.border-greenL{
+	border-bottom-color:@colorGreenL;
+}
+.border-greenD{
+	border-bottom-color:@colorGreenD;
+}
+
 /******************************* 
 **** Form
 ********************************/
@@ -380,9 +391,55 @@ form input, form select{
 .learningProsess-img {
 	max-width: 100%;
 }
-.learningProcess-box{
+.learningProcess-box-blue{
 	border-top:5px solid @colorBlue;
 	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
+}
+.learningProcess-box-greenL{
+	border-top:5px solid @colorGreenL;
+	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
+}
+.learningProcess-box-greenD{
+	border-top:5px solid @colorGreenD;
+	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
+}
+/******************************* 
+**** Something about OC
+********************************/
+.icon-UPS-circle-blue {
+	border-radius: 50%;
+	border: 4px solid @colorBlue;
+	padding: 15px 5px 5px 5px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	font-size: 2.8em;
+	color: @colorBlue;
+}
+.icon-UPS-circle-greenL {
+	border-radius: 50%;
+	border: 4px solid @colorGreenL;
+	padding: 15px 5px 5px 5px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	font-size: 2.8em;
+	color: @colorGreenL;
+}
+.icon-UPS-circle-greenD {
+	border-radius: 50%;
+	border: 4px solid @colorGreenD;
+	padding: 15px 5px 5px 5px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	font-size: 2.8em;
+	color: @colorGreenD;
+}
+.benefits-blue-bg{
+	background-color:#05a8ba;
+	.border-radius (@radius: 5px);
+	color:#FFFFFF;
 }
 /* ==========================================================================
    Imports
