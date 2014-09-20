@@ -373,13 +373,13 @@
     "grid.less",
     "forms.less",
     "responsive-utilities.less",
-    "component-animations.less",
-    "dropdowns.less"
+    "navs.less",
+    "component-animations.less"
   ],
   "js": [
     "tab.js",
     "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=b2fee3b8b58156edd883"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=379bb03b46b05ae92994"
 }

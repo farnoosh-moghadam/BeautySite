@@ -39,6 +39,13 @@ $(document).ready(function () {
 	        $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
 	    });
 	}
+
+	$("#myTab a").each(function (index, element) {
+	    $(element).click(function (e) {
+	        e.preventDefault();
+	        $(this).tab('show');
+	    });
+	});
 });
 
 $(window).resize(function () {
