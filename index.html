@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script src="bower_components/less/dist/less-1.7.5.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
@@ -265,23 +266,23 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="row pt-10" id="myTab">
-                            <a href="#learn1" color="blue" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            <a href="#learn1" color="blue" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <!-- how you learn 1 -->
-                                <div> <img src="images/StudyOnline-img.jpg" alt="Study online" class="img-responsive" /> </div>
+                                <div class="hidden-xs"><img src="images/StudyOnline-img.jpg" alt="Study online" class="img-responsive" /></div>
                                 <h3 class="blue-bg pr-20 pl-20 pt-10 pb-10"> Learn the theory as you STUDY ONLINE at your own pace. </h3>
                                 <h3 class="blue-bg pr-20 pl-20 pb-10"> Click to read more </h3>
                                 <!-- /how you learn 1 -->
                             </a>
-                            <a href="#learn2" color="greenL" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                            <a href="#learn2" color="greenL" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 opacity-half">
                                 <!-- how you learn 2 -->
-                                <div> <img src="images/Workplacement-img.jpg" alt="Workplacement" class="img-responsive" /> </div>
+                                <div class="hidden-xs"> <img src="images/Workplacement-img.jpg" alt="Workplacement" class="img-responsive" /> </div>
                                 <h3 class="greenL-bg pr-20 pl-20 pt-10 pb-10"> Get hands-on real world experience through structures Work placement </h3>
                                 <h3 class="greenL-bg pr-20 pl-20 pb-10"> Click to read more </h3>
                                 <!-- /how you learn 2 -->
                             </a>
-                            <a href="#learn3" color="greenD" class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <a href="#learn3" color="greenD" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 opacity-half">
                                 <!-- how you learn 3 -->
-                                <div> <img src="images/SkillWorkshop-img.jpg" alt="Skill workshop" class="img-responsive" /> </div>
+                                <div class="hidden-xs"> <img src="images/SkillWorkshop-img.jpg" alt="Skill workshop" class="img-responsive" /> </div>
                                 <h3 class="greenD-bg pr-20 pl-20 pt-10 pb-10"> Accelerate your knowledge with face-to-face Skills workshops </h3>
                                 <h3 class="greenD-bg pr-20 pl-20 pb-10"> Click to read more </h3>
                                 <!-- /how you learn 3 -->
@@ -290,17 +291,20 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 hidden-sm hidden-xs"><span id="learnArrow" class="main-triangle border-blue pt-10"></span></div>
-                    <!--<div class="col-lg-4 col-md-4 "> <span class="main-triangle border-greenL center-block pt-10"></span> </div>
-                    <div class="col-lg-4 col-md-4 "> <span class="main-triangle border-greenD center-block pt-10"></span> </div>-->
+                    <div id="learnArrow" class="col-lg-4 col-md-4 col-sm-4 hidden-xs pt-10"><div class="main-triangle border-blue center-block"></div></div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="learnTabContent" class="tab-content learningProcess-box-blue"></div>
         </div>
     </div>
     <!-- /How you learn -->
     <div class="container">
         <div class="row">
-            <div id="learnTabContent" class="tab-content learningProcess-box-blue">
+            <div class="tab-content">
                 <!-- How you learn1-clicked1 -->
                 <div id="learn1" class="tab-pane active fade in">
                     <div class="col-lg-4 col-md-4 pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /> </div>
@@ -405,46 +409,50 @@
     </div>
     <!-- /About Open Colleges -->
     <!-- Job growth -->
-  <div class="container hidden-sm hidden-xs">
-  	<h1 class="pt-20 pb-10">The growth of employment by sector in 2014:</h1>
-    <div class="row maxLenght hidden-xs hidden-sm grayL-bg border-gray mt-20">
-      <div class="col-lg-4 col-md-12 col-sm-12">
-        <h2 class="pt-20 pb-10">Based on Department of Employment Projection the job growth for Beauty Therapy Skill Level is 4* is as below:</h2>
-        <h3>Projected five year employment growth 
-to November 2018 (’000) : 3.8<br>
-          <br>
-          Projected five year employment growth 
-to November 2018 (%) : 13.5<br>
-           </h3>
-      </div>
-      <div class="col-lg-8 col-md-12 col-sm-12">
-        <div class="row pt-20">
-          <div class="col-lg-12 col-md-12">
-            <div class="row pt-10">
-              <div class="col-lg-4 col-md-4"> 
-                <!-- Job growth 2013 -->
-                <div> <span class="icon icon-affordability icon-benefits-circle-blue center-block"></span> </div>
-                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Affordable </h3>
-                <!-- /Job growth 2013 -->
-              </div>
-              <div class="col-lg-4 col-md-4"> 
-                <!-- Job growth arrow -->
-                <h1 class="pr-20 pl-20 pt-10 pb-10 text-center plume">13.5%</h3>
-                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center">Support</h3>
-                <div> <span class="icon icon-JobGrowth-arrow jobGrowth-arrow center-block"></span> </div>
-                <!-- Job growth arrow --> 
-              </div>
-              <div class="col-lg-4 col-md-4"> 
-                <!-- Job growth 2018 -->
-                <div><span class="icon icon-study icon-benefits-circle-greenD center-block"></span></div>
-                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Flexibility </h3>
-                <!-- Job growth 2018 -->
-              </div>
+    <div class="container hidden-sm hidden-xs">
+        <h1 class="pt-20 pb-10">The growth of employment by sector in 2014:</h1>
+        <div class="row maxLenght hidden-xs hidden-sm grayL-bg border-gray mt-20">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2 class="pt-20 pb-10">Based on Department of Employment Projection the job growth for Beauty Therapy Skill Level is 4* is as below:</h2>
+                <h3>
+                    Projected five year employment growth
+                    to November 2018 (’000) : 3.8<br>
+                    <br>
+                    Projected five year employment growth
+                    to November 2018 (%) : 13.5<br>
+                </h3>
             </div>
-          </div>
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="row pt-20">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row pt-10">
+                            <div class="col-lg-4 col-md-4">
+                                <!-- Job growth 2013 -->
+                                <div> <span class="icon icon-affordability icon-benefits-circle-blue center-block"></span> </div>
+                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Affordable </h3>
+                                <!-- /Job growth 2013 -->
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <!-- Job growth arrow -->
+                                <h1 class="pr-20 pl-20 pt-10 pb-10 text-center plume">
+                                    13.5%</h3>
+                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center">Support</h3>
+                                    <div> <span class="icon icon-JobGrowth-arrow jobGrowth-arrow center-block"></span> </div>
+                                    <!-- Job growth arrow -->
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <!-- Job growth 2018 -->
+                                <div><span class="icon icon-study icon-benefits-circle-greenD center-block"></span></div>
+                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Flexibility </h3>
+                                <!-- Job growth 2018 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+<<<<<<< HEAD
   </div>
 <!-- /Job growth -->
 <!-- Our tutors and Testimonial -->
@@ -493,5 +501,8 @@ to November 2018 (%) : 13.5<br>
     </div>
   </div>
 <!--  /Our tutors and testimonial -->
+=======
+    <!-- /Job growth -->
+>>>>>>> FETCH_HEAD
 </body>
 </html>
