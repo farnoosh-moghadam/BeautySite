@@ -43,16 +43,27 @@ $(document).ready(function () {
     $("#myTab a").each(function (index, element) {
         $(element).click(function (e) {
             e.preventDefault();
-            $(this).tab('show');
-            $("#learnArrow").animate({
-                "margin-left": $(this).position().left + $(this).width() / 2 - 24,
-            });
-            $("#learnArrow").removeClass(function (index, css) {
+
+            $(this).removeClass("opacity-half",500).tab('show');
+
+            var offsetSize = index * 4;
+            var classesToRemove = $("#learnArrow").attr("class").match(/col-\S{2}-offset-\d{1}/g);
+            var allClassesInline = "";
+            if($(classesToRemove).length != 0)
+                allClassesInline = classesToRemove.join(' ');
+            $("#learnArrow").switchClass(allClassesInline, "col-lg-offset-" + offsetSize + " col-md-offset-" + offsetSize + " col-sm-offset-" + offsetSize, 500)
+
+            $("#learnArrow div").removeClass(function (index, css) {
                 return (css.match(/\bborder-\S+/g) || []).join(' ');
             }).addClass('border-' + $(this).attr("color"));
+
             $("#learnTabContent").removeClass(function (index, css) {
                 return (css.match(/\blearningProcess-box-\S+/g) || []).join(' ');
             }).addClass('learningProcess-box-' + $(this).attr("color"));
+
+            $("#myTab a").not($(this)).each(function (index, element) {
+                $(element).addClass("opacity-half");
+            });
         });
     });
 });
