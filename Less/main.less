@@ -81,7 +81,6 @@ a:-webkit-any-link
 }
 .plume {
 	font-family: 'Plume-font';
-	font-size:16px;
 }
 .icon {
 	font-family: 'beauty-font';
@@ -138,6 +137,9 @@ a:-webkit-any-link
 .icon-mail:before {
 	content:'\e607'
 }
+.icon-JobGrowth-arrow:before {
+	content:'\e613'
+}
 .icon-phone {
 	border-radius: 50%;
 	border: 2px solid @colorBlue;
@@ -145,30 +147,6 @@ a:-webkit-any-link
 	text-align: center;
 	width: 30px;
 	height: 30px;
-}
-.icon-pen:before {
-	content: "\e01b";
-}
-.icon-calendar:before {
-	content: "\e007";
-}
-.icon-support:before {
-	content: "\e006";
-}
-.icon-affordable:before {
-	content: "\e005";
-}
-.icon-arrow-round-l:before {
-	content: "\e004";
-}
-.icon-arrow-round-d:before {
-	content: "\e003";
-}
-.icon-arrow-round-r:before {
-	content: "\e002";
-}
-.icon-arrow-round-u:before {
-	content: "\e001";
 }
 .icon-circle  {
 	border-radius: @iconCircleSize;
@@ -410,41 +388,35 @@ form input, form select{
 /******************************* 
 **** Something about OC
 ********************************/
-.icon-UPS-circle-blue {
+.icon-benefits-circle{
 	border-radius: 50%;
-	border: 4px solid @colorBlue;
+	border: 4px solid;
 	padding: 15px 5px 5px 5px;
 	text-align: center;
 	width: 80px;
 	height: 80px;
 	font-size: 2.8em;
+}
+.icon-benefits-circle-blue {
+	border-color:@colorBlue;	
 	color: @colorBlue;
 }
-.icon-UPS-circle-greenL {
-	border-radius: 50%;
-	border: 4px solid @colorGreenL;
-	padding: 15px 5px 5px 5px;
-	text-align: center;
-	width: 80px;
-	height: 80px;
-	font-size: 2.8em;
+.icon-benefits-circle-greenL {
+	border-color:@colorGreenL;
 	color: @colorGreenL;
 }
-.icon-UPS-circle-greenD {
-	border-radius: 50%;
-	border: 4px solid @colorGreenD;
-	padding: 15px 5px 5px 5px;
-	text-align: center;
-	width: 80px;
-	height: 80px;
-	font-size: 2.8em;
+.icon-benefits-circle-greenD {
+	border-color:@colorGreenD;
 	color: @colorGreenD;
 }
-.benefits-blue-bg{
-	background-color:#05a8ba;
+.benefits-box-bg{
 	.border-radius (@radius: 5px);
 	color:#FFFFFF;
 }
+.benefits-box-bg-blue{
+	background-color:@colorBlue;
+}
+
 /* ==========================================================================
    Imports
    ========================================================================== */
