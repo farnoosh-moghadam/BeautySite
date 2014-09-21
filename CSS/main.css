@@ -28,7 +28,7 @@ body {
   min-height: 100%;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
   color: #808080;
   font-size: 0.8em;
   line-height: 1.3em;
@@ -79,7 +79,6 @@ a:-webkit-any-link {
 }
 .plume {
   font-family: 'Plume-font';
-  font-size: 16px;
 }
 .icon {
   font-family: 'beauty-font';
@@ -136,6 +135,9 @@ a:-webkit-any-link {
 .icon-mail:before {
   content: '\e607';
 }
+.icon-JobGrowth-arrow:before {
+  content: '\e613';
+}
 .icon-phone {
   border-radius: 50%;
   border: 2px solid #05a8ba;
@@ -143,30 +145,6 @@ a:-webkit-any-link {
   text-align: center;
   width: 30px;
   height: 30px;
-}
-.icon-pen:before {
-  content: "\e01b";
-}
-.icon-calendar:before {
-  content: "\e007";
-}
-.icon-support:before {
-  content: "\e006";
-}
-.icon-affordable:before {
-  content: "\e005";
-}
-.icon-arrow-round-l:before {
-  content: "\e004";
-}
-.icon-arrow-round-d:before {
-  content: "\e003";
-}
-.icon-arrow-round-r:before {
-  content: "\e002";
-}
-.icon-arrow-round-u:before {
-  content: "\e001";
 }
 .icon-circle {
   border-radius: 24px;
@@ -231,9 +209,6 @@ a:-webkit-any-link {
 /******************************* 
 **** Header
 ********************************/
-.maxLenght {
-  max-width: 1200px;
-}
 .topBorder {
   background: #222222;
   height: 4px;
@@ -426,38 +401,28 @@ form select:hover {
 /******************************* 
 **** Something about OC
 ********************************/
-.icon-UPS-circle-blue {
+.icon-benefits-circle {
   border-radius: 50%;
-  border: 4px solid #05a8ba;
+  border: 4px solid;
   padding: 15px 5px 5px 5px;
   text-align: center;
   width: 80px;
   height: 80px;
   font-size: 2.8em;
+}
+.icon-benefits-circle-blue {
+  border-color: #05a8ba;
   color: #05a8ba;
 }
-.icon-UPS-circle-greenL {
-  border-radius: 50%;
-  border: 4px solid #94bb37;
-  padding: 15px 5px 5px 5px;
-  text-align: center;
-  width: 80px;
-  height: 80px;
-  font-size: 2.8em;
+.icon-benefits-circle-greenL {
+  border-color: #94bb37;
   color: #94bb37;
 }
-.icon-UPS-circle-greenD {
-  border-radius: 50%;
-  border: 4px solid #108432;
-  padding: 15px 5px 5px 5px;
-  text-align: center;
-  width: 80px;
-  height: 80px;
-  font-size: 2.8em;
+.icon-benefits-circle-greenD {
+  border-color: #108432;
   color: #108432;
 }
-.benefits-blue-bg {
-  background-color: #05a8ba;
+.benefits-box-bg {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -465,6 +430,9 @@ form select:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   color: #FFFFFF;
+}
+.benefits-box-bg-blue {
+  background-color: #05a8ba;
 }
 /* ==========================================================================
    Imports
