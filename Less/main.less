@@ -183,9 +183,6 @@ a:-webkit-any-link
 	background-color:#05a8ba;
 	color:#FFFFFF;
 }
-.blue-bg, .greenL-bg, .greenD-bg a{
-	color:#FFFFFF;
-}
 .greenL-bg{
 	background-color:@colorGreenL;
 	color:#FFFFFF;
@@ -193,6 +190,13 @@ a:-webkit-any-link
 .greenD-bg{
 	background-color:@colorGreenD;
 	color:#FFFFFF;
+}
+.blue-bg a, .greenL-bg a, .greenD-bg a {
+	color:#FFFFFF;
+
+    &:hover {
+	    color:#FFFFFF;
+    }
 }
 .homepageHero-bg{
 	background-color: #e5efeb;
@@ -238,6 +242,10 @@ a:-webkit-any-link
   margin-left: auto;
   margin-right: auto;
 }
+
+/******************************* 
+**** padding & margin
+********************************/
 .pt-5 {
  .pt(5px);
 }
@@ -288,6 +296,19 @@ a:-webkit-any-link
 }
 .ml-150{
 	.ml(150px);
+}
+
+.pt-pb-10-pr-pl-5
+{
+    .pt(10px);
+    .pb(10px);
+    .pr(5px);
+    .pl(5px);
+}
+
+.mr-ml-5{
+    .mr(5px);
+    .ml(5px);
 }
 /******************************* 
 **** Hero img
@@ -394,6 +415,24 @@ form input, form select{
 	border-top:5px solid @colorGreenD;
 	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
 }
+
+.oneThirdWidth{
+    width:33.333333%;
+}
+
+#myTab{
+    width:100%;
+    @media(min-width:@screen-md-min)
+    {
+        border-spacing: 10px;
+        border-collapse:separate;
+    }
+}
+
+#myTab td{
+    vertical-align:top;
+}
+
 /******************************* 
 **** Something about OC
 ********************************/

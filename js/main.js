@@ -44,14 +44,14 @@ $(document).ready(function () {
         $(element).click(function (e) {
             e.preventDefault();
 
-            $(this).removeClass("opacity-half",500).tab('show');
+            $(this).tab('show');
 
             var offsetSize = index * 4;
             var classesToRemove = $("#learnArrow").attr("class").match(/col-\S{2}-offset-\d{1}/g);
             var allClassesInline = "";
             if($(classesToRemove).length != 0)
                 allClassesInline = classesToRemove.join(' ');
-            $("#learnArrow").switchClass(allClassesInline, "col-lg-offset-" + offsetSize + " col-md-offset-" + offsetSize + " col-sm-offset-" + offsetSize, 500)
+            $("#learnArrow").switchClass(allClassesInline, "col-lg-offset-" + offsetSize + " col-md-offset-" + offsetSize + " col-sm-offset-" + offsetSize + " col-xs-offset-" + offsetSize, 500)
 
             $("#learnArrow div").removeClass(function (index, css) {
                 return (css.match(/\bborder-\S+/g) || []).join(' ');
@@ -61,8 +61,10 @@ $(document).ready(function () {
                 return (css.match(/\blearningProcess-box-\S+/g) || []).join(' ');
             }).addClass('learningProcess-box-' + $(this).attr("color"));
 
+            $(this.parentNode).removeClass("opacity-half", 500);
+
             $("#myTab a").not($(this)).each(function (index, element) {
-                $(element).addClass("opacity-half");
+                $(element.parentNode).addClass("opacity-half");
             });
         });
     });
