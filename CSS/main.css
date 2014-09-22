@@ -58,6 +58,9 @@ h4 {
   font-weight: normal;
   font-size: 0.9em;
 }
+.text-blue {
+  color: #05a8ba;
+}
 a:-webkit-any-link {
   text-decoration: none !important;
 }
@@ -146,7 +149,7 @@ a:-webkit-any-link {
   width: 30px;
   height: 30px;
 }
-.icon-circle {
+.icon-accordion-circle {
   border-radius: 24px;
   border: 2px solid #ffffff;
   text-align: center;
@@ -162,6 +165,9 @@ a:-webkit-any-link {
 .icon-minus:after {
   content: "-";
 }
+/* ==========================================================================
+   Common
+   ========================================================================== */
 .grayL-bg {
   background-color: #f3f3f3;
 }
@@ -205,6 +211,11 @@ a:-webkit-any-link {
   float: right;
   padding-right: 10px;
   text-align: right;
+}
+.opacity-half {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 /******************************* 
 **** Header
@@ -437,6 +448,9 @@ form select:hover {
 /******************************* 
 **** Meet our tutors 
 ********************************/
+.border-gray-1 {
+  border: 1px solid #f3f3f3;
+}
 /* ==========================================================================
    Imports
    ========================================================================== */
