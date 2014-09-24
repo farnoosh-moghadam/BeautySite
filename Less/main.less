@@ -23,206 +23,242 @@ Description: The 2014 Django theme for Open College's Beauty microsite
    ========================================================================== */
 
 html, body {
-	height: 100%;
-	min-height: 100%;
+    height: 100%;
+    min-height: 100%;
 }
+
 body {
-	font-family: 'Open Sans', sans-serif !important;
-	color: #808080;
-	font-size: 0.8em;
-	line-height: 1.3em;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #808080;
+    font-size: 0.8em;
+    line-height: 1.3em;
 }
+
 h1, h2, h3, h4 {
-	font-weight: normal;
-	margin: 0;
+    font-weight: normal;
+    margin: 0;
 }
+
 h1 {
-	font-size: 1.8em;
-	line-height: 1em;
-	color: #444444;
+    font-size: 1.8em;
+    line-height: 1em;
+    color: #444444;
 }
+
 h2 {
-	font-weight:normal;
-	font-size: 1.4em;
-	line-height: 1.3em;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1.3em;
 }
+
 h3 {
-	font-weight: normal;
-	font-size: 1em;
+    font-weight: normal;
+    font-size: 1em;
 }
+
 h4 {
-	font-weight: normal;
-	font-size: 0.9em;
+    font-weight: normal;
+    font-size: 0.9em;
 }
-.text-blue{
-	color: @colorBlue;
+
+.text-blue {
+    color: @colorBlue;
 }
-a:-webkit-any-link
-{
-	text-decoration:none !important;
+
+a:-webkit-any-link {
+    text-decoration: none !important;
 }
-.text-center{
-	text-align:center;
+
+.text-center {
+    text-align: center;
 }
 
 /* ==========================================================================
    Fonts
    ========================================================================== */
 @baseurl: '/wp-content/themes/opencollegescareers2013';
- @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
- @bodyFont: 'Open Sans', Helvetica, sans-serif, Plume;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@bodyFont: 'Open Sans', Helvetica, sans-serif, Plume;
+
 @font-face {
-	font-family: 'Plume-font';
-	src: url(../fonts/Plume_Std_Rg.ttf);
+    font-family: 'Plume-font';
+    src: url(../fonts/Plume_Std_Rg.ttf);
 }
+
 @font-face {
-	font-family: 'beauty-font';
-	src:url(../fonts/Beauty-font.ttf);
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'beauty-font';
+    src: url(../fonts/Beauty-font.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
+
 .plume {
-	font-family: 'Plume-font';
+    font-family: 'Plume-font';
 }
+
 .icon {
-	font-family: 'beauty-font';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	/* Enable Ligatures ================ */
-	-webkit-font-feature-settings: "liga";
-	-moz-font-feature-settings: "liga=1";
-	-moz-font-feature-settings: "liga";
-	-ms-font-feature-settings: "liga" 1;
-	-o-font-feature-settings: "liga";
-	font-feature-settings: "liga";
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    font-family: 'beauty-font';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Enable Ligatures ================ */
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
 .icon-arrow-left:before {
-	content:'\e600'
+    content: '\e600';
 }
+
 .icon-arrow-right:before {
-	content:'\e601'
+    content: '\e601';
 }
+
 .icon-arrow:before {
-	content:'\e602'
+    content: '\e602';
 }
+
 .icon-burger:before {
-	content:'\e608'
+    content: '\e608';
 }
+
 .icon-phone:before {
-	content:'\e609'
+    content: '\e609';
 }
+
 .icon-leaf:before {
-	content:'\e605'
+    content: '\e605';
 }
+
 .icon-quality:before {
-	content:'\e60c'
+    content: '\e60c';
 }
+
 .icon-affordability:before {
-	content:'\e60a'
+    content: '\e60a';
 }
+
 .icon-study:before {
-	content:'\e60e'
+    content: '\e60e';
 }
+
 .icon-support:before {
-	content:'\e60f'
+    content: '\e60f';
 }
+
 .icon-quote:before {
-	content:'\e60d'
+    content: '\e60d';
 }
+
 .icon-mail:before {
-	content:'\e607'
+    content: '\e607';
 }
+
 .icon-JobGrowth-arrow:before {
-	content:'\e613'
+    content: '\e613';
 }
+
 .icon-phone {
-	border-radius: 50%;
-	border: 2px solid @colorBlue;
-	padding: 3px;
-	text-align: center;
-	width: 30px;
-	height: 30px;
+    border-radius: 50%;
+    border: 2px solid @colorBlue;
+    padding: 3px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
 }
-.icon-accordion-circle  {
-	border-radius: @iconCircleSize;
-	border: 2px solid @colorWhite;
-	text-align: center;
-	vertical-align:middle;
-	width: @iconCircleSize;
-	height: @iconCircleSize;
-	font-size:1.4em;
-	font-family:"Courier New", Courier, monospace;
+
+.icon-accordion-circle {
+    border-radius: @iconCircleSize;
+    border: 2px solid @colorWhite;
+    text-align: center;
+    vertical-align: middle;
+    width: @iconCircleSize;
+    height: @iconCircleSize;
+    font-size: 1.4em;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .icon-plus:after {
-	content: "+";
+    content: "+";
 }
+
 .icon-minus:after {
-	content: "-";
+    content: "-";
 }
 
 /* ==========================================================================
    Common
    ========================================================================== */
 
-.grayL-bg{
-	background-color:@colorGray;
+.grayL-bg {
+    background-color: @colorGray;
 }
-.white{
-	color:#FFFFFF;
+
+.white {
+    color: #FFFFFF;
 }
-.white-bg{
-	background-color:#FFFFFF;
+
+.white-bg {
+    background-color: #FFFFFF;
 }
-.blue-bg{
-	background-color:#05a8ba;
-	color:#FFFFFF;
+
+.blue-bg {
+    background-color: #05a8ba;
+    color: #FFFFFF;
 }
-.greenL-bg{
-	background-color:@colorGreenL;
-	color:#FFFFFF;
+
+.greenL-bg {
+    background-color: @colorGreenL;
+    color: #FFFFFF;
 }
-.greenD-bg{
-	background-color:@colorGreenD;
-	color:#FFFFFF;
+
+.greenD-bg {
+    background-color: @colorGreenD;
+    color: #FFFFFF;
 }
+
 .blue-bg a, .greenL-bg a, .greenD-bg a {
-	color:#FFFFFF;
+    color: #FFFFFF;
 
     &:hover {
-	    color:#FFFFFF;
+        color: #FFFFFF;
     }
 }
-.homepageHero-bg{
-	background-color: #e5efeb;
+
+.homepageHero-bg {
+    background-color: #e5efeb;
 }
+
 .floatLeft {
- .float(left);
+    .float(left);
 }
+
 .floatRight {
- .float(right);
+    .float(right);
 }
 
 .logo {
-	max-width: 210px;
-	max-height: 56px;
+    max-width: 210px;
+    max-height: 56px;
 }
 
-.stickRight
-{
+.stickRight {
     .float(right);
     .pr(10px);
-    text-align:right;
+    text-align: right;
 }
 
-.opacity-half{
+.opacity-half {
     .opacity;
 }
 
@@ -230,85 +266,101 @@ a:-webkit-any-link
 **** Header
 ********************************/
 
-.topBorder{
-  	background:@colorGrayD;
-	height:4px;
+.topBorder {
+    background: @colorGrayD;
+    height: 4px;
 }
 
-.blueBorder{
-	background-color:@colorBlue;
-	height:4px;
+.blueBorder {
+    background-color: @colorBlue;
+    height: 4px;
 }
+
 .center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /******************************* 
 **** padding & margin
 ********************************/
 .pt-5 {
- .pt(5px);
-}
-.pt-10 {
- .pt(10px);
-}
-.pt-20 {
- .pt(20px);
-}
-.pr-5-important{
-	.pr(5px) !important;
-}
-.pr-10 {
-	.pr(10px);
-}
-.pr-15 {
-	.pr(10px);
-}
-.pr-20 {
- .pr(20px);
-}
-.pl-5-important {
-	.pl(5px) !important;
-}
-.pl-10 {
-	.pl(10px);
-}
-.pl-15 {
-	.pl(10px);
-}
-.pl-20 {
-	.pl(20px);
-}
-.pl-30 {
-	.pl(30px);
-}
-.pl-negative-10 {
-	.pl(-10px);
-}
-.pb-10{
-	.pb(10px);
-}
-.pb-20{
-	.pb(20px);
-}
-.mt-10{
-	.mt(10px);
-}
-.ml-150{
-	.ml(150px);
+    .pt(5px);
 }
 
-.pt-pb-10-pr-pl-5
-{
+.pt-10 {
+    .pt(10px);
+}
+
+.pt-20 {
+    .pt(20px);
+}
+
+.pr-5-important {
+    .pr(5px) !important;
+}
+
+.pr-10 {
+    .pr(10px);
+}
+
+.pr-15 {
+    .pr(10px);
+}
+
+.pr-20 {
+    .pr(20px);
+}
+
+.pl-5-important {
+    .pl(5px) !important;
+}
+
+.pl-10 {
+    .pl(10px);
+}
+
+.pl-15 {
+    .pl(10px);
+}
+
+.pl-20 {
+    .pl(20px);
+}
+
+.pl-30 {
+    .pl(30px);
+}
+
+.pl-negative-10 {
+    .pl(-10px);
+}
+
+.pb-10 {
+    .pb(10px);
+}
+
+.pb-20 {
+    .pb(20px);
+}
+
+.mt-10 {
+    .mt(10px);
+}
+
+.ml-150 {
+    .ml(150px);
+}
+
+.pt-pb-10-pr-pl-5 {
     .pt(10px);
     .pb(10px);
     .pr(5px);
     .pl(5px);
 }
 
-.mr-ml-5{
+.mr-ml-5 {
     .mr(5px);
     .ml(5px);
 }
@@ -316,161 +368,197 @@ a:-webkit-any-link
 **** Hero img
 ********************************/
 .home-heroImg {
-	text-align:center;
+    text-align: center;
 }
 
 /******************************* 
 **** Triangle
 ********************************/
-.main-triangle{
-	border-bottom: 20px solid;
-	width:0px;
-	height:0px;
-	border-right: 20px solid transparent;
-	border-left: 20px solid transparent;
-	display:block;
+.main-triangle {
+    border-bottom: 20px solid;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    display: block;
 }
-.border-blue{
-	border-bottom-color:@colorBlue;
+
+.border-blue {
+    border-bottom-color: @colorBlue;
 }
-.border-greenL{
-	border-bottom-color:@colorGreenL;
+
+.border-greenL {
+    border-bottom-color: @colorGreenL;
 }
-.border-greenD{
-	border-bottom-color:@colorGreenD;
+
+.border-greenD {
+    border-bottom-color: @colorGreenD;
 }
 /******************************* 
 **** Job growth
 ********************************/
-.border-gray{
-	border-color:1px solid @colorGrayD;
-	.border-radius (2px);
+.border-gray {
+    border-color: 1px solid @colorGrayD;
+    .border-radius (2px);
 }
 
 /******************************* 
 **** Form
 ********************************/
-form input, form select{
-	color: #151515;
-  font-size: 0.85em;
-  width: 96%;
-  padding: 5px 2%;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  border: 1px solid #93c2c7;
- }
- form input:hover,
- form select:hover {
-  border: 1px solid #17a0ae;
+form input, form select {
+    color: #151515;
+    font-size: 0.85em;
+    width: 96%;
+    padding: 5px 2%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #93c2c7;
 }
-.button-submit{
-	font-family: 'Plume-font';
-	background-color:#b2d953;
-	border: 1px solid #a1c54b;
-	color:#000000;
-	.pt(14px);
-	.pb(14px);
-	.pr(8px);
-	.pl(8px);
-	display:inline-block;
-	.border-radius;
-	cursor:pointer;
-	margin:0px;
-	vertical-align:middle;
-	text-align:left;
+
+form input:hover,
+form select:hover {
+    border: 1px solid #17a0ae;
+}
+
+.button-submit {
+    font-family: 'Plume-font';
+    background-color: #b2d953;
+    border: 1px solid #a1c54b;
+    color: #000000;
+    .pt(14px);
+    .pb(14px);
+    .pr(8px);
+    .pl(8px);
+    display: inline-block;
+    .border-radius;
+    cursor: pointer;
+    margin: 0px;
+    vertical-align: middle;
+    text-align: left;
 }
 /******************************* 
 **** Homepage-Course area
 ********************************/
-.button-courseArea{
-	font-family: 'Plume-font';
-	background-color:#94bb37;
-	border: 1px solid #a1c54b;
-	color:#FFFFFF;
-	.pt(8px);
-	.pb(8px);
-	.pr(8px);
-	.pl(8px);
-	display:inline-block;
-	.border-radius;
-	cursor:pointer;
-	margin:0px;
-	vertical-align:middle;
-	text-align:left;
+.button-courseArea {
+    font-family: 'Plume-font';
+    background-color: #94bb37;
+    border: 1px solid #a1c54b;
+    color: #FFFFFF;
+    .pt(8px);
+    .pb(8px);
+    .pr(8px);
+    .pl(8px);
+    display: inline-block;
+    .border-radius;
+    cursor: pointer;
+    margin: 0px;
+    vertical-align: middle;
+    text-align: left;
 }
 /******************************* 
 **** How you learn
 ********************************/
 .learningProsess-img {
-	max-width: 100%;
-}
-.learningProcess-box-blue{
-	border-top:5px solid @colorBlue;
-	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
-}
-.learningProcess-box-greenL{
-	border-top:5px solid @colorGreenL;
-	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
-}
-.learningProcess-box-greenD{
-	border-top:5px solid @colorGreenD;
-	.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) ;
+    max-width: 100%;
 }
 
-.oneThirdWidth{
-    width:33.333333%;
+.learningProcess-box-blue {
+    border-top: 5px solid @colorBlue;
+    .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
 }
 
-#myTab{
-    width:100%;
-    @media(min-width:@screen-md-min)
-    {
+.learningProcess-box-greenL {
+    border-top: 5px solid @colorGreenL;
+    .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
+}
+
+.learningProcess-box-greenD {
+    border-top: 5px solid @colorGreenD;
+    .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
+}
+
+.oneThirdWidth {
+    width: 33.333333%;
+}
+
+#myTab {
+    width: 100%;
+
+    @media(min-width:@screen-md-min) {
         border-spacing: 10px;
-        border-collapse:separate;
+        border-collapse: separate;
     }
 }
 
-#myTab td{
-    vertical-align:top;
+#myTab td {
+    vertical-align: top;
 }
 
 /******************************* 
 **** Something about OC
 ********************************/
-.icon-benefits-circle{
-	border-radius: 50%;
-	border: 4px solid;
-	padding: 15px 5px 5px 5px;
-	text-align: center;
-	width: 80px;
-	height: 80px;
-	font-size: 2.8em;
+.icon-benefits-circle {
+    border-radius: 50%;
+    border: 4px solid;
+    text-align: center;
+
+    padding: 15px 5px 5px 5px;
+    width: 80px;
+    height: 80px;
+    font-size: 2.8em;
+
+    @media(max-width:@screen-sm-max) {
+        width: 55px !important;
+        height: 55px !important;
+        font-size: 1.4em;
+    }
 }
+
 .icon-benefits-circle-blue {
-	border-color:@colorBlue;	
-	color: @colorBlue;
+    border-color: @colorBlue;
+    color: @colorBlue;
 }
+
 .icon-benefits-circle-greenL {
-	border-color:@colorGreenL;
-	color: @colorGreenL;
+    border-color: @colorGreenL;
+    color: @colorGreenL;
 }
+
 .icon-benefits-circle-greenD {
-	border-color:@colorGreenD;
-	color: @colorGreenD;
+    border-color: @colorGreenD;
+    color: @colorGreenD;
 }
-.benefits-box-bg{
-	.border-radius (@radius: 5px);
-	color:#FFFFFF;
+
+.benefits-box-bg {
+    .border-radius (@radius: 5px);
+    color: #FFFFFF;
 }
-.benefits-box-bg-blue{
-	background-color:@colorBlue;
+
+.benefits-box-bg-blue {
+    background-color: @colorBlue;
 }
+
+.benefits-box-bg-greenD {
+    background-color: @colorGreenD;
+}
+
+.benefits-box-bg-greenL {
+    background-color: @colorGreenL;
+}
+
+#benefits-Tab a{
+    color:@colorGrayD;
+    &:hover{
+        color:@colorGrayD;
+    }
+}
+
 /******************************* 
 **** Meet our tutors 
 ********************************/
-.border-gray-1{
-	border:1px solid @colorGray;
+.border-gray-1 {
+    border: 1px solid @colorGray;
 }
 
 /* ==========================================================================

@@ -360,8 +360,8 @@
     <!-- About Open Colleges -->
     <div class="grayL-bg pb-20">
         <div class="container">
-            <div class="row hidden-xs hidden-sm">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 hidden-xs">
                     <h1>Something about Open Colleges</h1>
                     <h3 class="hidden-sm hidden-xs">
                         If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
@@ -372,50 +372,65 @@
                         working relationships with authors.
                     </h3>
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <div class="row pt-20">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="row pt-10">
-                                <div class="col-lg-3 col-md-3 ">
-                                    <!-- Affordability -->
-                                    <div> <span class="icon icon-affordability icon-benefits-circle icon-benefits-circle-blue center-block"></span> </div>
-                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Affordable </h3>
-                                    <!-- /Affordability -->
-                                </div>
-                                <div class="col-lg-3 col-md-3 ">
-                                    <!-- Support -->
-                                    <div> <span class="icon icon-support icon-benefits-circle icon-benefits-circle-greenL center-block"></span> </div>
-                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center">Support</h3>
-                                    <!-- /Support -->
-                                </div>
-                                <div class="col-lg-3 col-md-3 ">
-                                    <!-- Flexibility -->
-                                    <div><span class="icon icon-study icon-benefits-circle icon-benefits-circle-greenD center-block"></span></div>
-                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Flexibility </h3>
-                                    <!-- /Flexibility -->
-                                </div>
-                                <div class="col-lg-3 col-md-3">
-                                    <!-- Quality -->
-                                    <div> <span class="icon icon-quality icon-benefits-circle icon-benefits-circle-blue center-block"></span> </div>
-                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Quality </h3>
-                                    <!-- /Quality -->
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div id="benefits-Tab" class="row pt-20">
+                        <a href="#benefits_affordability" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <!-- Affordability -->
+                            <span class="icon icon-affordability icon-benefits-circle icon-benefits-circle-blue center-block"></span>
+                            <div class="text-center pt-5"><h3>Affordable</h3></div>
+                            <!-- /Affordability -->
+                        </a>
+                        <a href="#benefits_support" color="greenL" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                            <!-- Support -->
+                            <span class="icon icon-support icon-benefits-circle icon-benefits-circle-greenL center-block"></span>
+                            <div class="text-center pt-5"><h3>Support</h3></div>
+                            <!-- /Support -->
+                        </a>
+                        <a href="#benefits_flexibility" color="greenD" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                            <!-- Flexibility -->
+                            <span class="icon icon-study icon-benefits-circle icon-benefits-circle-greenD center-block"></span>
+                            <div class="text-center pt-5"><h3>Flexibility</h3></div>
+                            <!-- /Flexibility -->
+                        </a>
+                        <a href="#benefits_quality" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                            <!-- Quality -->
+                            <span class="icon icon-quality icon-benefits-circle icon-benefits-circle-blue center-block"></span>
+                            <div class="text-center pt-5"><h3>Quality</h3></div>
+                            <!-- /Quality -->
+                        </a>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3 col-md-3 "> <span class="main-triangle border-blue center-block pt-10"></span> </div>
-                        <div class="col-lg-3 col-md-3 "> <span class="main-triangle border-greenL center-block pt-10"></span> </div>
-                        <div class="col-lg-3 col-md-3 "> <span class="main-triangle border-greenD center-block pt-10"></span> </div>
-                        <div class="col-lg-3 col-md-3 "> <span class="main-triangle border-greenD center-block pt-10"></span> </div>
+                        <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="main-triangle border-blue center-block pt-10"></div>
+                        </div>
                     </div>
                     <!-- benefits -->
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
-                            <!-- Affordability -->
-                            <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-                            <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
-                            <!-- /Affordability -->
+                        <div class="tab-content">
+                            <div id="benefits_affordability" class="tab-pane active in col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
+                                <!-- Affordability -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Affordability -->
+                            </div>
+                            <div id="benefits_support" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenL">
+                                <!-- Affordability -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Affordability -->
+                            </div>
+                            <div id="benefits_flexibility" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenD">
+                                <!-- Flexibility -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Affordability -->
+                            </div>
+                            <div id="benefits_quality" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
+                                <!-- Quality -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Quality -->
+                            </div>
                         </div>
                     </div>
                     <!-- /benefits -->
@@ -445,13 +460,15 @@
                             <div class="col-lg-4 col-md-4">
                                 <!-- Job growth 2013 -->
                                 <div class="text-center"> fdsgfdhggn </div>
-                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Employment level<br> 
-November 2013 ('000) </h3>
+                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center">
+                                    Employment level<br>
+                                    November 2013 ('000)
+                                </h3>
                                 <!-- /Job growth 2013 -->
                             </div>
                             <div class="col-lg-4 col-md-4">
                                 <!-- Job growth arrow -->
-                                <h1 class="pr-20 pl-20 pt-10 pb-10 text-center plume">
+                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center plume">
                                     13.5%</h3>
                                     <h3 class="pr-20 pl-20 text-center">Job growth</h3>
                                     <div> <span class="icon icon-JobGrowth-arrow jobGrowth-arrow center-block"></span> </div>
@@ -460,8 +477,10 @@ November 2013 ('000) </h3>
                             <div class="col-lg-4 col-md-4">
                                 <!-- Job growth 2018 -->
                                 <div><span class="icon icon-study icon-benefits-circle-greenD center-block"></span></div>
-                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Projected employment level<br> 
-November 2018 ('000)  </h3>
+                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center">
+                                    Projected employment level<br>
+                                    November 2018 ('000)
+                                </h3>
                                 <!-- Job growth 2018 -->
                             </div>
                         </div>
@@ -476,36 +495,36 @@ November 2018 ('000)  </h3>
     <div class="container hidden-sm hidden-xs">
         <div class="row maxLenght hidden-xs hidden-sm mt-20">
             <!-- Meet our tutors -->
-      <div class="col-lg-6 col-md-6 col-sm-12"> 
-        <h1 class="pt-20 pb-10">Meet our tutors:</h1> <span class="icon icon-arrow-left"></span> <span class="icon icon-arrow-right circle "></span>
-        <div class="row">
-        <!-- Tutor 1 -->
-        	<div class="col-lg-6 col-md-6 col-sm-6">
-            	<div class="pt-10 pb-10 pr-10 pl-10 border-gray-1"><img src="images/Andrew.jpg"  alt="" class="img-responsive"/></div>
-                <div class="border-gray-1 text-center pt-10 pb-10">
-                <h3>Andrew Harward</h3>
-                <h3 class="text-blue">Web, development</h3>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h1 class="pt-20 pb-10">Meet our tutors:</h1> <span class="icon icon-arrow-left"></span> <span class="icon icon-arrow-right circle "></span>
+                <div class="row">
+                    <!-- Tutor 1 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="pt-10 pb-10 pr-10 pl-10 border-gray-1"><img src="images/Andrew.jpg" alt="" class="img-responsive" /></div>
+                        <div class="border-gray-1 text-center pt-10 pb-10">
+                            <h3>Andrew Harward</h3>
+                            <h3 class="text-blue">Web, development</h3>
+                        </div>
+                    </div>
+                    <!-- /Tutor 1 -->
+                    <!-- Tutor 2 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="pt-10 pb-10 pr-10 pl-10 border-gray-1"><img src="images/Jessica.jpg" alt="" class="img-responsive" /></div>
+                        <div class="border-gray-1 text-center pt-10 pb-10">
+                            <h3>Jessica Malbowa</h3>
+                            <h3 class="text-blue">Web, development</h3>
+                        </div>
+                    </div>
+                    <!-- /Tutor 2 -->
                 </div>
-            </div>
-        <!-- /Tutor 1 -->
-        <!-- Tutor 2 -->
-        	<div class="col-lg-6 col-md-6 col-sm-6">
-            	<div class="pt-10 pb-10 pr-10 pl-10 border-gray-1"><img src="images/Jessica.jpg"  alt="" class="img-responsive"/></div>
-                <div class="border-gray-1 text-center pt-10 pb-10">
-                <h3>Jessica Malbowa</h3>
-                <h3 class="text-blue">Web, development</h3>
-                </div>
-            </div>
-        <!-- /Tutor 2 -->
-        </div>
             </div>
             <!-- /Meet our tutors -->
             <!-- Testimonial -->
             <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="row pt-20 pb-10">
-      <h1 class="col-lg-7">Students Testimonials:</h1> <span class="col-lg-1 icon icon-arrow-left pt-20"></span> <span class="col-lg-1 icon icon-arrow-right circle pt-20"></span>
-      </div>
-        <div class="row">
+                <div class="row pt-20 pb-10">
+                    <h1 class="col-lg-7">Students Testimonials:</h1> <span class="col-lg-1 icon icon-arrow-left pt-20"></span> <span class="col-lg-1 icon icon-arrow-right circle pt-20"></span>
+                </div>
+                <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="row pt-10">
                             <div class="col-lg-4 col-md-4">
