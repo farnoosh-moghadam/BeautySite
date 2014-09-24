@@ -141,6 +141,96 @@ a:-webkit-any-link {
 .icon-JobGrowth-arrow:before {
   content: '\e613';
 }
+.icon-facebook:before {
+  content: '\e603';
+}
+.icon-twitter:before {
+  content: '\e610';
+}
+.icon-google:before {
+  content: '\e604';
+}
+.icon-linkedIn:before {
+  content: '\e606';
+}
+.icon-pinterest:before {
+  content: '\e60b';
+}
+.icon-youTube:before {
+  content: '\e611';
+}
+.icon-socialMedia-circle {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+}
+.icon-facebook {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #3c599b;
+}
+.icon-twitter {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #59adeb;
+}
+.icon-google {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #dc4c3f;
+}
+.icon-linkedIn {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #127cb4;
+}
+.icon-pinterest {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #c9232e;
+}
+.icon-youTube {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #c9232e;
+}
+.icon-quote {
+  font-size: 2em;
+}
 .icon-phone {
   border-radius: 50%;
   border: 2px solid #05a8ba;
@@ -171,6 +261,9 @@ a:-webkit-any-link {
 .grayL-bg {
   background-color: #f3f3f3;
 }
+.grayD-bg {
+  background-color: #222222;
+}
 .white {
   color: #FFFFFF;
 }
@@ -181,17 +274,22 @@ a:-webkit-any-link {
   background-color: #05a8ba;
   color: #FFFFFF;
 }
-.blue-bg,
-.greenL-bg,
-.greenD-bg a {
-  color: #FFFFFF;
-}
 .greenL-bg {
   background-color: #94bb37;
   color: #FFFFFF;
 }
 .greenD-bg {
   background-color: #108432;
+  color: #FFFFFF;
+}
+.blue-bg a,
+.greenL-bg a,
+.greenD-bg a {
+  color: #FFFFFF;
+}
+.blue-bg a:hover,
+.greenL-bg a:hover,
+.greenD-bg a:hover {
   color: #FFFFFF;
 }
 .homepageHero-bg {
@@ -233,6 +331,9 @@ a:-webkit-any-link {
   margin-left: auto;
   margin-right: auto;
 }
+/******************************* 
+**** padding & margin
+********************************/
 .pt-5 {
   padding-top: 5px;
 }
@@ -283,6 +384,16 @@ a:-webkit-any-link {
 }
 .ml-150 {
   margin-left: 150px;
+}
+.pt-pb-10-pr-pl-5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.mr-ml-5 {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 /******************************* 
 **** Hero img
@@ -409,6 +520,21 @@ form select:hover {
   -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
+.oneThirdWidth {
+  width: 33.333333%;
+}
+#myTab {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #myTab {
+    border-spacing: 10px;
+    border-collapse: separate;
+  }
+}
+#myTab td {
+  vertical-align: top;
+}
 /******************************* 
 **** Something about OC
 ********************************/
@@ -445,11 +571,34 @@ form select:hover {
 .benefits-box-bg-blue {
   background-color: #05a8ba;
 }
+.icon-benefits-circle-selected {
+  border-radius: 50%;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+}
 /******************************* 
 **** Meet our tutors 
 ********************************/
 .border-gray-1 {
+  background-color: #ffffff;
   border: 1px solid #f3f3f3;
+}
+/******************************* 
+**** Testimonials 
+********************************/
+.testimonial-box {
+  background-color: lighten #f3f3f3 5%;
+  border: 1px solid #f3f3f3;
+}
+/******************************* 
+**** Footer 
+********************************/
+.world-map {
+  background-image: url(../images/world-map.png);
+  background-repeat: no-repeat;
 }
 /* ==========================================================================
    Imports

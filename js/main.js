@@ -68,10 +68,10 @@ $(document).ready(function () {
 
             moveArrow("#benefitArrow", index * 3, this);
 
-            $(this).removeClass("opacity-half", 500);
+            $(this).switchClass("opacity-half", "icon-benefits-circle-selected icon-benefits-circle-" + $(this).attr("color"), 500);
 
             $("#benefits-Tab a").not($(this)).each(function (index, element) {
-                $(element).addClass("opacity-half", 500);
+                $(element).switchClass("icon-benefits-circle-selected icon-benefits-circle-" + $(this).attr("color"), "opacity-half", 500);
             });
         });
     });

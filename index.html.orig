@@ -372,32 +372,65 @@
                         working relationships with authors.
                     </h3>
                 </div>
+<<<<<<< HEAD
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div id="benefits-Tab" class="row pt-20">
                         <a href="#benefits_affordability" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
                             <!-- Affordability -->
-                            <span class="icon icon-affordability icon-benefits-circle-blue center-block"></span>
+                            <span class="icon icon-affordability icon-benefits-circle icon-benefits-circle-blue center-block"></span>
                             <div class="text-center pt-5"><h3>Affordable</h3></div>
                             <!-- /Affordability -->
                         </a>
                         <a href="#benefits_support" color="greenL" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
                             <!-- Support -->
-                            <span class="icon icon-support icon-benefits-circle-greenL center-block"></span>
+                            <span class="icon icon-support icon-benefits-circle icon-benefits-circle-greenL center-block"></span>
                             <div class="text-center pt-5"><h3>Support</h3></div>
                             <!-- /Support -->
                         </a>
                         <a href="#benefits_flexibility" color="greenD" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
                             <!-- Flexibility -->
-                            <span class="icon icon-study icon-benefits-circle-greenD center-block"></span>
+                            <span class="icon icon-study icon-benefits-circle icon-benefits-circle-greenD center-block"></span>
                             <div class="text-center pt-5"><h3>Flexibility</h3></div>
                             <!-- /Flexibility -->
                         </a>
                         <a href="#benefits_quality" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
                             <!-- Quality -->
-                            <span class="icon icon-quality icon-benefits-circle-blue center-block"></span>
+                            <span class="icon icon-quality icon-benefits-circle icon-benefits-circle-blue center-block"></span>
                             <div class="text-center pt-5"><h3>Quality</h3></div>
                             <!-- /Quality -->
                         </a>
+=======
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="row pt-20">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="row pt-10">
+                                <div class="col-lg-3 col-md-3 ">
+                                    <!-- Affordability -->
+                                    <div> <span class="icon icon-affordability icon-benefits-circle-selected blue-bg center-block"></span> </div>
+                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Affordable </h3>
+                                    <!-- /Affordability -->
+                                </div>
+                                <div class="col-lg-3 col-md-3 ">
+                                    <!-- Support -->
+                                    <div> <span class="icon icon-support icon-benefits-circle icon-benefits-circle-greenL center-block"></span> </div>
+                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center">Support</h3>
+                                    <!-- /Support -->
+                                </div>
+                                <div class="col-lg-3 col-md-3 ">
+                                    <!-- Flexibility -->
+                                    <div><span class="icon icon-study icon-benefits-circle icon-benefits-circle-greenD center-block"></span></div>
+                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Flexibility </h3>
+                                    <!-- /Flexibility -->
+                                </div>
+                                <div class="col-lg-3 col-md-3">
+                                    <!-- Quality -->
+                                    <div> <span class="icon icon-quality icon-benefits-circle icon-benefits-circle-blue center-block"></span> </div>
+                                    <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Quality </h3>
+                                    <!-- /Quality -->
+                                </div>
+                            </div>
+                        </div>
+>>>>>>> 0e10c0afd780c290400e98a137128909bc86aecd
                     </div>
                     <div class="row">
                         <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
@@ -491,10 +524,9 @@
     <div class="container hidden-sm hidden-xs">
         <div class="row maxLenght hidden-xs hidden-sm mt-20">
             <!-- Meet our tutors -->
+<<<<<<< HEAD
             <div class="col-lg-6 col-md-6 col-sm-12">
-        <div class="row pt-20 pb-10">
-      <h1 class="col-lg-7">Meet our tutors:</h1> <span class="col-lg-1 icon icon-arrow-left pt-20"></span> <span class="col-lg-1 icon icon-arrow-right circle pt-20"></span>
-      </div>
+                <h1 class="pt-20 pb-10">Meet our tutors:</h1> <span class="icon icon-arrow-left"></span> <span class="icon icon-arrow-right circle "></span>
                 <div class="row">
                     <!-- Tutor 1 -->
                     <div class="col-lg-6 col-md-6 col-sm-6">
@@ -514,19 +546,55 @@
                         </div>
                     </div>
                     <!-- /Tutor 2 -->
+=======
+      <div class="col-lg-6 col-md-6 col-sm-12"> 
+        <div class="row pt-20 pb-10">
+      <h1 class="col-lg-7">Meet our tutors:</h1> <span class="col-lg-1 icon icon-arrow-left pt-20"></span> <span class="col-lg-1 icon icon-arrow-right circle pt-20"></span>
+      </div>
+        <div class="row">
+        <!-- Tutor 1 -->
+        	<div class="col-lg-6 col-md-6 col-sm-6">
+            	<div class="pt-10 pb-10 pr-10 pl-10 border-gray-1"><img src="images/Andrew.jpg"  alt="" class="img-responsive"/></div>
+                <div class="border-gray-1 text-center pt-10 pb-10">
+                <h3>Andrew Harward</h3>
+                <h3 class="text-blue">Web, development</h3>
+                </div>
+            </div>
+        <!-- /Tutor 1 -->
+        <!-- Tutor 2 -->
+        	<div class="col-lg-6 col-md-6 col-sm-6">
+            	<div class="pt-10 pb-10 pr-10 pl-10 border-gray-1"><img src="images/Jessica.jpg"  alt="" class="img-responsive"/></div>
+                <div class="border-gray-1 text-center pt-10 pb-10">
+                <h3>Jessica Malbowa</h3>
+                <h3 class="text-blue">Web, development</h3>
+>>>>>>> 0e10c0afd780c290400e98a137128909bc86aecd
                 </div>
             </div>
             <!-- /Meet our tutors -->
             <!-- Testimonial -->
             <div class="col-lg-6 col-md-6 col-sm-12">
+<<<<<<< HEAD
                 <div class="row pt-20 pb-10">
                     <h1 class="col-lg-7">Students Testimonials:</h1> <span class="col-lg-1 icon icon-arrow-left pt-20"></span> <span class="col-lg-1 icon icon-arrow-right circle pt-20"></span>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row pt-10">
+                            <div class="col-lg-4 col-md-4">
+                                <!-- Job growth 2013 -->
+                                <div> <span class="icon icon-affordability icon-benefits-circle-blue center-block"></span> </div>
+                                <h3 class="pr-20 pl-20 pt-10 pb-10 text-center"> Affordable </h3>
+                                <!-- /Job growth 2013 -->
+=======
+      <div class="row pt-20 pb-10">
+      <h1 class="col-lg-7">Students Testimonials:</h1> <span class="col-lg-1 icon icon-arrow-left pt-20"></span> <span class="col-lg-1 icon icon-arrow-right circle pt-20"></span>
+      </div>
         <div class="row testimonial-box">
                     <div class="col-lg-12 col-md-12 pt-20 pb-20 pl-10 pr-10">
                			     <!-- /Testimonial 1 img -->
                             <div class="col-lg-3 col-md-3 border-gray-1 pt-10 pb-10">
                                 <img src="images/student1.jpg" alt="" class="img-responsive"/>
+>>>>>>> 0e10c0afd780c290400e98a137128909bc86aecd
                             </div>
                             <!-- /Testimonial 1 img -->
                             <div class="col-lg-9 col-md-9">
