@@ -1061,6 +1061,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/oc-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8417,
+		"inputAbbreviatedPath": "\/images\/oc-logo-white.png",
+		"outputAbbreviatedPath": "\/images\/oc-logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/oc-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7921,
+		"inputAbbreviatedPath": "\/images\/oc-logo.png",
+		"outputAbbreviatedPath": "\/images\/oc-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/SkillWorkshop-img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1101,6 +1123,17 @@
 		"initialSize": 20007,
 		"inputAbbreviatedPath": "\/images\/Workplacement-img.jpg",
 		"outputAbbreviatedPath": "\/images\/Workplacement-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/world-map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9535,
+		"inputAbbreviatedPath": "\/images\/world-map.png",
+		"outputAbbreviatedPath": "\/images\/world-map.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
