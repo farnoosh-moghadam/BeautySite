@@ -68,10 +68,17 @@ $(document).ready(function () {
 
             moveArrow("#benefitArrow", index * 3, this);
 
-            $(this).switchClass("opacity-half", "icon-benefits-circle-selected icon-benefits-circle-" + $(this).attr("color"), 500);
+            $(this).removeClass("opacity-half", 500);
+
+            $(this).find(".icon-benefits-circle-" + $(this).attr("color"))
+                .switchClass("icon-benefits-circle-" + $(this).attr("color"),
+                    "icon-benefits-circle-selected-" + $(this).attr("color"), 500);
 
             $("#benefits-Tab a").not($(this)).each(function (index, element) {
-                $(element).switchClass("icon-benefits-circle-selected icon-benefits-circle-" + $(this).attr("color"), "opacity-half", 500);
+                $(element).addClass("opacity-half", 500);
+                $(element).find("span")
+                .switchClass("icon-benefits-circle-selected-" + $(element).attr("color"),
+                    "icon-benefits-circle-" + $(element).attr("color"), 500);
             });
         });
     });

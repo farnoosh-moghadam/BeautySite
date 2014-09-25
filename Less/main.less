@@ -234,23 +234,25 @@ a:-webkit-any-link {
 .icon-quote {
     font-size: 2em;
 }
+
 .icon-phone-circle {
-	border-radius: 50%;
-	border: 2px solid @colorBlue;
-	padding: 3px;
-	text-align: center;
-	width: 30px;
-	height: 30px;
+    border-radius: 50%;
+    border: 2px solid @colorBlue;
+    padding: 3px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
 }
-.icon-accordion-circle  {
-	border-radius: @iconCircleSize;
-	border: 2px solid @colorWhite;
-	text-align: center;
-	vertical-align:middle;
-	width: @iconCircleSize;
-	height: @iconCircleSize;
-	font-size:1.4em;
-	font-family:"Courier New", Courier, monospace;
+
+.icon-accordion-circle {
+    border-radius: @iconCircleSize;
+    border: 2px solid @colorWhite;
+    text-align: center;
+    vertical-align: middle;
+    width: @iconCircleSize;
+    height: @iconCircleSize;
+    font-size: 1.4em;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .icon-phone {
@@ -610,27 +612,21 @@ form select:hover {
     color: @colorGreenD;
 }
 
-.icon-benefits-circle-selected {
-    border-radius: 50%;
-    padding: 15px 5px 5px 5px;
-    text-align: center;
-    width: 80px;
-    height: 80px;
-    font-size: 2.8em;
-}
-
 .icon-benefits-circle-selected-blue {
-    .icon-benefits-circle-selected;
+    .icon-benefits-circle;
+    border-color: @colorBlue;
     .blue-bg;
 }
 
 .icon-benefits-circle-selected-greenL {
-    .icon-benefits-circle-selected;
+    .icon-benefits-circle;
+    border-color: @colorGreenL;
     .greenL-bg;
 }
 
 .icon-benefits-circle-selected-greenD {
-    .icon-benefits-circle-selected;
+    .icon-benefits-circle;
+    border-color: @colorGreenD;
     .greenD-bg;
 }
 
@@ -677,10 +673,10 @@ form select:hover {
 /******************************* 
 **** Footer 
 ********************************/
-.world-map{
-	background-image:url(../images/world-map.png);
-	background-repeat:no-repeat;
-	color:@colorGray;
+.world-map {
+    background-image: url(../images/world-map.png);
+    background-repeat: no-repeat;
+    color: @colorGray;
 }
 /* ==========================================================================
    Imports
