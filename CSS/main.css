@@ -541,23 +541,110 @@ form select:hover {
 .icon-benefits-circle {
   border-radius: 50%;
   border: 4px solid;
+  text-align: center;
+  padding: 15px 5px 5px 5px;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+}
+@media (max-width: 991px) {
+  .icon-benefits-circle {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
+}
+.icon-benefits-circle-blue {
+  border-radius: 50%;
+  border: 4px solid;
+  text-align: center;
+  padding: 15px 5px 5px 5px;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  border-color: #05a8ba;
+  color: #05a8ba;
+}
+@media (max-width: 991px) {
+  .icon-benefits-circle-blue {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
+}
+.icon-benefits-circle-greenL {
+  border-radius: 50%;
+  border: 4px solid;
+  text-align: center;
+  padding: 15px 5px 5px 5px;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  border-color: #94bb37;
+  color: #94bb37;
+}
+@media (max-width: 991px) {
+  .icon-benefits-circle-greenL {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
+}
+.icon-benefits-circle-greenD {
+  border-radius: 50%;
+  border: 4px solid;
+  text-align: center;
+  padding: 15px 5px 5px 5px;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  border-color: #108432;
+  color: #108432;
+}
+@media (max-width: 991px) {
+  .icon-benefits-circle-greenD {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
+}
+.icon-benefits-circle-selected {
+  border-radius: 50%;
   padding: 15px 5px 5px 5px;
   text-align: center;
   width: 80px;
   height: 80px;
   font-size: 2.8em;
 }
-.icon-benefits-circle-blue {
-  border-color: #05a8ba;
-  color: #05a8ba;
+.icon-benefits-circle-selected-blue {
+  border-radius: 50%;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  background-color: #05a8ba;
+  color: #FFFFFF;
 }
-.icon-benefits-circle-greenL {
-  border-color: #94bb37;
-  color: #94bb37;
+.icon-benefits-circle-selected-greenL {
+  border-radius: 50%;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  background-color: #94bb37;
+  color: #FFFFFF;
 }
-.icon-benefits-circle-greenD {
-  border-color: #108432;
-  color: #108432;
+.icon-benefits-circle-selected-greenD {
+  border-radius: 50%;
+  padding: 15px 5px 5px 5px;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2.8em;
+  background-color: #108432;
+  color: #FFFFFF;
 }
 .benefits-box-bg {
   -webkit-border-radius: 5px;
@@ -571,13 +658,17 @@ form select:hover {
 .benefits-box-bg-blue {
   background-color: #05a8ba;
 }
-.icon-benefits-circle-selected {
-  border-radius: 50%;
-  padding: 15px 5px 5px 5px;
-  text-align: center;
-  width: 80px;
-  height: 80px;
-  font-size: 2.8em;
+.benefits-box-bg-greenD {
+  background-color: #108432;
+}
+.benefits-box-bg-greenL {
+  background-color: #94bb37;
+}
+#benefits-Tab a {
+  color: #222222;
+}
+#benefits-Tab a:hover {
+  color: #222222;
 }
 /******************************* 
 **** Meet our tutors 
@@ -598,6 +689,7 @@ form select:hover {
 ********************************/
 .world-map {
   background-image: url(../images/world-map.png);
+  background-position: center;
   background-repeat: no-repeat;
   color: #f3f3f3;
 }
