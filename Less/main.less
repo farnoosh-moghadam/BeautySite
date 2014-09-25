@@ -304,6 +304,9 @@ a:-webkit-any-link {
     &:hover {
         color: #FFFFFF;
     }
+    &:focus {
+        color: #FFFFFF;
+    }
 }
 
 .homepageHero-bg {
@@ -431,6 +434,11 @@ a:-webkit-any-link {
     .pl(5px);
 }
 
+.pr-pl-10{
+    .pr(10px);
+    .pl(10px);
+}
+
 .mr-ml-5 {
     .mr(5px);
     .ml(5px);
@@ -536,16 +544,17 @@ form select:hover {
 
 .learningProcess-box-blue {
     border-top: 5px solid @colorBlue;
-    .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
 }
 
 .learningProcess-box-greenL {
     border-top: 5px solid @colorGreenL;
-    .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
 }
 
 .learningProcess-box-greenD {
     border-top: 5px solid @colorGreenD;
+}
+
+.learningProcess-drop-shadow{
     .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
 }
 
