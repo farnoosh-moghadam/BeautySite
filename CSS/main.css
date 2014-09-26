@@ -292,6 +292,11 @@ a:-webkit-any-link {
 .greenD-bg a:hover {
   color: #FFFFFF;
 }
+.blue-bg a:focus,
+.greenL-bg a:focus,
+.greenD-bg a:focus {
+  color: #FFFFFF;
+}
 .homepageHero-bg {
   background-color: #e5efeb;
 }
@@ -390,6 +395,10 @@ a:-webkit-any-link {
   padding-bottom: 10px;
   padding-right: 5px;
   padding-left: 5px;
+}
+.pr-pl-10 {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .mr-ml-5 {
   margin-right: 5px;
@@ -504,21 +513,18 @@ form select:hover {
 }
 .learningProcess-box-blue {
   border-top: 5px solid #05a8ba;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 .learningProcess-box-greenL {
   border-top: 5px solid #94bb37;
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 .learningProcess-box-greenD {
   border-top: 5px solid #108432;
+}
+.learningProcess-drop-shadow {
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
 }
 .oneThirdWidth {
   width: 33.333333%;
@@ -608,43 +614,62 @@ form select:hover {
     font-size: 1.4em;
   }
 }
-.icon-benefits-circle-selected {
-  border-radius: 50%;
-  padding: 15px 5px 5px 5px;
-  text-align: center;
-  width: 80px;
-  height: 80px;
-  font-size: 2.8em;
-}
 .icon-benefits-circle-selected-blue {
   border-radius: 50%;
-  padding: 15px 5px 5px 5px;
+  border: 4px solid;
   text-align: center;
+  padding: 15px 5px 5px 5px;
   width: 80px;
   height: 80px;
   font-size: 2.8em;
+  border-color: #05a8ba;
   background-color: #05a8ba;
   color: #FFFFFF;
 }
+@media (max-width: 991px) {
+  .icon-benefits-circle-selected-blue {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
+}
 .icon-benefits-circle-selected-greenL {
   border-radius: 50%;
-  padding: 15px 5px 5px 5px;
+  border: 4px solid;
   text-align: center;
+  padding: 15px 5px 5px 5px;
   width: 80px;
   height: 80px;
   font-size: 2.8em;
+  border-color: #94bb37;
   background-color: #94bb37;
   color: #FFFFFF;
 }
+@media (max-width: 991px) {
+  .icon-benefits-circle-selected-greenL {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
+}
 .icon-benefits-circle-selected-greenD {
   border-radius: 50%;
-  padding: 15px 5px 5px 5px;
+  border: 4px solid;
   text-align: center;
+  padding: 15px 5px 5px 5px;
   width: 80px;
   height: 80px;
   font-size: 2.8em;
+  border-color: #108432;
   background-color: #108432;
   color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .icon-benefits-circle-selected-greenD {
+    width: 55px !important;
+    height: 55px !important;
+    font-size: 1.4em;
+  }
 }
 .benefits-box-bg {
   -webkit-border-radius: 5px;
@@ -683,6 +708,49 @@ form select:hover {
 .testimonial-box {
   background-color: lighten #f3f3f3 5%;
   border: 1px solid #f3f3f3;
+}
+.testimonial-circle {
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  width: 5px;
+  height: 5px;
+}
+@media (max-width: 991px) {
+  .testimonial-circle {
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+.testimonial-circle-selected {
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  width: 5px;
+  height: 5px;
+  background-color: #05a8ba;
+  color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .testimonial-circle-selected {
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+.testimonial-circle a {
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  width: 5px;
+  height: 5px;
+  background-color: #05a8ba;
+  color: #FFFFFF;
+}
+@media (max-width: 991px) {
+  .testimonial-circle a {
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+.testimonial-links-box {
+  border-top: 2px solid #05a8ba;
 }
 /******************************* 
 **** Footer 

@@ -556,6 +556,7 @@ form select:hover {
 
 .learningProcess-drop-shadow{
     .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
+	.mb(20px);
 }
 
 .oneThirdWidth {
@@ -668,7 +669,28 @@ form select:hover {
     background-color: lighten@colorGray(5%);
     border: 1px solid @colorGray;
 }
+.testimonial-circle {
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+    width: 5px;
+    height: 5px;
 
+    @media(max-width:@screen-sm-max) {
+        width: 55px !important;
+        height: 55px !important;
+    }
+}
+.testimonial-circle-selected {
+	.testimonial-circle;
+	.blue-bg;
+}
+.testimonial-circle a {
+	.testimonial-circle;
+	.blue-bg;
+}
+.testimonial-links-box{
+	border-top: 2px solid @colorBlue;
+}
 
 /******************************* 
 **** Footer 
