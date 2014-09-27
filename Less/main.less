@@ -666,30 +666,32 @@ form select:hover {
 **** Testimonials 
 ********************************/
 .testimonial-box {
-    background-color: lighten@colorGray(5%);
+    background-color: lighten(@colorGray,2%);
     border: 1px solid @colorGray;
 }
-.testimonial-circle {
-    border-radius: 50%;
-    padding: 5px 5px 5px 5px;
-    width: 5px;
-    height: 5px;
 
-    @media(max-width:@screen-sm-max) {
-        width: 55px !important;
-        height: 55px !important;
-    }
+.testimonial-circle {
+	display:inline-block;
+    border-radius: 50%;
+	margin:0px 3px;
+    width: 11px;
+    height: 11px;
 }
+
 .testimonial-circle-selected {
-	.testimonial-circle;
-	.blue-bg;
+    .testimonial-circle;
+    background-color: @colorBlue;
 }
-.testimonial-circle a {
+.testimonial-circle {
 	.testimonial-circle;
-	.blue-bg;
+	background-color: darken(@colorGray,40%);
 }
 .testimonial-links-box{
+		text-align:center;
 	border-top: 2px solid @colorBlue;
+	background-color: darken(@colorGray,5%);
+	.pt-10;
+	.pb-10;
 }
 
 /******************************* 

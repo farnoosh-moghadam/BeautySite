@@ -706,51 +706,39 @@ form select:hover {
 **** Testimonials 
 ********************************/
 .testimonial-box {
-  background-color: lighten #f3f3f3 5%;
+  background-color: #f8f8f8;
   border: 1px solid #f3f3f3;
 }
 .testimonial-circle {
+  display: inline-block;
   border-radius: 50%;
-  padding: 5px 5px 5px 5px;
-  width: 5px;
-  height: 5px;
-}
-@media (max-width: 991px) {
-  .testimonial-circle {
-    width: 55px !important;
-    height: 55px !important;
-  }
+  margin: 0px 3px;
+  width: 11px;
+  height: 11px;
 }
 .testimonial-circle-selected {
+  display: inline-block;
   border-radius: 50%;
-  padding: 5px 5px 5px 5px;
-  width: 5px;
-  height: 5px;
+  margin: 0px 3px;
+  width: 11px;
+  height: 11px;
+  background-color: #8d8d8d;
   background-color: #05a8ba;
-  color: #FFFFFF;
 }
-@media (max-width: 991px) {
-  .testimonial-circle-selected {
-    width: 55px !important;
-    height: 55px !important;
-  }
-}
-.testimonial-circle a {
+.testimonial-circle {
+  display: inline-block;
   border-radius: 50%;
-  padding: 5px 5px 5px 5px;
-  width: 5px;
-  height: 5px;
-  background-color: #05a8ba;
-  color: #FFFFFF;
-}
-@media (max-width: 991px) {
-  .testimonial-circle a {
-    width: 55px !important;
-    height: 55px !important;
-  }
+  margin: 0px 3px;
+  width: 11px;
+  height: 11px;
+  background-color: #8d8d8d;
 }
 .testimonial-links-box {
+  text-align: center;
   border-top: 2px solid #05a8ba;
+  background-color: #e6e6e6;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /******************************* 
 **** Footer 
