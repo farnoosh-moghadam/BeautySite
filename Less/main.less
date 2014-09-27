@@ -59,7 +59,11 @@ h4 {
     font-weight: normal;
     font-size: 0.9em;
 }
-
+h5 {
+    font-weight: normal;
+    font-size: 0.8em;
+	margin:0px;
+}
 .text-blue {
     color: @colorBlue;
 }
@@ -122,7 +126,21 @@ a:-webkit-any-link {
 .icon-arrow-right:before {
     content: '\e601';
 }
-
+.icon-arrow-circle{
+    border-radius: 50%;
+    border: 2px solid @colorGrayD;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.icon-arrowRight-circle{
+	.icon-arrow-circle;
+	padding: 4px 6px 4px 8px;
+}
+.icon-arrowLeft-circle{
+	.icon-arrow-circle;
+	padding: 4px 8px 4px 6px;
+}
 .icon-arrow:before {
     content: '\e602';
 }
@@ -254,7 +272,6 @@ a:-webkit-any-link {
     font-size: 1.4em;
     font-family: "Courier New", Courier, monospace;
 }
-
 .icon-plus:after {
     content: "+";
 }
@@ -262,7 +279,7 @@ a:-webkit-any-link {
 .icon-minus:after {
     content: "-";
 }
-
+	
 /* ==========================================================================
    Common
    ========================================================================== */
@@ -366,9 +383,15 @@ a:-webkit-any-link {
 .pt-10 {
     .pt(10px);
 }
+.pt-15 {
+    .pt(15px);
+}
 
 .pt-20 {
     .pt(20px);
+}
+.pt-27 {
+    .pt(27px);
 }
 
 .pr-5-important {
@@ -442,6 +465,22 @@ a:-webkit-any-link {
     .pr(10px);
     .pl(10px);
 }
+.pt-pb-5{
+    .pt(5px);
+    .pb(5px);
+}
+.pt-pb-10{
+    .pt(10px);
+    .pb(10px);
+}
+.pt-pb-20{
+    .pt(20px);
+    .pb(20px);
+}
+.pr-pl-60{
+    .pr(60px);
+    .pl(60px);
+}
 
 .mr-ml-5 {
     .mr(5px);
@@ -457,7 +496,7 @@ a:-webkit-any-link {
 /******************************* 
 **** Triangle
 ********************************/
-.main-triangle {
+.main-triangle-up {
     border-bottom: 20px solid;
     width: 0px;
     height: 0px;
@@ -465,7 +504,14 @@ a:-webkit-any-link {
     border-left: 20px solid transparent;
     display: block;
 }
-
+.main-triangle-down {
+    border-top: 20px solid;
+    width: 0px;
+    height: 0px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    display: block;
+}
 .border-blue {
     border-bottom-color: @colorBlue;
 }
@@ -746,7 +792,15 @@ form select:hover {
     background-color: lighten(@colorGray,2%);
     border: 1px solid @colorGray;
 }
-
+.testimonial-triangle-down {
+    border-top: 10px solid @colorBlue;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    display: block;
+	.pb(5px);
+}
 .testimonial-circle {
 	display:inline-block;
     border-radius: 50%;
@@ -767,18 +821,23 @@ form select:hover {
 		text-align:center;
 	border-top: 2px solid @colorBlue;
 	background-color: darken(@colorGray,5%);
-	.pt-10;
-	.pb-10;
+	.pb(3px);
 }
 
 /******************************* 
 **** Footer 
 ********************************/
+footer{
+	.grayD-bg;
+	color:@colorGray;
+}
 .world-map {
     background-image: url(../images/world-map.png);
 	background-position:center;
     background-repeat: no-repeat;
     color: @colorGray;
+	.pt(40px);
+	.pb(40px);
 }
 /* ==========================================================================
    Imports
