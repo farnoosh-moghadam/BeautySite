@@ -82,6 +82,46 @@ $(document).ready(function () {
             });
         });
     });
+    var animationTime = 2000;
+    $('.JobGrowth-chartEmployee').waypoint(function () {
+        $('.JobGrowth-chartEmployee').easyPieChart({
+            easing: 'easeOutBounce',
+            barColor: '#05a8ba',
+            lineWidth: 20,
+            trackColor: '#bbbcbf',
+            scaleColor: false,
+            lineCap:'square',
+            size: 120,
+            animate: animationTime,
+        });
+
+        $('.JobGrowth-chartProjectedEmployeeOver').easyPieChart({
+            easing: 'easeOutBounce',
+            barColor: '#05a8ba',
+            lineWidth: 25,
+            trackColor: false,
+            scaleColor: false,
+            lineCap: 'square',
+            size: 180,
+            animate: animationTime,
+        });
+
+        $('.JobGrowth-chartProjectedEmployee').easyPieChart({
+            easing: 'easeOutBounce',
+            barColor: '#6bdfec',
+            lineWidth: 25,
+            trackColor: '#bbbcbf',
+            scaleColor: false,
+            lineCap: 'square',
+            size: 180,
+            animate: animationTime,
+        });
+
+        },
+        {
+            triggerOnce: true,
+            offset: 'bottom-in-view'
+        });
 });
 
 function moveArrow(objectId, offsetSize, linkObject) {
