@@ -58,6 +58,11 @@ h4 {
   font-weight: normal;
   font-size: 0.9em;
 }
+h5 {
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0px;
+}
 .text-blue {
   color: #05a8ba;
 }
@@ -107,6 +112,29 @@ a:-webkit-any-link {
 }
 .icon-arrow-right:before {
   content: '\e601';
+}
+.icon-arrow-circle {
+  border-radius: 50%;
+  border: 2px solid #222222;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+.icon-arrowRight-circle {
+  border-radius: 50%;
+  border: 2px solid #222222;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 4px 6px 4px 8px;
+}
+.icon-arrowLeft-circle {
+  border-radius: 50%;
+  border: 2px solid #222222;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 4px 8px 4px 6px;
 }
 .icon-arrow:before {
   content: '\e602';
@@ -345,8 +373,14 @@ a:-webkit-any-link {
 .pt-10 {
   padding-top: 10px;
 }
+.pt-15 {
+  padding-top: 15px;
+}
 .pt-20 {
   padding-top: 20px;
+}
+.pt-27 {
+  padding-top: 27px;
 }
 .pr-5-important {
   padding-right: 5px !important;
@@ -400,6 +434,22 @@ a:-webkit-any-link {
   padding-right: 10px;
   padding-left: 10px;
 }
+.pt-pb-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.pt-pb-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pt-pb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pr-pl-60 {
+  padding-right: 60px;
+  padding-left: 60px;
+}
 .mr-ml-5 {
   margin-right: 5px;
   margin-left: 5px;
@@ -413,8 +463,16 @@ a:-webkit-any-link {
 /******************************* 
 **** Triangle
 ********************************/
-.main-triangle {
+.main-triangle-up {
   border-bottom: 20px solid;
+  width: 0px;
+  height: 0px;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  display: block;
+}
+.main-triangle-down {
+  border-top: 20px solid;
   width: 0px;
   height: 0px;
   border-right: 20px solid transparent;
@@ -709,6 +767,15 @@ form select:hover {
   background-color: #f8f8f8;
   border: 1px solid #f3f3f3;
 }
+.testimonial-triangle-down {
+  border-top: 10px solid #05a8ba;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  display: block;
+  padding-bottom: 5px;
+}
 .testimonial-circle {
   display: inline-block;
   border-radius: 50%;
@@ -737,17 +804,22 @@ form select:hover {
   text-align: center;
   border-top: 2px solid #05a8ba;
   background-color: #e6e6e6;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 /******************************* 
 **** Footer 
 ********************************/
+footer {
+  background-color: #222222;
+  color: #f3f3f3;
+}
 .world-map {
   background-image: url(../images/world-map.png);
   background-position: center;
   background-repeat: no-repeat;
   color: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 /* ==========================================================================
    Imports
