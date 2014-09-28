@@ -90,7 +90,7 @@ $(document).ready(function () {
             lineWidth: 20,
             trackColor: '#bbbcbf',
             scaleColor: false,
-            lineCap:'square',
+            lineCap: 'square',
             size: 120,
             animate: animationTime,
         });
@@ -117,10 +117,49 @@ $(document).ready(function () {
             animate: animationTime,
         });
 
-        },
+    },
         {
             triggerOnce: true,
             offset: 'bottom-in-view'
+        });
+
+
+
+    $('.jcarousel').jcarousel();
+
+    $('#jcarousel-control-prev')
+        .on('jcarouselcontrol:active', function () {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function () {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '-=1'
+        });
+
+    $('#jcarousel-control-next')
+        .on('jcarouselcontrol:active', function () {
+            $(this).removeClass('inactive');
+        })
+        .on('jcarouselcontrol:inactive', function () {
+            $(this).addClass('inactive');
+        })
+        .jcarouselControl({
+            target: '+=1'
+        });
+
+    $('.testimonial-links-box')
+        .on('jcarouselpagination:active', 'a', function () {
+            $(this).switchClass('testimonial-circle', 'testimonial-circle-selected');
+        })
+        .on('jcarouselpagination:inactive', 'a', function () {
+            $(this).switchClass('testimonial-circle-selected', 'testimonial-circle');
+        })
+        .jcarouselPagination({
+            'item': function (page, carouselItems) {
+                return '<a href="#' + page + '" class="testimonial-circle">&nbsp;</a>';
+            }
         });
 });
 

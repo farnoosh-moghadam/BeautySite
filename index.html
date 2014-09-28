@@ -13,8 +13,10 @@
     <link rel="stylesheet/less" type="text/css" href="Less/Homepage.less">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min.css">
+    <link href="CSS/jcarousel.basic.css" rel="stylesheet" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
     <script src="bower_components/less/dist/less-1.7.5.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easypiechart.min.js"></script>
@@ -330,7 +332,7 @@
                 </div>
                 <div class="row">
                     <div id="learnArrow" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pt-10">
-          		<div class="main-triangle-up border-blue center-block"></div>
+                        <div class="main-triangle-up border-blue center-block"></div>
                     </div>
                 </div>
             </div>
@@ -431,7 +433,7 @@
                     </div>
                     <div class="row">
                         <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            			<div class="main-triangle-up border-blue center-block pt-10"></div>
+                            <div class="main-triangle-up border-blue center-block pt-10"></div>
                         </div>
                     </div>
                     <!-- benefits -->
@@ -526,18 +528,20 @@
     </div>
     <!-- /Job growth -->
     <!-- Our tutors and Testimonial -->
-    <div class="container hidden-sm hidden-xs">
-        <div class="row maxLenght hidden-xs hidden-sm mt-20">
+    <div class="container">
+        <div class="row mt-20">
             <!-- Meet our tutors -->
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
                 <div class="row pt-20 pb-10">
-        <h1 class="floatLeft pr-10">Meet our tutors:</h1>
-        <div class="pt-27 pl-10">
-        <span class="icon icon-arrow-left icon-arrowLeft-circle"></span> <span class="icon icon-arrow-right icon-arrowRight-circle"></span></div> </div>
+                    <h1 class="floatLeft pr-10">Meet our tutors:</h1>
+                    <div class="pt-27 pl-10">
+                        <span class="icon icon-arrow-left icon-arrowLeft-circle"></span> <span class="icon icon-arrow-right icon-arrowRight-circle"></span>
+                    </div>
+                </div>
                 <div class="row">
                     <!-- Tutor 1 -->
                     <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Andrew.jpg" alt="" class="img-responsive" /></div>
+                        <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Andrew.jpg" alt="" class="img-responsive" /></div>
                         <div class="border-gray-1 text-center pt-10 pb-10">
                             <h3>Andrew Harward</h3>
                             <h3 class="text-blue">Web, development</h3>
@@ -546,7 +550,7 @@
                     <!-- /Tutor 1 -->
                     <!-- Tutor 2 -->
                     <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Jessica.jpg" alt="" class="img-responsive" /></div>
+                        <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Jessica.jpg" alt="" class="img-responsive" /></div>
                         <div class="border-gray-1 text-center pt-10 pb-10">
                             <h3>Jessica Malbowa</h3>
                             <h3 class="text-blue">Web, development</h3>
@@ -557,37 +561,97 @@
             </div>
             <!-- /Meet our tutors -->
             <!-- Testimonial -->
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="row pt-20 pb-10">
-        <h1 class="floatLeft pr-10">Students Testimonials:</h1>
-        <div class="pt-27">
-        <span class="icon icon-arrow-left icon-arrowLeft-circle"></span> <span class="icon icon-arrow-right icon-arrowRight-circle"></span></div> </div>
+                    <h1 class="floatLeft pr-10">Students Testimonials:</h1>
+                    <div class="pt-27">
+                        <a href="#" id="jcarousel-control-prev" data-jcarouselcontrol="true" class="icon icon-arrow-left icon-arrowLeft-circle"></a> <a href="#" id="jcarousel-control-next" data-jcarouselcontrol="true" class="icon icon-arrow-right icon-arrowRight-circle"></a>
+                    </div>
+                </div>
                 <div class="row testimonial-box">
-                    <div class="col-lg-12 col-md-12 pt-10 pl-10 pr-10">
-                        <!-- /Testimonial 1 img -->
-                        <div class="row pr-pl-10">
-                            <div class="col-lg-3 col-md-3 border-gray-1 pt-10 pb-10"> <img src="images/student1.jpg" alt="" class="img-responsive" /> </div>
-                            <!-- /Testimonial 1 img -->
-                            <div class="col-lg-9 col-md-9">
-                                <!-- Testemonial1 text -->
-                                <h3 class="">
-                                    <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
-                                    fringilla. sapien, nec rutrum justo. Cum sociis
-                                    natoque penati parturient montes, nascetur take
-                                    ridiculus mus.
-                                </h3>
-                                <span class="text-blue">
-                                    <br>
-                                    - James P. Stanley, developer
-                                </span>
-                                <!-- /Testemonial1 text -->
-                            </div>
+                    <div class="pt-10 pl-10 pr-10">
+                        <div class="jcarousel" data-jcarousel="true">
+                            <ul>
+                                <li>
+                                    <!-- /Testimonial 1 img -->
+                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                                    <!-- /Testimonial 1 img -->
+                                    <div class="testimonial-text-wrapper">
+                                        <!-- Testimonial 1 text -->
+                                        <h3>
+                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                            fringilla. sapien, nec rutrum justo. Cum sociis
+                                            natoque penati parturient montes, nascetur take
+                                            ridiculus mus.
+                                        </h3>
+                                        <span class="text-blue">
+                                            <br>
+                                            - James P. Stanley, developer
+                                        </span>
+                                        <!-- /Testimonial 1 text -->
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- /Testimonial 2 img -->
+                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                                    <!-- /Testimonial 2 img -->
+                                    <div class="testimonial-text-wrapper">
+                                        <!-- Testimonial 2 text -->
+                                        <h3>
+                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                            fringilla. sapien, nec rutrum justo. Cum sociis
+                                            natoque penati parturient montes, nascetur take
+                                            ridiculus mus.
+                                        </h3>
+                                        <span class="text-blue">
+                                            <br>
+                                            - James P. Stanley, developer
+                                        </span>
+                                        <!-- /Testimonial 2 text -->
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- /Testimonial 3 img -->
+                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                                    <!-- /Testimonial 3 img -->
+                                    <div class="testimonial-text-wrapper">
+                                        <!-- Testimonial 2 text -->
+                                        <h3>
+                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                            fringilla. sapien, nec rutrum justo. Cum sociis
+                                            natoque penati parturient montes, nascetur take
+                                            ridiculus mus.
+                                        </h3>
+                                        <span class="text-blue">
+                                            <br>
+                                            - James P. Stanley, developer
+                                        </span>
+                                        <!-- /Testimonial 2 text -->
+                                    </div>
+                                </li>
+                                <li>
+                                    <!-- /Testimonial 4 img -->
+                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                                    <!-- /Testimonial 4 img -->
+                                    <div class="testimonial-text-wrapper">
+                                        <!-- Testimonial 2 text -->
+                                        <h3>
+                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                            fringilla. sapien, nec rutrum justo. Cum sociis
+                                            natoque penati parturient montes, nascetur take
+                                            ridiculus mus.
+                                        </h3>
+                                        <span class="text-blue">
+                                            <br>
+                                            - James P. Stanley, developer
+                                        </span>
+                                        <!-- /Testimonial 2 text -->
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-          <div class="row testimonial-links-box">
-          	<div class="testimonial-triangle-down center-block"></div>
-            <div> <span class="testimonial-circle">&nbsp;</span> <span class="testimonial-circle">&nbsp;</span> <span class="testimonial-circle-selected">&nbsp;</span> <span class="testimonial-circle">&nbsp;</span></div>
-
-                        </div>
+                    </div>
+                    <div class="testimonial-links-box" data-jcarouselpagination="true">
                     </div>
                 </div>
             </div>
@@ -596,40 +660,42 @@
     </div>
     <!--  /Our tutors and testimonial -->
     <!-- Footer -->
-<footer>
+    <footer>
         <div class="container">
-<div class="row pt-pb-10"> 
+            <div class="row pt-pb-10">
                 <!-- OC logo -->
-  <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 pt-20"> <img src="images/OC-logo-white.png" width="397" height="106" alt="" class="img-responsive"/> </div>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 pt-20"> <img src="images/OC-logo-white.png" width="397" height="106" alt="" class="img-responsive" /> </div>
                 <!-- /OC logo -->
                 <!-- Social media -->
-  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-20">
-  <div class="row pt-15 pr-pl-60">
-  	<h4 class="col-lg-4 col-md-4 col-md-2"> Follow us on social media: </h4>
-    <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 pull-left">
-                    <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-facebook"></span> </div>
-                    <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-youTube"></span> </div>
-                    <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-twitter"></span> </div>
-                    <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-google"></span> </div>
-                    <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-linkedIn"></span> </div>
-                    <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-pinterest"></span> </div>
-    </div>
-    </div>
-  </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 pt-20">
+                    <div class="row pt-15 pr-pl-60">
+                        <h4 class="col-lg-4 col-md-4 col-md-2"> Follow us on social media: </h4>
+                        <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 pull-left">
+                            <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-facebook"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-youTube"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-twitter"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-google"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-linkedIn"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2"> <span class="icon icon-pinterest"></span> </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- /Social media -->
                 <!-- Contact us -->
-  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 world-map pull-right">
-    <h4><span class="icon icon-phone pt-10 pb-10"> </span>1300 852 011</h4>
-      <h4> <span class="icon icon-mail"> </span>
-         support@opencolleges.edu.au</h4>
-                            <span class="icon icon-mail"></span>
-                    </div>
-                    <!-- /Contact us -->
-  </div>
-  <div class="row blue-bg pr-pl-10 pt-pb-5">
-  <h5>Copyright Open Colleges 2014</h5>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 world-map pull-right">
+                    <h4><span class="icon icon-phone pt-10 pb-10"> </span>1300 852 011</h4>
+                    <h4>
+                        <span class="icon icon-mail"> </span>
+                        support@opencolleges.edu.au
+                    </h4>
+                    <span class="icon icon-mail"></span>
                 </div>
+                <!-- /Contact us -->
             </div>
+            <div class="row blue-bg pr-pl-10 pt-pb-5">
+                <h5>Copyright Open Colleges 2014</h5>
+            </div>
+        </div>
     </footer>
     <!-- /Footer -->
 </body>
