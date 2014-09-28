@@ -187,6 +187,9 @@ a:-webkit-any-link {
 .icon-youTube:before {
   content: '\e611';
 }
+.icon-download:before {
+  content: '\e614';
+}
 .icon-socialMedia-circle {
   border-radius: 50%;
   padding: 7px;
@@ -365,6 +368,43 @@ a:-webkit-any-link {
   margin-right: auto;
 }
 /******************************* 
+**** Pinbar Mobile
+********************************/
+.button-pinbarMobile {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
+  box-shadow: inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Plume-font';
+}
+.icon-pinbarMobile-circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(#ffffff));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5), #ffffff);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), #ffffff);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), #ffffff);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), #ffffff);
+  text-align: center;
+  padding: 9px;
+  font-size: 1.5em;
+}
+/******************************* 
 **** padding & margin
 ********************************/
 .pt-5 {
@@ -409,6 +449,9 @@ a:-webkit-any-link {
 .pl-30 {
   padding-left: 30px;
 }
+.pl-30-important {
+  padding-left: 30px !important;
+}
 .pl-negative-10 {
   padding-left: -10px;
 }
@@ -449,6 +492,15 @@ a:-webkit-any-link {
 .pr-pl-60 {
   padding-right: 60px;
   padding-left: 60px;
+}
+@media (max-width: 991px) {
+  .pr-pl-60 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.padding-10 {
+  padding: 10px;
 }
 .mr-ml-5 {
   margin-right: 5px;
@@ -499,6 +551,69 @@ a:-webkit-any-link {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.JobGrowth-chartEmployee canvas {
+  position: absolute;
+  top: 90px;
+  left: 0px;
+}
+.JobGrowth-chartEmployee .percentage {
+  position: absolute;
+  top: 135px;
+  left: 27px;
+  font-size: 1.65em;
+  font-weight: bold;
+}
+.JobGrowth-chartProjectedEmployee canvas {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+.JobGrowth-chartProjectedEmployee .percentage {
+  position: absolute;
+  top: 92px;
+  left: 37px;
+  font-size: 2.7em;
+  font-weight: bold;
+}
+.JobGrowth-chartProjectedEmployeeOver canvas {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: 2;
+}
+.jobGrowth-arrow {
+  padding-top: 55px;
+  color: #108432;
+  font-size: 11em;
+  background: -webkit-linear-gradient(#94bb37, #108432);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.JobGrowth-MiddleText {
+  font-size: 1.5em;
+  line-height: 20px;
+  color: #108432;
+  position: absolute;
+  top: 75px;
+  left: 22%;
+}
+.jobGrowth-SeperatorArrow {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid #e6e6e6;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  display: block;
+  margin-top: 95px;
+}
+.jobGrowth-Seperator {
+  width: 10px;
+  border-left: 2px solid #e6e6e6;
+  display: block;
+  margin-top: 40px;
+  height: 200px;
+  float: left;
 }
 /******************************* 
 **** Form
@@ -568,6 +683,9 @@ form select:hover {
 ********************************/
 .learningProsess-img {
   max-width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #f3f3f3;
+  padding: 10px;
 }
 .learningProcess-box-blue {
   border-top: 5px solid #05a8ba;
@@ -810,7 +928,7 @@ form select:hover {
 **** Footer 
 ********************************/
 footer {
-  background-color: #222222;
+  background-color: #3c3c3c;
   color: #f3f3f3;
 }
 .world-map {
@@ -820,6 +938,21 @@ footer {
   color: #f3f3f3;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+@media (max-width: 991px) {
+  .world-map {
+    background-image: none !important;
+    background-color: #555555 !important;
+    text-align: center !important;
+    margin-top: 30px !important;
+    padding: 15px 0px !important;
+    font-size: 1.2em !important;
+  }
+}
+.oc-logo-white {
+  padding-top: 5px;
+  width: 100%;
+  height: auto;
 }
 /* ==========================================================================
    Imports

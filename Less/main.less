@@ -214,7 +214,9 @@ a:-webkit-any-link {
 .icon-youTube:before {
     content: '\e611';
 }
-
+.icon-download:before {
+    content: '\e614';
+}
 .icon-socialMedia-circle {
     border-radius: 50%;
     padding: 7px;
@@ -254,7 +256,6 @@ a:-webkit-any-link {
     .icon-socialMedia-circle;
     background-color: #c9232e;
 }
-
 .icon-quote {
     font-size: 2em;
 }
@@ -382,6 +383,30 @@ a:-webkit-any-link {
 }
 
 /******************************* 
+**** Pinbar Mobile
+********************************/
+.button-pinbarMobile{
+	.border-radius(5px);
+	-webkit-box-shadow: inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
+	-moz-box-shadow:    inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
+	box-shadow:         inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
+	background-color: rgba(255,255,255,0.2);
+	display:block;
+	padding:10px;
+	text-align:center;
+	font-family:'Plume-font';
+	
+}
+.icon-pinbarMobile-circle {
+    .border-radius(50%);
+    border: 2px solid rgba(255,255,255,0.7);
+	.gradient (@startColor: rgba(255,255,255,0.5), @endColor: @colorWhite);
+    text-align: center;
+    padding: 9px;
+    font-size: 1.5em;
+}
+
+/******************************* 
 **** padding & margin
 ********************************/
 .pt-5 {
@@ -494,8 +519,15 @@ a:-webkit-any-link {
 .pr-pl-60 {
     .pr(60px);
     .pl(60px);
+	
+	@media(max-width:@screen-sm-max) {
+		.pr(20px);
+		.pl(20px);
+    }
 }
-
+.padding-10{
+	padding:10px;
+}
 .mr-ml-5 {
     .mr(5px);
     .ml(5px);
@@ -679,6 +711,8 @@ form select:hover {
 ********************************/
 .learningProsess-img {
     max-width: 100%;
+	.border-gray-1;
+	padding:10px;
 }
 
 .learningProcess-box-blue {
@@ -868,7 +902,7 @@ form select:hover {
 }
 
 .testimonial-links-box {
-    text-align: center;
+	text-align:center;
     border-top: 2px solid @colorBlue;
     background-color: darken(@colorGray,5%);
     .pb(3px);
@@ -878,7 +912,7 @@ form select:hover {
 **** Footer 
 ********************************/
 footer {
-    .grayD-bg;
+	background-color:lighten(@colorGrayD, 10%);
     color: @colorGray;
 }
 
@@ -889,6 +923,20 @@ footer {
     color: @colorGray;
     .pt(40px);
     .pb(40px);
+	
+	@media(max-width:@screen-sm-max) {
+		background-image:none !important;
+		background-color:lighten(@colorGrayD, 20%) !important;
+		text-align:center !important;
+	 	margin-top:30px !important;
+		padding:15px 0px !important;
+		font-size:1.2em !important;
+    }
+}
+.oc-logo-white{
+	.pt(5px);
+	width:100%;
+	height:auto;
 }
 /* ==========================================================================
    Imports
