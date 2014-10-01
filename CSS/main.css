@@ -704,6 +704,9 @@ form select:hover {
 }
 .oneThirdWidth {
   width: 33.333333%;
+  /*@media(maxwidth:@screen-xs-max){
+		.border-radius(5px);
+	}*/
 }
 #myTab {
   width: 100%;
@@ -885,6 +888,37 @@ form select:hover {
   background-color: #f8f8f8;
   border: 1px solid #f3f3f3;
 }
+.testimonial-image-wrapper {
+  float: left;
+  padding: 10px;
+  width: 140px;
+}
+@media (max-width: 1199px) {
+  .testimonial-image-wrapper {
+    width: 115px;
+  }
+}
+.testimonial-text-wrapper {
+  float: left;
+  padding: 15px;
+  width: 423px;
+}
+@media (max-width: 1199px) {
+  .testimonial-text-wrapper {
+    width: 348px;
+  }
+}
+@media (max-width: 991px) {
+  .testimonial-text-wrapper {
+    width: 353px;
+  }
+}
+@media (max-width: 767px) {
+  .testimonial-text-wrapper {
+    max-width: 722px;
+    width: 100%;
+  }
+}
 .testimonial-triangle-down {
   border-top: 10px solid #05a8ba;
   width: 0px;
@@ -897,26 +931,27 @@ form select:hover {
 .testimonial-circle {
   display: inline-block;
   border-radius: 50%;
-  margin: 0px 3px;
+  margin: 10px 3px;
   width: 11px;
   height: 11px;
 }
 .testimonial-circle-selected {
   display: inline-block;
   border-radius: 50%;
-  margin: 0px 3px;
+  margin: 10px 3px;
   width: 11px;
   height: 11px;
-  background-color: #8d8d8d;
+  border: 1px solid #8d8d8d;
   background-color: #05a8ba;
+  border: 1px solid #05a8ba;
 }
 .testimonial-circle {
   display: inline-block;
   border-radius: 50%;
-  margin: 0px 3px;
+  margin: 10px 3px;
   width: 11px;
   height: 11px;
-  background-color: #8d8d8d;
+  border: 1px solid #8d8d8d;
 }
 .testimonial-links-box {
   text-align: center;
