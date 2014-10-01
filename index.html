@@ -1,656 +1,713 @@
 ﻿<!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Beauty microsite-Homepage</title>
-<!-- JQuery -->
-<link rel="shortcut icon" type="image/png" href="https://oca3-prod.s3.amazonaws.com/images/favicon.png">
-<link rel="stylesheet/less" type="text/css" href="Less/main.less">
-<link rel="stylesheet/less" type="text/css" href="Less/menu.less">
-<link rel="stylesheet/less" type="text/css" href="Less/Mediaquery.less">
-<link rel="stylesheet/less" type="text/css" href="Less/Homepage.less">
-<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min.css">
-    <link href="CSS/jcarousel.basic.css" rel="stylesheet" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
-    <script src="js/jquery.jcarousel.min.js"></script>
-<script src="bower_components/less/dist/less-1.7.5.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easypiechart.min.js"></script>
-<script src="js/jquery.easing-1.3.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/main.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beauty microsite-Homepage</title>
+    <!-- JQuery -->
+    <link rel="shortcut icon" type="image/png" href="https://oca3-prod.s3.amazonaws.com/images/favicon.png">
+    <link rel="stylesheet/less" type="text/css" href="Less/main.less">
+    <link rel="stylesheet/less" type="text/css" href="Less/menu.less">
+    <link rel="stylesheet/less" type="text/css" href="Less/Mediaquery.less">
+    <link rel="stylesheet/less" type="text/css" href="Less/Homepage.less">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min.css">
+    <link href="Less/slick.less" type="text/css" rel="stylesheet/less" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="bower_components/less/dist/less-1.7.5.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/jquery.easing-1.3.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-<!-- Header -->
-<div class="topBorder">
-  <div class="container blueBorder"> </div>
-</div>
-<header class="shadow">
-  <div class="container">
-    <div class="row pt-10">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7"> <a href="#"><img src="images/OC-logo.png" alt="" class="logo"></a> </div>
-      <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
-      <div class="pull-right"> <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225"> <span class="icon icon-phone icon-phone-circle"></span>
-        <h3 class="plume pr-pl-10 pull-right"> Free call on 1300 309 225</h3>
-        </a> </div>
+    <!-- Header -->
+    <div class="topBorder">
+        <div class="container blueBorder"> </div>
     </div>
-    <div class="row">
-      <nav class="stickRight col-xs-12 pb-10">
-        <ul class="main-menu-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">Studying online</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact us</a></li>
-        </ul>
-      </nav>
+    <header class="shadow">
+        <div class="container">
+            <div class="row pt-10">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7"> <a href="#"><img src="images/OC-logo.png" alt="" class="logo"></a> </div>
+                <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
+                <div class="pull-right">
+                    <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225">
+                        <span class="icon icon-phone icon-phone-circle"></span>
+                        <h3 class="plume pr-pl-10 pull-right"> Free call on 1300 309 225</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="stickRight col-xs-12 pb-10">
+                    <ul class="main-menu-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Studying online</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- /Header -->
+    <!-- Hero img -->
+    <div class="homepageHero-bg">
+        <div class="container">
+            <div class="row home-heroImg "> <img src="images/Beauty-Homepage-Header03.jpg" width="1408" height="443" alt="" class="img-responsive" /> </div>
+        </div>
     </div>
-  </div>
-</header>
-<!-- /Header --> 
-<!-- Hero img -->
-<div class="homepageHero-bg">
-  <div class="container">
-    <div class="row home-heroImg "> <img src="images/Beauty-Homepage-Header03.jpg" width="1408" height="443" alt="" class="img-responsive" /> </div>
-  </div>
-</div>
-<!-- /Hero img --> 
-<!-- Form -->
-<div class="blue-bg">
-  <div class="container"> 
-    <!-- Desktop -->
-    <div class="row pt-10 hidden-xs hidden-sm pb-10">
-      <div class="white col-lg-4 col-md-3">
-        <h2 class="pb-10 pt-5">Download your free course guide</h2>
-        <h4 class="hidden-md">Enter your details below to receive a free PDF and a consultation with a Course and Careers Advisor.</h4>
-      </div>
-      <div class="col-lg-8 col-md-9 pb-10">
-        <form>
-          <div class="row">
-            <div class="col-lg-9 col-md-8">
-              <div class="row pt-10">
-                <div class="col-lg-4 col-md-4 pr-5-important">
-                  <input type="text" name="first_name" required tabindex="1" class="form-control input-sm" placeholder="First Name">
+    <!-- /Hero img -->
+    <!-- Form -->
+    <div class="blue-bg">
+        <div class="container">
+            <!-- Desktop -->
+            <div class="row pt-10 hidden-xs hidden-sm pb-10">
+                <div class="white col-lg-4 col-md-3">
+                    <h2 class="pb-10 pt-5">Download your free course guide</h2>
+                    <h4 class="hidden-md">Enter your details below to receive a free PDF and a consultation with a Course and Careers Advisor.</h4>
                 </div>
-                <div class="col-lg-4 col-md-4 pr-5-important">
-                  <input type="text" name="last_name" required tabindex="2" class="form-control input-sm" placeholder="Last Name">
+                <div class="col-lg-8 col-md-9 pb-10">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-9 col-md-8">
+                                <div class="row pt-10">
+                                    <div class="col-lg-4 col-md-4 pr-5-important">
+                                        <input type="text" name="first_name" required tabindex="1" class="form-control input-sm" placeholder="First Name">
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 pr-5-important">
+                                        <input type="text" name="last_name" required tabindex="2" class="form-control input-sm" placeholder="Last Name">
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 pr-5-important">
+                                        <input type="number" title="phone" required name="phone" tabindex="3" class="form-control input-sm" placeholder="Phone number">
+                                    </div>
+                                </div>
+                                <div class="row pt-10">
+                                    <div class="col-lg-4 col-md-4 pr-5-important">
+                                        <input type="email" name="Email-address" required tabindex="4" class="form-control input-sm" placeholder="Email">
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 pr-5-important">
+                                        <select required name="State" tabindex="5" class="form-control input-sm">
+                                            <option value="" selected="selected">--State --</option>
+                                            <option value="ACT">ACT</option>
+                                            <option value="NSW">NSW</option>
+                                            <option value="NT">NT</option>
+                                            <option value="QLD">QLD</option>
+                                            <option value="SA">SA</option>
+                                            <option value="TAS">TAS</option>
+                                            <option value="VIC">VIC</option>
+                                            <option value="WA">WA</option>
+                                            <option value="INTL">Overseas</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 pr-5-important">
+                                        <select required name="interest" tabindex="6" class="form-control input-sm">
+                                            <option value="" selected="selected">--I'm interested in --</option>
+                                            <option value="34424">Diploma of Beauty Therapy</option>
+                                            <option value="3454645">Certificate IV in Beauty Therapy</option>
+                                            <option value="56765765">Certificate in Beauty Therapy</option>
+                                            <option value="7665">How to Apply Make up</option>
+                                            <option value="345345">
+                                                Certificate IV in Retail Make-Up and
+                                                Skin Care
+                                            </option>
+                                            <option value="2435">Nail Technician certificate</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 pt-10">
+                                <button type="button" class="button-submit">
+                                    Download your <br>
+                                    free course guide <span class="icon icon-arrow"> </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-lg-4 col-md-4 pr-5-important">
-                  <input type="number" title="phone" required name="phone" tabindex="3" class="form-control input-sm" placeholder="Phone number">
-                </div>
-              </div>
-              <div class="row pt-10">
-                <div class="col-lg-4 col-md-4 pr-5-important">
-                  <input type="email" name="Email-address" required tabindex="4" class="form-control input-sm" placeholder="Email">
-                </div>
-                <div class="col-lg-4 col-md-4 pr-5-important">
-                  <select required name="State" tabindex="5" class="form-control input-sm">
-                    <option value="" selected="selected">--State --</option>
-                    <option value="ACT">ACT</option>
-                    <option value="NSW">NSW</option>
-                    <option value="NT">NT</option>
-                    <option value="QLD">QLD</option>
-                    <option value="SA">SA</option>
-                    <option value="TAS">TAS</option>
-                    <option value="VIC">VIC</option>
-                    <option value="WA">WA</option>
-                    <option value="INTL">Overseas</option>
-                  </select>
-                </div>
-                <div class="col-lg-4 col-md-4 pr-5-important">
-                  <select required name="interest" tabindex="6" class="form-control input-sm">
-                    <option value="" selected="selected">--I'm interested in --</option>
-                    <option value="34424">Diploma of Beauty Therapy</option>
-                    <option value="3454645">Certificate IV in Beauty Therapy</option>
-                    <option value="56765765">Certificate in Beauty Therapy</option>
-                    <option value="7665">How to Apply Make up</option>
-                    <option value="345345"> Certificate IV in Retail Make-Up and
-                    Skin Care </option>
-                    <option value="2435">Nail Technician certificate</option>
-                  </select>
-                </div>
-              </div>
             </div>
-            <div class="col-lg-3 col-md-4 pt-10">
-              <button type="button" class="button-submit"> Download your <br>
-              free course guide <span class="icon icon-arrow"> </span> </button>
+            <!-- /Desktop -->
+            <!-- Pinbar Mobile -->
+            <div class="row hidden-lg hidden-md padding-10">
+                <div class="col-sm-6 col-xs-6">
+                    <div class="button-pinbarMobile"><span class="icon icon-pinbarMobile-circle icon-phone text-blue"></span> Call us</div>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                    <div class="button-pinbarMobile"><span class="icon icon-pinbarMobile-circle icon-download text-blue"></span> Download <span>free guide</span></div>
+                </div>
             </div>
-          </div>
-        </form>
-      </div>
+            <!-- /Pinbar Mobile -->
+        </div>
     </div>
-    <!-- /Desktop --> 
-    <!-- Pinbar Mobile -->
-    <div class="row hidden-lg hidden-md padding-10">
-      <div class="col-sm-6 col-xs-6">
-        <div class="button-pinbarMobile"><span class="icon icon-pinbarMobile-circle icon-phone text-blue"></span> Call us</div>
-      </div>
-      <div class="col-sm-6 col-xs-6">
-        <div class="button-pinbarMobile"><span class="icon icon-pinbarMobile-circle icon-download text-blue"></span> Download <span>free guide</span></div>
-      </div>
-    </div>
-    <!-- /Pinbar Mobile --> 
-  </div>
-</div>
-<!-- /Form --> 
-<!-- Course Area -->
-<div class="grayL-bg pb-20">
-  <div class="container">
-    <div class="row"> 
-      <!-- Beauty Therapy Courses -->
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <div class="pt-10 pb-10">
-          <h2>Beauty therapy courses</h2>
-        </div>
-        <div class="hidden-sm hidden-xs"> <img src="images/BeautyTherapy-Menu-img.jpg" alt="" class="img-responsive" /> </div>
-        <div class="panel-group" id="BeautyTherapy">
-          <div class="panel panel-default white-bg">
-            <div class="panel-heading"> <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#DiplomaOfBeautyTherapy">
-              <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">Diploma of Beauty Therapy <span class="icon icon-accordion-circle icon-minus pull-right"></span></h3>
-              </a> </div>
-            <div id="DiplomaOfBeautyTherapy" class="panel-collapse collapse in">
-              <div class="panel-body pl-20 pr-20 pt-20 pb-10">
-                <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
-                <div class="pb-10 pt-10">
-                  <button type="button" class="button-courseArea">Read more »</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default white-bg">
-            <div class="panel-heading"> <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#CertificateIVinBeautyTherapy">
-              <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Certificate IV in Beauty Therapy<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
-              </a> </div>
-            <div id="CertificateIVinBeautyTherapy" class="panel-collapse collapse">
-              <div class="panel-body pl-20 pr-20 pt-20 pb-10">
-                <h3>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin.</h3>
-                <div class="pb-10 pt-10">
-                  <button type="button" class="button-courseArea">Read more »</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default white-bg">
-            <div class="panel-heading"> <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#CertificateInBeautyTherapy">
-              <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Certificate in Beauty Therapy<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
-              </a> </div>
-            <div id="CertificateInBeautyTherapy" class="panel-collapse collapse">
-              <div class="panel-body pl-20 pr-20 pt-20 pb-10">
-                <h3>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid.</h3>
-                <div class="pb-10 pt-10">
-                  <button type="button" class="button-courseArea">Read more »</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /Beauty Therapy Courses --> 
-      <!-- Make up Courses -->
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <h2 class="pt-10 pb-10"> Make up courses </h2>
-        <div class="hidden-sm hidden-xs"> <img src="images/MakeUp-Menu-img.jpg" alt="" class="img-responsive" /> </div>
-        <div class="panel-group" id="MakeUp">
-          <div class="panel panel-default white-bg">
-            <div class="panel-heading"> <a data-toggle="collapse" data-parent="#MakeUp" href="#HowtoApplyMakeUp">
-              <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">How to Apply Make up <span class="icon icon-accordion-circle icon-minus pull-right"></span> </h3>
-              </a> </div>
-            <div id="HowtoApplyMakeUp" class="panel-collapse collapse in">
-              <div class="panel-body pl-20 pr-20 pt-20 pb-10">
-                <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
-                <div class="pb-10 pt-10">
-                  <button type="button" class="button-courseArea">Read more »</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="panel panel-default white-bg">
-            <div class="panel-heading"> <a data-toggle="collapse" data-parent="#MakeUp" href="#CertificateIVinRetailMake-UpandSkinCare">
-              <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Certificate IV in Retail Make-Up and Skin Care<span class="icon icon-accordion-circle icon-plus pull-right"></span></h3>
-              </a> </div>
-            <div id="CertificateIVinRetailMake-UpandSkinCare" class="panel-collapse collapse">
-              <div class="panel-body pl-20 pr-20 pt-20 pb-10">
-                <h3>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin.</h3>
-                <div class="pb-10 pt-10">
-                  <button type="button" class="button-courseArea">Read more »</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /Make up Courses --> 
-      <!-- Nail Courses -->
-      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-        <h2 class="pt-10 pb-10"> Nail courses </h2>
-        <div class="hidden-sm hidden-xs"> <img src="images/Nail-Menu-img.jpg" alt="" class="img-responsive" /> </div>
-        <div class="panel-group" id="Nail">
-          <div class="panel panel-default white-bg">
-            <div class="panel-heading"> <a data-toggle="collapse" data-parent="#Nail" href="#NailTechnicianCertificate">
-              <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">Nail Technician certificate<span class="icon icon-accordion-circle icon-minus pull-right"></span></h3>
-              </a> </div>
-            <div id="NailTechnicianCertificate" class="panel-collapse collapse in">
-              <div class="panel-body pl-20 pr-20 pt-20 pb-10">
-                <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
-                <div class="pb-10 pt-10">
-                  <button type="button" class="button-courseArea">Read more »</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /Nail Courses --> 
-    </div>
-  </div>
-</div>
-<!-- /Course Area --> 
-<!-- How you learn -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-      <h1>How you learn</h1>
-      <h3 class="hidden-sm hidden-xs"> If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
-        <br>
-        Our Professional Editing & Proofreading course will introduce you to proofreading marks and show you effective procedures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive working relationships with authors.<br>
-        <br>
-        ures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive
-        working relationships with authors. </h3>
-    </div>
-    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-      <div class="row">
-        <table class="pt-10" id="myTab">
-          <tr>
-            <td class="oneThirdWidth blue-bg"><a href="#learn1" color="blue"> 
-              <!-- how you learn 1 -->
-              <div class="hidden-xs"> <img src="images/StudyOnline-img.jpg" alt="Study online" class="img-responsive" />
-                <h3 class="pr-20 pl-20 pt-10 pb-10"> Learn the theory as you STUDY ONLINE at your own pace. </h3>
-                <h3 class="pr-20 pl-20 pb-10"> Click to read more </h3>
-              </div>
-              <div class="visible-xs-block">
-                <h3 class="text-center pt-pb-10-pr-pl-5"> Study<br />
-                  Online </h3>
-              </div>
-              <!-- /how you learn 1 --> 
-              </a></td>
-            <td class="oneThirdWidth greenL-bg opacity-half"><a href="#learn2" color="greenL"> 
-              <!-- how you learn 2 -->
-              <div class="hidden-xs"> <img src="images/Workplacement-img.jpg" alt="Workplacement" class="img-responsive" />
-                <h3 class="pr-20 pl-20 pt-10 pb-10"> Get hands-on real world experience through structures Work placement </h3>
-                <h3 class="pr-20 pl-20 pb-10"> Click to read more </h3>
-              </div>
-              <div class="visible-xs-block">
-                <h3 class="text-center pt-pb-10-pr-pl-5"> Work<br />
-                  Placement </h3>
-              </div>
-              <!-- /how you learn 2 --> 
-              </a></td>
-            <td class="oneThirdWidth greenD-bg opacity-half"><a href="#learn3" color="greenD"> 
-              <!-- how you learn 3 -->
-              <div class="hidden-xs"> <img src="images/SkillWorkshop-img.jpg" alt="Skill workshop" class="img-responsive" />
-                <h3 class="pr-20 pl-20 pt-10 pb-10"> Accelerate your knowledge with face-to-face Skills workshops </h3>
-                <h3 class="pr-20 pl-20 pb-10"> Click to read more </h3>
-              </div>
-              <div class="visible-xs-block">
-                <h3 class="text-center pt-pb-10-pr-pl-5"> Skills<br />
-                  Workshop </h3>
-              </div>
-              <!-- /how you learn 3 --> 
-              </a></td>
-          </tr>
-        </table>
-      </div>
-      <div class="row">
-        <div id="learnArrow" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pt-10">
-          <div class="main-triangle-up border-blue center-block"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Seperator -->
-<div class="container">
-  <div class="row">
-    <div id="learnTabContent" class="tab-content learningProcess-box-blue"></div>
-  </div>
-</div>
-<!-- How you learn -->
-<div class="container learningProcess-drop-shadow">
-  <div class="row">
-    <div class="tab-content"> 
-      <!-- How you learn1-clicked1 -->
-      <div id="learn1" class="tab-pane active fade in">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20 pb-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img "/> </div>
-        <div class="col-lg-8 col-md-8">
-          <div class="row pr-20 pl-20 pt-20">
-            <h1> Study Online</h1>
-            <h3 class="pt-pb-10"> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h3>
-          </div>
-        </div>
-      </div>
-      <!-- /How you learn1-clicked1 --> 
-      <!-- How you learn1-clicked2 -->
-      <div id="learn2" class="tab-pane fade">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /> </div>
-        <div class="col-lg-8 col-md-8">
-          <div class="row pr-20 pl-20 pt-20">
-            <h1> Study Online</h1>
-            <h3 class="pt-20">All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h3>
-          </div>
-        </div>
-      </div>
-      <!-- /How you learn1-clicked2 --> 
-      <!-- How you learn1-clicked3 -->
-      <div id="learn3" class="tab-pane fade">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20 pb-10"><img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /></div>
-        <div class="col-lg-8 col-md-8">
-          <div class="row pr-20 pl-20 pt-20">
-            <h1> Study Online</h1>
-            <h3 class="pt-20">All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h3>
-          </div>
-        </div>
-      </div>
-      <!-- /How you learn1-clicked3 --> 
-    </div>
-  </div>
-</div>
-<!-- About Open Colleges -->
-<div class="grayL-bg pb-20">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-12 col-sm-12 hidden-xs">
-        <h1>Something about Open Colleges</h1>
-        <h3 class="hidden-sm hidden-xs"> If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
-          <br>
-          Our Professional Editing & Proofreading course will introduce you to proofreading marks and show you effective procedures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive working relationships with authors.<br>
-          <br>
-          ures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive
-          working relationships with authors. </h3>
-      </div>
-      <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-        <div id="benefits-Tab" class="row pt-20"> <a href="#benefits_affordability" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
-          <!-- Affordability --> 
-          <span class="icon icon-affordability icon-benefits-circle-selected-blue center-block"></span>
-          <div class="text-center pt-5">
-            <h3>Affordable</h3>
-          </div>
-          <!-- /Affordability --> 
-          </a> <a href="#benefits_support" color="greenL" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half"> 
-          <!-- Support --> 
-          <span class="icon icon-support icon-benefits-circle-greenL center-block"></span>
-          <div class="text-center pt-5">
-            <h3>Support</h3>
-          </div>
-          <!-- /Support --> 
-          </a> <a href="#benefits_flexibility" color="greenD" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half"> 
-          <!-- Flexibility --> 
-          <span class="icon icon-study icon-benefits-circle-greenD center-block"></span>
-          <div class="text-center pt-5">
-            <h3>Flexibility</h3>
-          </div>
-          <!-- /Flexibility --> 
-          </a> <a href="#benefits_quality" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half"> 
-          <!-- Quality --> 
-          <span class="icon icon-quality icon-benefits-circle-blue center-block"></span>
-          <div class="text-center pt-5">
-            <h3>Quality</h3>
-          </div>
-          <!-- /Quality --> 
-          </a> </div>
-        <div class="row">
-          <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <div class="main-triangle-up border-blue center-block pt-10"></div>
-          </div>
-        </div>
-        <!-- benefits -->
-        <div class="row">
-          <div class="tab-content">
-            <div id="benefits_affordability" class="tab-pane active in col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue"> 
-              <!-- Affordability -->
-              <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-              <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
-              <!-- /Affordability --> 
-            </div>
-            <div id="benefits_support" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenL"> 
-              <!-- Affordability -->
-              <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-              <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
-              <!-- /Affordability --> 
-            </div>
-            <div id="benefits_flexibility" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenD"> 
-              <!-- Flexibility -->
-              <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-              <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
-              <!-- /Affordability --> 
-            </div>
-            <div id="benefits_quality" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue"> 
-              <!-- Quality -->
-              <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-              <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
-              <!-- /Quality --> 
-            </div>
-          </div>
-        </div>
-        <!-- /benefits --> 
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /About Open Colleges --> 
-<!-- Job growth -->
-<div class="container hidden-xs">
-  <h1 class="pt-20 pb-10">The growth of employment by sector in 2014:</h1>
-  <div class="row grayL-bg border-gray mt-20">
-    <div class="col-lg-4 col-md-12 hidden-sm">
-      <h2 class=" pt-20 pb-10"> Based on Department of Employment Projection the job growth for Beauty Therapy Skill Level is 4* is as below: </h2>
-      <h3> Projected five year employment growth
-        to November 2018 (’000) : 3.8<br>
-        <br>
-        Projected five year employment growth
-        to November 2018 (%) : 13.5<br>
-      </h3>
-    </div>
-    <div class="jobGrowth-Seperator visible-lg-block"><span class="jobGrowth-SeperatorArrow"></span></div>
-    <div class="col-lg-7 col-md-12 col-sm-12">
-      <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2"> 
-          <!-- Job growth 2013 --> 
-          <span class="JobGrowth-chartEmployee" data-percent="30"> <span class="percentage">28500</span> </span> 
-          <!-- /Job growth 2013 --> 
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 text-center"> 
-          <!-- Job growth arrow -->
-          <h3 class="JobGrowth-MiddleText plume text-center">13.5%<br />
-            Job growth</h3>
-          <span class="icon jobGrowth-arrow icon-JobGrowth-arrow center-block"></span> 
-          <!-- Job growth arrow --> 
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4"> 
-          <!-- Job growth 2018 --> 
-          <span class="JobGrowth-chartProjectedEmployeeOver" data-percent="30"></span> <span class="JobGrowth-chartProjectedEmployee" data-percent="40"> <span class="percentage">32300</span> </span> 
-          <!-- /Job growth 2018 --> 
-        </div>
-      </div>
-      <div class="row">
-        <h3 class="col-lg-4 col-md-4 col-sm-4 pt-10 pb-10 col-md-offset-2 col-sm-offset-2"> Employment level<br>
-          November 2013 </h3>
-        <h3 class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 pt-10 pb-10"> Projected employment level<br>
-          November 2018 </h3>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<!-- /Job growth --> 
-<!-- Our tutors and Testimonial -->
-<div class="container hidden-sm hidden-xs">
-  <div class="row hidden-xs mt-20"> 
-    <!-- Meet our tutors -->
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="row pt-20 pb-10">
-        <h1 class="floatLeft pr-10">Meet our tutors:</h1>
-        <div class="pt-27 pl-10"> <span class="icon icon-arrow-left icon-arrowLeft-circle"></span> <span class="icon icon-arrow-right icon-arrowRight-circle"></span></div>
-      </div>
-      <div class="row"> 
-        <!-- Tutor 1 -->
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Andrew.jpg" alt="" class="img-responsive" /></div>
-          <div class="border-gray-1 text-center pt-10 pb-10">
-            <h3>Andrew Harward</h3>
-            <h3 class="text-blue">Web, development</h3>
-          </div>
-        </div>
-        <!-- /Tutor 1 --> 
-        <!-- Tutor 2 -->
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Jessica.jpg" alt="" class="img-responsive" /></div>
-          <div class="border-gray-1 text-center pt-10 pb-10">
-            <h3>Jessica Malbowa</h3>
-            <h3 class="text-blue">Web, development</h3>
-          </div>
-        </div>
-        <!-- /Tutor 2 --> 
-      </div>
-    </div>
-    <!-- /Meet our tutors --> 
-    <!-- Testimonial -->
-    <div class="col-lg-6 col-md-6 col-sm-12">
-      <div class="row pt-20 pb-10">
-                    <h1 class="floatLeft pr-10">Students Testimonials:</h1>
-                    <div class="pt-27">
-                        <a href="#" id="jcarousel-control-prev" data-jcarouselcontrol="true" class="icon icon-arrow-left icon-arrowLeft-circle"></a> <a href="#" id="jcarousel-control-next" data-jcarouselcontrol="true" class="icon icon-arrow-right icon-arrowRight-circle"></a>
+    <!-- /Form -->
+    <!-- Course Area -->
+    <div class="grayL-bg pb-20">
+        <div class="container">
+            <div class="row">
+                <!-- Beauty Therapy Courses -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="pt-10 pb-10">
+                        <h2>Beauty therapy courses</h2>
                     </div>
-                </div>
-                <div class="row testimonial-box">
-                    <div class="pt-10 pl-10 pr-10">
-                        <div class="jcarousel" data-jcarousel="true">
-                            <ul>
-                                <li>
-                                    <!-- /Testimonial 1 img -->
-                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
-                                    <!-- /Testimonial 1 img -->
-                                    <div class="testimonial-text-wrapper">
-                                        <!-- Testimonial 1 text -->
-                                        <h3>
-                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
-                                            fringilla. sapien, nec rutrum justo. Cum sociis
-                                            natoque penati parturient montes, nascetur take
-                                            ridiculus mus.
-                                        </h3>
-                                        <span class="text-blue">
-                                            <br>
-                                            - James P. Stanley, developer
-                                        </span>
-                                        <!-- /Testimonial 1 text -->
+                    <div class="hidden-sm hidden-xs"> <img src="images/BeautyTherapy-Menu-img.jpg" alt="" class="img-responsive" /> </div>
+                    <div class="panel-group" id="BeautyTherapy">
+                        <div class="panel panel-default white-bg">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#DiplomaOfBeautyTherapy">
+                                    <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">Diploma of Beauty Therapy <span class="icon icon-accordion-circle icon-minus pull-right"></span></h3>
+                                </a>
+                            </div>
+                            <div id="DiplomaOfBeautyTherapy" class="panel-collapse collapse in">
+                                <div class="panel-body pl-20 pr-20 pt-20 pb-10">
+                                    <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
+                                    <div class="pb-10 pt-10">
+                                        <button type="button" class="button-courseArea">Read more »</button>
                                     </div>
-                                </li>
-                                <li>
-                                    <!-- /Testimonial 2 img -->
-                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
-                                    <!-- /Testimonial 2 img -->
-                                    <div class="testimonial-text-wrapper">
-                                        <!-- Testimonial 2 text -->
-                                        <h3>
-                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
-                                            fringilla. sapien, nec rutrum justo. Cum sociis
-                                            natoque penati parturient montes, nascetur take
-                                            ridiculus mus.
-                                        </h3>
-                                        <span class="text-blue">
-                                            <br>
-                                            - James P. Stanley, developer
-                                        </span>
-                                        <!-- /Testimonial 2 text -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default white-bg">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#CertificateIVinBeautyTherapy">
+                                    <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Certificate IV in Beauty Therapy<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
+                                </a>
+                            </div>
+                            <div id="CertificateIVinBeautyTherapy" class="panel-collapse collapse">
+                                <div class="panel-body pl-20 pr-20 pt-20 pb-10">
+                                    <h3>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin.</h3>
+                                    <div class="pb-10 pt-10">
+                                        <button type="button" class="button-courseArea">Read more »</button>
                                     </div>
-                                </li>
-                                <li>
-                                    <!-- /Testimonial 3 img -->
-                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
-                                    <!-- /Testimonial 3 img -->
-                                    <div class="testimonial-text-wrapper">
-                                        <!-- Testimonial 2 text -->
-                                        <h3>
-                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
-                                            fringilla. sapien, nec rutrum justo. Cum sociis
-                                            natoque penati parturient montes, nascetur take
-                                            ridiculus mus.
-                                        </h3>
-                                        <span class="text-blue">
-                                            <br>
-                                            - James P. Stanley, developer
-                                        </span>
-                                        <!-- /Testimonial 2 text -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default white-bg">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#CertificateInBeautyTherapy">
+                                    <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Certificate in Beauty Therapy<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
+                                </a>
+                            </div>
+                            <div id="CertificateInBeautyTherapy" class="panel-collapse collapse">
+                                <div class="panel-body pl-20 pr-20 pt-20 pb-10">
+                                    <h3>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid.</h3>
+                                    <div class="pb-10 pt-10">
+                                        <button type="button" class="button-courseArea">Read more »</button>
                                     </div>
-                                </li>
-                                <li>
-                                    <!-- /Testimonial 4 img -->
-                                    <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
-                                    <!-- /Testimonial 4 img -->
-                                    <div class="testimonial-text-wrapper">
-                                        <!-- Testimonial 2 text -->
-                                        <h3>
-                                            <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
-                                            fringilla. sapien, nec rutrum justo. Cum sociis
-                                            natoque penati parturient montes, nascetur take
-                                            ridiculus mus.
-                                        </h3>
-                                        <span class="text-blue">
-                                            <br>
-                                            - James P. Stanley, developer
-                                        </span>
-                                        <!-- /Testimonial 2 text -->
-                                    </div>
-                                </li>
-                            </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="testimonial-links-box" data-jcarouselpagination="true">
+                </div>
+                <!-- /Beauty Therapy Courses -->
+                <!-- Make up Courses -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2 class="pt-10 pb-10"> Make up courses </h2>
+                    <div class="hidden-sm hidden-xs"> <img src="images/MakeUp-Menu-img.jpg" alt="" class="img-responsive" /> </div>
+                    <div class="panel-group" id="MakeUp">
+                        <div class="panel panel-default white-bg">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#MakeUp" href="#HowtoApplyMakeUp">
+                                    <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">How to Apply Make up <span class="icon icon-accordion-circle icon-minus pull-right"></span> </h3>
+                                </a>
+                            </div>
+                            <div id="HowtoApplyMakeUp" class="panel-collapse collapse in">
+                                <div class="panel-body pl-20 pr-20 pt-20 pb-10">
+                                    <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
+                                    <div class="pb-10 pt-10">
+                                        <button type="button" class="button-courseArea">Read more »</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default white-bg">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#MakeUp" href="#CertificateIVinRetailMake-UpandSkinCare">
+                                    <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Certificate IV in Retail Make-Up and Skin Care<span class="icon icon-accordion-circle icon-plus pull-right"></span></h3>
+                                </a>
+                            </div>
+                            <div id="CertificateIVinRetailMake-UpandSkinCare" class="panel-collapse collapse">
+                                <div class="panel-body pl-20 pr-20 pt-20 pb-10">
+                                    <h3>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin.</h3>
+                                    <div class="pb-10 pt-10">
+                                        <button type="button" class="button-courseArea">Read more »</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Make up Courses -->
+                <!-- Nail Courses -->
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2 class="pt-10 pb-10"> Nail courses </h2>
+                    <div class="hidden-sm hidden-xs"> <img src="images/Nail-Menu-img.jpg" alt="" class="img-responsive" /> </div>
+                    <div class="panel-group" id="Nail">
+                        <div class="panel panel-default white-bg">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#Nail" href="#NailTechnicianCertificate">
+                                    <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">Nail Technician certificate<span class="icon icon-accordion-circle icon-minus pull-right"></span></h3>
+                                </a>
+                            </div>
+                            <div id="NailTechnicianCertificate" class="panel-collapse collapse in">
+                                <div class="panel-body pl-20 pr-20 pt-20 pb-10">
+                                    <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
+                                    <div class="pb-10 pt-10">
+                                        <button type="button" class="button-courseArea">Read more »</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Nail Courses -->
+            </div>
         </div>
-      </div>
     </div>
-    <!-- /Testimonial --> 
-  </div>
-</div>
-<!--  /Our tutors and testimonial --> 
-<!-- Footer -->
-<footer>
-  <div class="container">
-    <div class="row pt-10"> 
-      <!-- OC logo -->
-      <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs pt-20"> <img src="images/OC-logo-white.png" width="397" height="106" alt="" class="oc-logo-white" /> </div>
-      <!-- /OC logo --> 
-      <!-- Social media -->
-      <div class="col-lg-7 col-md-7 col-sm-9 col-xs-12 pt-20">
-        <div class="row pt-15 pr-pl-60">
-          <h4 class="col-lg-4 col-md-4 hidden-sm hidden-xs"> Follow us on social media: </h4>
-          <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pull-left">
-            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-facebook"></span> </div>
-            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-youTube"></span> </div>
-            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-twitter"></span> </div>
-            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-google"></span> </div>
-            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-linkedIn"></span> </div>
-            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-pinterest"></span> </div>
-          </div>
+    <!-- /Course Area -->
+    <!-- How you learn -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <h1>How you learn</h1>
+                <h3 class="hidden-sm hidden-xs">
+                    If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
+                    <br>
+                    Our Professional Editing & Proofreading course will introduce you to proofreading marks and show you effective procedures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive working relationships with authors.<br>
+                    <br>
+                    ures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive
+                    working relationships with authors.
+                </h3>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                    <table class="pt-10" id="myTab">
+                        <tr>
+                            <td class="oneThirdWidth blue-bg">
+                                <a href="#learn1" color="blue">
+                                    <!-- how you learn 1 -->
+                                    <div class="hidden-xs">
+                                        <img src="images/StudyOnline-img.jpg" alt="Study online" class="img-responsive" />
+                                        <h3 class="pr-20 pl-20 pt-10 pb-10"> Learn the theory as you STUDY ONLINE at your own pace. </h3>
+                                        <h3 class="pr-20 pl-20 pb-10"> Click to read more </h3>
+                                    </div>
+                                    <div class="visible-xs-block">
+                                        <h3 class="text-center pt-pb-10-pr-pl-5">
+                                            Study<br />
+                                            Online
+                                        </h3>
+                                    </div>
+                                    <!-- /how you learn 1 -->
+                                </a>
+                            </td>
+                            <td class="oneThirdWidth greenL-bg opacity-half">
+                                <a href="#learn2" color="greenL">
+                                    <!-- how you learn 2 -->
+                                    <div class="hidden-xs">
+                                        <img src="images/Workplacement-img.jpg" alt="Workplacement" class="img-responsive" />
+                                        <h3 class="pr-20 pl-20 pt-10 pb-10"> Get hands-on real world experience through structures Work placement </h3>
+                                        <h3 class="pr-20 pl-20 pb-10"> Click to read more </h3>
+                                    </div>
+                                    <div class="visible-xs-block">
+                                        <h3 class="text-center pt-pb-10-pr-pl-5">
+                                            Work<br />
+                                            Placement
+                                        </h3>
+                                    </div>
+                                    <!-- /how you learn 2 -->
+                                </a>
+                            </td>
+                            <td class="oneThirdWidth greenD-bg opacity-half">
+                                <a href="#learn3" color="greenD">
+                                    <!-- how you learn 3 -->
+                                    <div class="hidden-xs">
+                                        <img src="images/SkillWorkshop-img.jpg" alt="Skill workshop" class="img-responsive" />
+                                        <h3 class="pr-20 pl-20 pt-10 pb-10"> Accelerate your knowledge with face-to-face Skills workshops </h3>
+                                        <h3 class="pr-20 pl-20 pb-10"> Click to read more </h3>
+                                    </div>
+                                    <div class="visible-xs-block">
+                                        <h3 class="text-center pt-pb-10-pr-pl-5">
+                                            Skills<br />
+                                            Workshop
+                                        </h3>
+                                    </div>
+                                    <!-- /how you learn 3 -->
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="row">
+                    <div id="learnArrow" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pt-10">
+                        <div class="main-triangle-up border-blue center-block"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /Social media --> 
-      <!-- Contact us -->
-      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 world-map pull-right">
-        <h4><span class="icon icon-phone pt-10 pb-10"> </span>1300 852 011</h4>
-        <h4> <span class="icon icon-mail"> </span> support@opencolleges.edu.au</h4>
-      </div>
-      <!-- /Contact us --> 
     </div>
-    <div class="row blue-bg pr-pl-10 pt-pb-5">
-      <h5>© 2014 Open Colleges | Disclaimer</h5>
+    <!-- Seperator -->
+    <div class="container">
+        <div class="row">
+            <div id="learnTabContent" class="tab-content learningProcess-box-blue"></div>
+        </div>
     </div>
-  </div>
-</footer>
-<!-- /Footer -->
+    <!-- How you learn -->
+    <div class="container learningProcess-drop-shadow">
+        <div class="row">
+            <div class="tab-content">
+                <!-- How you learn1-clicked1 -->
+                <div id="learn1" class="tab-pane active fade in">
+                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20 pb-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img " /> </div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="row pr-20 pl-20 pt-20">
+                            <h1> Study Online</h1>
+                            <h3 class="pt-pb-10"> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /How you learn1-clicked1 -->
+                <!-- How you learn1-clicked2 -->
+                <div id="learn2" class="tab-pane fade">
+                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /> </div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="row pr-20 pl-20 pt-20">
+                            <h1> Study Online</h1>
+                            <h3 class="pt-20">All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /How you learn1-clicked2 -->
+                <!-- How you learn1-clicked3 -->
+                <div id="learn3" class="tab-pane fade">
+                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20 pb-10"><img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /></div>
+                    <div class="col-lg-8 col-md-8">
+                        <div class="row pr-20 pl-20 pt-20">
+                            <h1> Study Online</h1>
+                            <h3 class="pt-20">All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /How you learn1-clicked3 -->
+            </div>
+        </div>
+    </div>
+    <!-- About Open Colleges -->
+    <div class="grayL-bg pb-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 hidden-xs">
+                    <h1>Something about Open Colleges</h1>
+                    <h3 class="hidden-sm hidden-xs">
+                        If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
+                        <br>
+                        Our Professional Editing & Proofreading course will introduce you to proofreading marks and show you effective procedures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive working relationships with authors.<br>
+                        <br>
+                        ures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive
+                        working relationships with authors.
+                    </h3>
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div id="benefits-Tab" class="row pt-20">
+                        <a href="#benefits_affordability" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <!-- Affordability -->
+                            <span class="icon icon-affordability icon-benefits-circle-selected-blue center-block"></span>
+                            <div class="text-center pt-5">
+                                <h3>Affordable</h3>
+                            </div>
+                            <!-- /Affordability -->
+                        </a> <a href="#benefits_support" color="greenL" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                            <!-- Support -->
+                            <span class="icon icon-support icon-benefits-circle-greenL center-block"></span>
+                            <div class="text-center pt-5">
+                                <h3>Support</h3>
+                            </div>
+                            <!-- /Support -->
+                        </a> <a href="#benefits_flexibility" color="greenD" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                            <!-- Flexibility -->
+                            <span class="icon icon-study icon-benefits-circle-greenD center-block"></span>
+                            <div class="text-center pt-5">
+                                <h3>Flexibility</h3>
+                            </div>
+                            <!-- /Flexibility -->
+                        </a> <a href="#benefits_quality" color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                            <!-- Quality -->
+                            <span class="icon icon-quality icon-benefits-circle-blue center-block"></span>
+                            <div class="text-center pt-5">
+                                <h3>Quality</h3>
+                            </div>
+                            <!-- /Quality -->
+                        </a>
+                    </div>
+                    <div class="row">
+                        <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="main-triangle-up border-blue center-block pt-10"></div>
+                        </div>
+                    </div>
+                    <!-- benefits -->
+                    <div class="row">
+                        <div class="tab-content">
+                            <div id="benefits_affordability" class="tab-pane active in col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
+                                <!-- Affordability -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Affordability -->
+                            </div>
+                            <div id="benefits_support" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenL">
+                                <!-- Affordability -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Affordability -->
+                            </div>
+                            <div id="benefits_flexibility" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenD">
+                                <!-- Flexibility -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Affordability -->
+                            </div>
+                            <div id="benefits_quality" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
+                                <!-- Quality -->
+                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                                <h3 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h3>
+                                <!-- /Quality -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /benefits -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /About Open Colleges -->
+    <!-- Job growth -->
+    <div class="container hidden-xs">
+        <h1 class="pt-20 pb-10">The growth of employment by sector in 2014:</h1>
+        <div class="row grayL-bg border-gray mt-20">
+            <div class="col-lg-4 col-md-12 hidden-sm">
+                <h2 class=" pt-20 pb-10"> Based on Department of Employment Projection the job growth for Beauty Therapy Skill Level is 4* is as below: </h2>
+                <h3>
+                    Projected five year employment growth
+                    to November 2018 (’000) : 3.8<br>
+                    <br>
+                    Projected five year employment growth
+                    to November 2018 (%) : 13.5<br>
+                </h3>
+            </div>
+            <div class="jobGrowth-Seperator visible-lg-block"><span class="jobGrowth-SeperatorArrow"></span></div>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2">
+                        <!-- Job growth 2013 -->
+                        <span class="JobGrowth-chartEmployee" data-percent="30"> <span class="percentage">28500</span> </span>
+                        <!-- /Job growth 2013 -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 text-center">
+                        <!-- Job growth arrow -->
+                        <h3 class="JobGrowth-MiddleText plume text-center">
+                            13.5%<br />
+                            Job growth
+                        </h3>
+                        <span class="icon jobGrowth-arrow icon-JobGrowth-arrow center-block"></span>
+                        <!-- Job growth arrow -->
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <!-- Job growth 2018 -->
+                        <span class="JobGrowth-chartProjectedEmployeeOver" data-percent="30"></span> <span class="JobGrowth-chartProjectedEmployee" data-percent="40"> <span class="percentage">32300</span> </span>
+                        <!-- /Job growth 2018 -->
+                    </div>
+                </div>
+                <div class="row">
+                    <h3 class="col-lg-4 col-md-4 col-sm-4 pt-10 pb-10 col-md-offset-2 col-sm-offset-2">
+                        Employment level<br>
+                        November 2013
+                    </h3>
+                    <h3 class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 pt-10 pb-10">
+                        Projected employment level<br>
+                        November 2018
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- /Job growth -->
+    <!-- Our tutors and Testimonial -->
+    <div class="container">
+        <div class="row mt-20">
+            <!-- Meet our tutors -->
+            <div class="col-lg-6 col-md-6 hidden-xs hidden-sm">
+                <div>
+                    <h1 class="pull-left pr-10">Meet our tutors:</h1>
+                    <div class="pt-27 hidden-xs hidden-sm pull-left" id="tutorCarouselArrow">
+                    </div>
+                </div>
+                <div class="tutor-box">
+                    <!-- Tutor 1 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Andrew.jpg" alt="" class="img-responsive" /></div>
+                        <div class="border-gray-1 text-center pt-10 pb-10">
+                            <h3>Andrew Harward</h3>
+                            <h3 class="text-blue">Web, development</h3>
+                        </div>
+                    </div>
+                    <!-- /Tutor 1 -->
+                    <!-- Tutor 2 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Jessica.jpg" alt="" class="img-responsive" /></div>
+                        <div class="border-gray-1 text-center pt-10 pb-10">
+                            <h3>Jessica Malbowa</h3>
+                            <h3 class="text-blue">Web, development</h3>
+                        </div>
+                    </div>
+                    <!-- /Tutor 2 -->
+                    <!-- Tutor 3 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Andrew.jpg" alt="" class="img-responsive" /></div>
+                        <div class="border-gray-1 text-center pt-10 pb-10">
+                            <h3>Andrew Harward</h3>
+                            <h3 class="text-blue">Web, development</h3>
+                        </div>
+                    </div>
+                    <!-- /Tutor 3 -->
+                    <!-- Tutor 4 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="pt-pb-10 pr-pl-10 border-gray-1"><img src="images/Jessica.jpg" alt="" class="img-responsive" /></div>
+                        <div class="border-gray-1 text-center pt-10 pb-10">
+                            <h3>Jessica Malbowa</h3>
+                            <h3 class="text-blue">Web, development</h3>
+                        </div>
+                    </div>
+                    <!-- /Tutor 4 -->
+                </div>
+            </div>
+            <!-- /Meet our tutors -->
+            <!-- Testimonial -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div>
+                    <h1 class="pr-10 pull-left">Students Testimonials:</h1>
+                    <div class="pt-27 hidden-xs hidden-sm pull-left" id="testimonialCarouselArrow">
+                    </div>
+                </div>
+                <div class="testimonialCarousel testimonial-box">
+                    <div>
+                        <!-- /Testimonial 1 img -->
+                        <div class="testimonial-image-wrapper border-gray-1 hidden-xs hidden-sm"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                        <!-- /Testimonial 1 img -->
+                        <div class="testimonial-text-wrapper">
+                            <!-- Testimonial 1 text -->
+                            <h3>
+                                <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                fringilla. sapien, nec rutrum justo. Cum sociis
+                                natoque penati parturient montes, nascetur take
+                                ridiculus mus.
+                            </h3>
+                            <span class="text-blue">
+                                <br>
+                                - James P. Stanley, developer
+                            </span>
+                            <!-- /Testimonial 1 text -->
+                        </div>
+                    </div>
+                    <div>
+                        <!-- /Testimonial 2 img -->
+                        <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                        <!-- /Testimonial 2 img -->
+                        <div class="testimonial-text-wrapper">
+                            <!-- Testimonial 2 text -->
+                            <h3>
+                                <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                fringilla. sapien, nec rutrum justo. Cum sociis
+                                natoque penati parturient montes, nascetur take
+                                ridiculus mus.
+                            </h3>
+                            <span class="text-blue">
+                                <br>
+                                - James P. Stanley, developer
+                            </span>
+                            <!-- /Testimonial 2 text -->
+                        </div>
+                    </div>
+                    <div>
+                        <!-- /Testimonial 3 img -->
+                        <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                        <!-- /Testimonial 3 img -->
+                        <div class="testimonial-text-wrapper">
+                            <!-- Testimonial 2 text -->
+                            <h3>
+                                <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                fringilla. sapien, nec rutrum justo. Cum sociis
+                                natoque penati parturient montes, nascetur take
+                                ridiculus mus.
+                            </h3>
+                            <span class="text-blue">
+                                <br>
+                                - James P. Stanley, developer
+                            </span>
+                            <!-- /Testimonial 2 text -->
+                        </div>
+                    </div>
+                    <div>
+                        <!-- /Testimonial 4 img -->
+                        <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                        <!-- /Testimonial 4 img -->
+                        <div class="testimonial-text-wrapper">
+                            <!-- Testimonial 2 text -->
+                            <h3>
+                                <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
+                                fringilla. sapien, nec rutrum justo. Cum sociis
+                                natoque penati parturient montes, nascetur take
+                                ridiculus mus.
+                            </h3>
+                            <span class="text-blue">
+                                <br>
+                                - James P. Stanley, developer
+                            </span>
+                            <!-- /Testimonial 2 text -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Testimonial -->
+        </div>
+    </div>
+    <!--  /Our tutors and testimonial -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row pt-10">
+                <!-- OC logo -->
+                <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs pt-20"> <img src="images/OC-logo-white.png" width="397" height="106" alt="" class="oc-logo-white" /> </div>
+                <!-- /OC logo -->
+                <!-- Social media -->
+                <div class="col-lg-7 col-md-7 col-sm-9 col-xs-12 pt-20">
+                    <div class="row pt-15 pr-pl-60">
+                        <h4 class="col-lg-4 col-md-4 hidden-sm hidden-xs"> Follow us on social media: </h4>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pull-left">
+                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-facebook"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-youTube"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-twitter"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-google"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-linkedIn"></span> </div>
+                            <div class="col-lg-2 col-md-2 col-md-2 col-sm-2 col-xs-2"> <span class="icon icon-pinterest"></span> </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Social media -->
+                <!-- Contact us -->
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 world-map pull-right">
+                    <h4><span class="icon icon-phone pt-10 pb-10"> </span>1300 852 011</h4>
+                    <h4> <span class="icon icon-mail"> </span> support@opencolleges.edu.au</h4>
+                </div>
+                <!-- /Contact us -->
+            </div>
+            <div class="row blue-bg pr-pl-10 pt-pb-5">
+                <h5>© 2014 Open Colleges | Disclaimer</h5>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
 </body>
 </html>

@@ -124,43 +124,30 @@ $(document).ready(function () {
         });
 
 
-
-    $('.jcarousel').jcarousel();
-
-    $('#jcarousel-control-prev')
-        .on('jcarouselcontrol:active', function () {
-            $(this).removeClass('inactive');
-        })
-        .on('jcarouselcontrol:inactive', function () {
-            $(this).addClass('inactive');
-        })
-        .jcarouselControl({
-            target: '-=1'
+    if (isMobile) {
+        $('.testimonialCarousel').slick({
+            arrows: true,
+            dots: true,
         });
-
-    $('#jcarousel-control-next')
-        .on('jcarouselcontrol:active', function () {
-            $(this).removeClass('inactive');
-        })
-        .on('jcarouselcontrol:inactive', function () {
-            $(this).addClass('inactive');
-        })
-        .jcarouselControl({
-            target: '+=1'
+    }
+    else {
+        $('.testimonialCarousel').slick({
+            arrows: true,
+            dots: true,
+            appendArrows: $('#testimonialCarouselArrow'),
+            prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
+            nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
         });
+    }
 
-    $('.testimonial-links-box')
-        .on('jcarouselpagination:active', 'a', function () {
-            $(this).switchClass('testimonial-circle', 'testimonial-circle-selected');
-        })
-        .on('jcarouselpagination:inactive', 'a', function () {
-            $(this).switchClass('testimonial-circle-selected', 'testimonial-circle');
-        })
-        .jcarouselPagination({
-            'item': function (page, carouselItems) {
-                return '<a href="#' + page + '" class="testimonial-circle">&nbsp;</a>';
-            }
-        });
+    $('.tutor-box').slick({
+        arrows: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        appendArrows: $('#tutorCarouselArrow'),
+        prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
+        nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
+    });
 });
 
 function moveArrow(objectId, offsetSize, linkObject) {
@@ -179,11 +166,27 @@ $(window).resize(function () {
     if ($(window).width() >= 992) {
         isMobile = false;
         $(".main-menu-list").show();
+
+        $('.testimonialCarousel').unslick();
+        $('.testimonialCarousel').slick({
+            arrows: true,
+            dots: true,
+            appendArrows: $('#testimonialCarouselArrow'),
+            prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
+            nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
+        });
+
     } else {
         isMobile = true;
         $(".main-menu-list").hide();
         $(".collapse").each(function (index, element) {
             $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
+        });
+
+        $('.testimonialCarousel').unslick();
+        $('.testimonialCarousel').slick({
+            arrows: true,
+            dots: true,
         });
     }
 });
