@@ -22,7 +22,9 @@
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/jquery.easing-1.3.min.js"></script>
     <script src="js/waypoints.min.js"></script>
+    <script src="js/waypoints-sticky.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -45,7 +47,7 @@
                 <nav class="stickRight col-xs-12 pb-10">
                     <ul class="main-menu-list">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Courses</a></li>
+                        <li><a href="courseArea.html">Courses</a></li>
                         <li><a href="#">Studying online</a></li>
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Blog</a></li>
@@ -64,10 +66,11 @@
     </div>
     <!-- /Hero img -->
     <!-- Form -->
-    <div class="blue-bg">
+    <div id="stickyHeader" class="blue-bg hidden-xs hidden-sm">
         <div class="container">
             <!-- Desktop -->
-            <div class="row pt-10 hidden-xs hidden-sm pb-10">
+            <div class="row pt-10 pb-10">
+            	<div id="pinbarText"><h2>Download your free course guide</h2></div>
                 <div class="white col-lg-4 col-md-3">
                     <h2 class="pb-10 pt-5">Download your free course guide</h2>
                     <h4 class="hidden-md">Enter your details below to receive a free PDF and a consultation with a Course and Careers Advisor.</h4>
@@ -132,18 +135,28 @@
                 </div>
             </div>
             <!-- /Desktop -->
-            <!-- Pinbar Mobile -->
-            <div class="row hidden-lg hidden-md padding-10">
-                <div class="col-sm-6 col-xs-6">
-                    <div class="button-pinbarMobile"><span class="icon icon-pinbarMobile-circle icon-phone text-blue"></span> Call us</div>
-                </div>
-                <div class="col-sm-6 col-xs-6">
-                    <div class="button-pinbarMobile"><span class="icon icon-pinbarMobile-circle icon-download text-blue"></span> Download <span>free guide</span></div>
-                </div>
-            </div>
-            <!-- /Pinbar Mobile -->
         </div>
     </div>
+    <!-- Pinbar Mobile -->
+    <div class="container-fluid hidden-lg hidden-md blue-bg">
+      <div class="row padding-10">
+          <div class="col-sm-6 col-xs-6">
+              <div class="button-pinbarMobile">
+              <div class="ContentPhone">
+                  <div class="icon icon-pinbarMobile-circle icon-phone text-blue pull-left"></div><div class="pinbarMobile-Text"> Call us</div>
+              </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-xs-6">
+              <div class="button-pinbarMobile">
+              <div class="ContentDownload">
+                  <div class="icon icon-pinbarMobile-circle icon-download text-blue pull-left"></div><div class="pinbarMobile-Text">Download free guide</div>
+              </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- /Pinbar Mobile -->
     <!-- /Form -->
     <!-- Course Area -->
     <div class="grayL-bg pb-20">
@@ -219,7 +232,7 @@
                                 <div class="panel-body pl-20 pr-20 pt-20 pb-10">
                                     <h3>Pellentesque eleifend euismod sapien non etlasiteste. Donec yrg98ycx  8y re98fyvi hdfhvvv ante sapienle, semper tristique nulla vitae, porttitor freyuf iudstv igeas iuybbjh dfihv diofugkg consequat nisi. </h3>
                                     <div class="pb-10 pt-10">
-                                        <button type="button" class="button-courseArea">Read more »</button>
+                                        <a href="makeUp-course.html"><button type="button" class="button-courseArea">Read more »</button></a>
                                     </div>
                                 </div>
                             </div>
@@ -539,11 +552,9 @@
         <div class="row mt-20">
             <!-- Meet our tutors -->
             <div class="col-lg-6 col-md-6 hidden-xs hidden-sm">
-                <div>
                     <h1 class="pull-left pr-10">Meet our tutors:</h1>
                     <div class="pt-27 hidden-xs hidden-sm pull-left" id="tutorCarouselArrow">
                     </div>
-                </div>
                 <div class="tutor-box">
                     <!-- Tutor 1 -->
                     <div class="col-lg-6 col-md-6 col-sm-6">
@@ -663,7 +674,7 @@
                             </h3>
                             <span class="text-blue">
                                 <br>
-                                - James P. Stanley, developer
+                                ~ James P. Stanley, developer
                             </span>
                             <!-- /Testimonial 2 text -->
                         </div>

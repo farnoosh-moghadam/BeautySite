@@ -1,5 +1,42 @@
 ﻿var isMobile = false;
 
+function moveArrow(objectId, offsetSize, linkObject) {
+    var classesToRemove = $(objectId).attr("class").match(/col-\S{2}-offset-\d{1}/g);
+    var allClassesInline = "";
+    if ($(classesToRemove).length !== 0){
+        allClassesInline = classesToRemove.join(' ');
+	}
+    $(objectId).switchClass(allClassesInline, "col-lg-offset-" + offsetSize + " col-md-offset-" + offsetSize + " col-sm-offset-" + offsetSize + " col-xs-offset-" + offsetSize, 500);
+
+    $(objectId + " div").removeClass(function (index, css) {
+        return (css.match(/\bborder-\S+/g) || []).join(' ');
+    }).addClass('border-' + $(linkObject).attr("color"));
+}
+
+function handleSticky(dir) {
+	  if(isMobile) {
+		  return;
+	  }
+	  if(dir==='down')
+	  {
+		  $('#stickyHeader').hover(function() {
+			  $('#stickyHeader').animate({'height': '110px'});
+			  $('#pinbarText').animate({'height': '0px'});
+		  }, function() {
+			  $('#stickyHeader').animate({'height': '40px'});
+			  $('#pinbarText').animate({'height': '25px'});
+		  });
+		  $('#stickyHeader').animate({'height': '40px'});
+		  $('#pinbarText').animate({'height': '25px'});
+	  }
+	  else
+	  {
+		  $('#stickyHeader').unbind('mouseenter mouseleave');
+		  $('#stickyHeader').animate({'height': '110px'});
+		  $('#pinbarText').animate({'height': '0px'});
+	  }
+}
+
 $(document).ready(function () {
     if ($(window).width() >= 992) {
         isMobile = false;
@@ -7,11 +44,6 @@ $(document).ready(function () {
     else {
         isMobile = true;
     }
-
-    $('#burger').click(function () {
-        $('.main-menu-list').toggle('slow');
-    });
-
     var selectors = [];
     selectors.push('#BeautyTherapy');
     selectors.push('#MakeUp');
@@ -41,8 +73,10 @@ $(document).ready(function () {
     }
 
     $("#myTab a").each(function (index, element) {
-        $(element).click(function (e) {
-            e.preventDefault();
+        $(element).click(function () {
+            $('html, body').animate({
+     			scrollTop: $("#learnTabContent").offset().top - 100
+ 			}, 1000);
 
             $(this).tab('show');
 
@@ -148,24 +182,24 @@ $(document).ready(function () {
         prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
         nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
     });
+	
+	$('#stickyHeader').waypoint('sticky', {
+    	handler:handleSticky,
+		offset: -50
+	});
+	
+	$( "#dialog" ).dialog({
+      autoOpen: false,
+    });
+ 
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
 });
-
-function moveArrow(objectId, offsetSize, linkObject) {
-    var classesToRemove = $(objectId).attr("class").match(/col-\S{2}-offset-\d{1}/g);
-    var allClassesInline = "";
-    if ($(classesToRemove).length != 0)
-        allClassesInline = classesToRemove.join(' ');
-    $(objectId).switchClass(allClassesInline, "col-lg-offset-" + offsetSize + " col-md-offset-" + offsetSize + " col-sm-offset-" + offsetSize + " col-xs-offset-" + offsetSize, 500)
-
-    $(objectId + " div").removeClass(function (index, css) {
-        return (css.match(/\bborder-\S+/g) || []).join(' ');
-    }).addClass('border-' + $(linkObject).attr("color"));
-}
 
 $(window).resize(function () {
     if ($(window).width() >= 992) {
         isMobile = false;
-        $(".main-menu-list").show();
 
         $('.testimonialCarousel').unslick();
         $('.testimonialCarousel').slick({
@@ -175,10 +209,13 @@ $(window).resize(function () {
             prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
             nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
         });
-
+		$('#stickyHeader').waypoint('unsticky');
+		$('#stickyHeader').waypoint('sticky', {
+    		handler:handleSticky,
+			offset: -50
+		});
     } else {
         isMobile = true;
-        $(".main-menu-list").hide();
         $(".collapse").each(function (index, element) {
             $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
         });
@@ -188,5 +225,7 @@ $(window).resize(function () {
             arrows: true,
             dots: true,
         });
+		
+		$('#stickyHeader').waypoint('unsticky');
     }
 });

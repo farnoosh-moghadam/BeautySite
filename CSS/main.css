@@ -66,6 +66,9 @@ h5 {
 .text-blue {
   color: #05a8ba;
 }
+.text-white {
+  color: #ffffff;
+}
 a:-webkit-any-link {
   text-decoration: none !important;
 }
@@ -267,8 +270,6 @@ a:-webkit-any-link {
   border: 2px solid #05a8ba;
   padding: 3px;
   text-align: center;
-  width: 30px;
-  height: 30px;
 }
 .icon-accordion-circle {
   border-radius: 24px;
@@ -381,10 +382,19 @@ a:-webkit-any-link {
   -moz-box-shadow: inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
   box-shadow: inset 1px 1px 17px 0 rgba(255, 255, 255, 0.4);
   background-color: rgba(255, 255, 255, 0.2);
-  display: block;
-  padding: 10px;
-  text-align: center;
   font-family: 'Plume-font';
+}
+.button-pinbarMobile .ContentPhone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+}
+.button-pinbarMobile .ContentDownload {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
 }
 .icon-pinbarMobile-circle {
   -webkit-border-radius: 50%;
@@ -401,8 +411,30 @@ a:-webkit-any-link {
   background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5), #ffffff);
   background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), #ffffff);
   text-align: center;
-  padding: 9px;
-  font-size: 1.5em;
+  padding: 5px;
+  font-size: 1.2em;
+  margin: 12px 5px;
+}
+.pinbarMobile-Text {
+  height: 55px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.stuck {
+  position: fixed;
+  top: 0;
+  z-index: 300;
+  overflow: hidden;
+}
+#stickyHeader {
+  width: 100%;
+}
+#pinbarText {
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+  text-align: center;
 }
 /******************************* 
 **** padding & margin
@@ -463,6 +495,9 @@ a:-webkit-any-link {
 }
 .mt-10 {
   margin-top: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
 }
 .ml-150 {
   margin-left: 150px;
@@ -881,42 +916,35 @@ form select:hover {
   background-color: #ffffff;
   border: 1px solid #f3f3f3;
 }
+.tutor-box {
+  clear: both;
+}
 /******************************* 
 **** Testimonials 
 ********************************/
 .testimonial-box {
   background-color: #f8f8f8;
   border: 1px solid #f3f3f3;
+  clear: both;
 }
 .testimonial-image-wrapper {
   float: left;
   padding: 10px;
-  width: 140px;
-}
-@media (max-width: 1199px) {
-  .testimonial-image-wrapper {
-    width: 115px;
-  }
+  margin: 1%;
+  width: 27%;
 }
 .testimonial-text-wrapper {
   float: left;
   padding: 15px;
-  width: 423px;
-}
-@media (max-width: 1199px) {
-  .testimonial-text-wrapper {
-    width: 348px;
-  }
+  width: 70%;
 }
 @media (max-width: 991px) {
   .testimonial-text-wrapper {
-    width: 353px;
-  }
-}
-@media (max-width: 767px) {
-  .testimonial-text-wrapper {
-    max-width: 722px;
-    width: 100%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 }
 .testimonial-triangle-down {
@@ -952,12 +980,6 @@ form select:hover {
   width: 11px;
   height: 11px;
   border: 1px solid #8d8d8d;
-}
-.testimonial-links-box {
-  text-align: center;
-  border-top: 2px solid #05a8ba;
-  background-color: #e6e6e6;
-  padding-bottom: 3px;
 }
 /******************************* 
 **** Footer 
