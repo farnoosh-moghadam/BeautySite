@@ -1066,6 +1066,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/images\/course-makeUp-video_01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 499059,
+		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_01.jpg",
+		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/images\/course-makeUp-video_02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_02.jpg",
+		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/images\/course-makeUp-video_03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21201,
+		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_03.jpg",
+		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/images\/course-makeUp-video_04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104290,
+		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_04.jpg",
+		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/images\/course-makeUp-video_05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 323132,
+		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_05.jpg",
+		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/images\/makeUp-video_01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

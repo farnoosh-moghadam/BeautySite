@@ -47,7 +47,7 @@ h1 {
 }
 h2 {
   font-weight: normal;
-  font-size: 1.4em;
+  font-size: 1.6em;
   line-height: 1.2em;
 }
 h3 {
@@ -192,6 +192,9 @@ a:-webkit-any-link {
 }
 .icon-youTube:before {
   content: '\e611';
+}
+.icon-tick:before {
+  content: '\e616';
 }
 .icon-download:before {
   content: '\e614';
@@ -505,6 +508,9 @@ a:-webkit-any-link {
 .mt-10 {
   margin-top: 10px;
 }
+.mt-20 {
+  margin-top: 20px;
+}
 .ml-5 {
   margin-left: 5px;
 }
@@ -522,8 +528,12 @@ a:-webkit-any-link {
   padding-left: 10px;
 }
 .pr-pl-10 {
-  padding-right: 20px;
+  padding-right: 10px;
   padding-left: 10px;
+}
+.pr-pl-25 {
+  padding-right: 25px;
+  padding-left: 25px;
 }
 .pt-pb-5 {
   padding-top: 5px;
@@ -532,6 +542,10 @@ a:-webkit-any-link {
 .pt-pb-10 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.pt-pb-14 {
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .pt-pb-20 {
   padding-top: 20px;
@@ -686,8 +700,6 @@ form select:hover {
   background-color: #b2d953;
   border: 1px solid #a1c54b;
   color: #000000;
-  padding-top: 14px;
-  padding-bottom: 14px;
   padding-right: 8px;
   padding-left: 8px;
   display: inline-block;
@@ -698,9 +710,9 @@ form select:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   cursor: pointer;
-  margin: 0px;
   vertical-align: middle;
   text-align: left;
+  width: 96%;
 }
 /******************************* 
 **** Homepage-Course area
@@ -731,8 +743,7 @@ form select:hover {
 ********************************/
 .learningProsess-img {
   max-width: 100%;
-  background-color: #ffffff;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #ebebeb;
   padding: 10px;
 }
 .learningProcess-box-blue {
@@ -926,8 +937,7 @@ form select:hover {
 **** Meet our tutors 
 ********************************/
 .border-gray-1 {
-  background-color: #ffffff;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #ebebeb;
 }
 .tutor-box {
   clear: both;
