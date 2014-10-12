@@ -47,12 +47,12 @@ h1 {
 h2 {
     font-weight: normal;
     font-size: 1.4em;
-    line-height: 1.3em;
+    line-height: 1.2em;
 }
 
 h3 {
     font-weight: normal;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 h4 {
@@ -123,6 +123,9 @@ a:-webkit-any-link {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.icon-arrow-down:before {
+    content: '\e615';
+}
 
 .icon-arrow-left:before {
     content: '\e600';
@@ -149,7 +152,6 @@ a:-webkit-any-link {
     .icon-arrow-circle;
     padding: 4px 8px 4px 6px;
 }
-
 .icon-arrow:before {
     content: '\e602';
 }
@@ -490,7 +492,7 @@ a:-webkit-any-link {
 }
 
 .pl-15 {
-    .pl(10px);
+    .pl(15px);
 }
 
 .pl-20 {
@@ -508,6 +510,9 @@ a:-webkit-any-link {
 .pl-negative-10 {
     .pl(-10px);
 }
+.pb-5 {
+    .pb(5px);
+}
 
 .pb-10 {
     .pb(10px);
@@ -516,7 +521,9 @@ a:-webkit-any-link {
 .pb-20 {
     .pb(20px);
 }
-
+.mt-7 {
+    .mt(7px);
+}
 .mt-10 {
     .mt(10px);
 }
@@ -536,8 +543,12 @@ a:-webkit-any-link {
     .pl(5px);
 }
 
+.pr-20-pl-10 {
+    .pr(20px);
+    .pl(10px);
+}
 .pr-pl-10 {
-    .pr(10px);
+    .pr(20px);
     .pl(10px);
 }
 
