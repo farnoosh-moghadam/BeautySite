@@ -933,24 +933,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/bootstrap-theme.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/bootstrap-theme.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/bootstrap.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/bootstrap.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/course.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1066,112 +1048,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/images\/course-makeUp-video_01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 499059,
-		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_01.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/course-makeUp-video_02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_02.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/course-makeUp-video_03.jpg": {
+	"\/images\/course-makeUp-video_03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 21201,
-		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_03.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/course-makeUp-video_04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 104290,
-		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_04.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/course-makeUp-video_05.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 323132,
-		"inputAbbreviatedPath": "\/images\/images\/course-makeUp-video_05.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/course-makeUp-video_05.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/makeUp-video_01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 498375,
-		"inputAbbreviatedPath": "\/images\/images\/makeUp-video_01.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/makeUp-video_01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/makeUp-video_02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 571615,
-		"inputAbbreviatedPath": "\/images\/images\/makeUp-video_02.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/makeUp-video_02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/makeUp-video_03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20408,
-		"inputAbbreviatedPath": "\/images\/images\/makeUp-video_03.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/makeUp-video_03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/makeUp-video_04.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/images\/makeUp-video_04.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/makeUp-video_04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/images\/makeUp-video_05.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 346723,
-		"inputAbbreviatedPath": "\/images\/images\/makeUp-video_05.jpg",
-		"outputAbbreviatedPath": "\/images\/images\/makeUp-video_05.jpg",
+		"inputAbbreviatedPath": "\/images\/course-makeUp-video_03.jpg",
+		"outputAbbreviatedPath": "\/images\/course-makeUp-video_03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1319,26 +1202,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/js\/bootstrap.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/bootstrap.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/courseArea.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1378,17 +1241,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.stellar.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.stellar.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/main.js",
-		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1541,26 +1393,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Less\/Homepage.less",
 		"outputAbbreviatedPath": "\/css\/Homepage.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/Less\/main.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Less\/main.less",
-		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
