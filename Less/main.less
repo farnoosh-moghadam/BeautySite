@@ -46,7 +46,7 @@ h1 {
 
 h2 {
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.6em;
     line-height: 1.2em;
 }
 
@@ -218,6 +218,9 @@ a:-webkit-any-link {
 
 .icon-youTube:before {
     content: '\e611';
+}
+.icon-tick:before {
+    content: '\e616';
 }
 .icon-download:before {
     content: '\e614';
@@ -527,6 +530,9 @@ a:-webkit-any-link {
 .mt-10 {
     .mt(10px);
 }
+.mt-20 {
+    .mt(20px);
+}
 
 .ml-5 {
     .ml(5px);
@@ -548,10 +554,13 @@ a:-webkit-any-link {
     .pl(10px);
 }
 .pr-pl-10 {
-    .pr(20px);
+    .pr(10px);
     .pl(10px);
 }
-
+.pr-pl-25 {
+    .pr(25px);
+    .pl(25px);
+}
 .pt-pb-5 {
     .pt(5px);
     .pb(5px);
@@ -561,7 +570,10 @@ a:-webkit-any-link {
     .pt(10px);
     .pb(10px);
 }
-
+.pt-pb-14 {
+    .pt(14px);
+    .pb(14px);
+}
 .pt-pb-20 {
     .pt(20px);
     .pb(20px);
@@ -727,16 +739,14 @@ form select:hover {
     background-color: #b2d953;
     border: 1px solid #a1c54b;
     color: #000000;
-    .pt(14px);
-    .pb(14px);
     .pr(8px);
     .pl(8px);
     display: inline-block;
     .border-radius;
     cursor: pointer;
-    margin: 0px;
     vertical-align: middle;
     text-align: left;
+	width:96%;
 }
 /******************************* 
 **** Homepage-Course area
@@ -887,8 +897,7 @@ form select:hover {
 **** Meet our tutors 
 ********************************/
 .border-gray-1 {
-    background-color: @colorWhite;
-    border: 1px solid @colorGray;
+    border: 1px solid darken(@colorGray,3%);
 }
 
 .tutor-box{

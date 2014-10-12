@@ -19,3 +19,16 @@
   margin-top: -150px;
   padding: 20px;
 }
+.fontSize-20 {
+  font-size: 18px;
+}
+.enrol-course-box {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
