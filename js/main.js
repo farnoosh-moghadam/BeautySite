@@ -35,6 +35,8 @@ function handleSticky(dir) {
 	  {
 		  $('#stickyHeader').animate({'height': '40px'});
 		  $('#pinbarText').animate({ 'height': '25px' });
+		  $('#pinbarText').animate({ 'height': '25px' });
+		  $('#arrowHeader').animate({ 'top': '30px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
 		  $('#arrowHeader').show();
 	  }
 	  else
@@ -196,14 +198,14 @@ $(document).ready(function () {
 		offset: -50
 	});
 
-	$('#arrowHeader').clickToggle(function () {
+	$('.icon-arrow-header-circle').clickToggle(function () {
 	    $('#stickyHeader').animate({ 'height': '110px' });
 	    $('#pinbarText').animate({ 'height': '0px' });
-	    $('#arrowHeader').animate({ 'top': '95px' });
+	    $('#arrowHeader').animate({ 'top': '95px' }).find('.icon').addClass('icon-arrow-up').removeClass('icon-arrow-down');
 	}, function () {
 	    $('#stickyHeader').animate({ 'height': '40px' });
 	    $('#pinbarText').animate({ 'height': '25px' });
-	    $('#arrowHeader').animate({ 'top': '25px' });
+	    $('#arrowHeader').animate({ 'top': '30px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
 	});
 });
 

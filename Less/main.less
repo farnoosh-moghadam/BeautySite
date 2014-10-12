@@ -126,6 +126,9 @@ a:-webkit-any-link {
 .icon-arrow-down:before {
     content: '\e615';
 }
+.icon-arrow-up:before {
+    content: '\e617';
+}
 
 .icon-arrow-left:before {
     content: '\e600';
@@ -139,6 +142,17 @@ a:-webkit-any-link {
     border-radius: 50%;
     border: 2px solid @colorGrayD;
     text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.icon-arrow-header-circle {
+    border-radius: 50%;
+    .drop-shadow;
+    text-align: center;
+    background:@colorBlue;
+    color:@colorWhite;
+    .pt(10px);
     width: 30px;
     height: 30px;
 }
@@ -387,12 +401,11 @@ a:-webkit-any-link {
 }
 
 #arrowHeader{
-    position:fixed;
     width:100%;
-    top:25px;
-    z-index:4;
+    top:30px;
     cursor:pointer;
     display:none;
+    position:fixed;
 }
 /******************************* 
 **** Pinbar Mobile
@@ -437,7 +450,8 @@ a:-webkit-any-link {
 	position: fixed; 
 	top: 0; 
 	z-index: 300;
-	overflow:hidden; 
+	overflow:hidden;
+    .drop-shadow;
 }
 
 #stickyHeader
