@@ -1,5 +1,19 @@
 ﻿var isMobile = false;
 
+(function ($) {
+    $.fn.clickToggle = function (func1, func2) {
+        var funcs = [func1, func2];
+        this.data('toggleclicked', 0);
+        this.click(function () {
+            var data = $(this).data();
+            var tc = data.toggleclicked;
+            $.proxy(funcs[tc], this)();
+            data.toggleclicked = (tc + 1) % 2;
+        });
+        return this;
+    };
+}(jQuery));
+
 function moveArrow(objectId, offsetSize, linkObject) {
     var classesToRemove = $(objectId).attr("class").match(/col-\S{2}-offset-\d{1}/g);
     var allClassesInline = "";
@@ -19,21 +33,15 @@ function handleSticky(dir) {
 	  }
 	  if(dir==='down')
 	  {
-		  $('#stickyHeader').hover(function() {
-			  $('#stickyHeader').animate({'height': '110px'});
-			  $('#pinbarText').animate({'height': '0px'});
-		  }, function() {
-			  $('#stickyHeader').animate({'height': '40px'});
-			  $('#pinbarText').animate({'height': '25px'});
-		  });
 		  $('#stickyHeader').animate({'height': '40px'});
-		  $('#pinbarText').animate({'height': '25px'});
+		  $('#pinbarText').animate({ 'height': '25px' });
+		  $('#arrowHeader').show();
 	  }
 	  else
 	  {
-		  $('#stickyHeader').unbind('mouseenter mouseleave');
 		  $('#stickyHeader').animate({'height': '110px'});
-		  $('#pinbarText').animate({'height': '0px'});
+		  $('#pinbarText').animate({ 'height': '0px' });
+		  $('#arrowHeader').hide();
 	  }
 }
 
@@ -187,14 +195,16 @@ $(document).ready(function () {
     	handler:handleSticky,
 		offset: -50
 	});
-	
-	$( "#dialog" ).dialog({
-      autoOpen: false,
-    });
- 
-    $( "#opener" ).click(function() {
-      $( "#dialog" ).dialog( "open" );
-    });
+
+	$('#arrowHeader').clickToggle(function () {
+	    $('#stickyHeader').animate({ 'height': '110px' });
+	    $('#pinbarText').animate({ 'height': '0px' });
+	    $('#arrowHeader').animate({ 'top': '95px' });
+	}, function () {
+	    $('#stickyHeader').animate({ 'height': '40px' });
+	    $('#pinbarText').animate({ 'height': '25px' });
+	    $('#arrowHeader').animate({ 'top': '25px' });
+	});
 });
 
 $(window).resize(function () {
