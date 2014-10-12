@@ -24,7 +24,7 @@ function moveArrow(objectId, offsetSize, linkObject) {
 
     $(objectId + " div").removeClass(function (index, css) {
         return (css.match(/\bborder-\S+/g) || []).join(' ');
-    }).addClass('border-' + $(linkObject).attr("color"));
+    }).addClass('border-' + $(linkObject).attr("data-color"));
 }
 
 function handleSticky(dir) {
@@ -93,7 +93,7 @@ $(document).ready(function () {
 
             $("#learnTabContent").removeClass(function (index, css) {
                 return (css.match(/\blearningProcess-box-\S+/g) || []).join(' ');
-            }).addClass('learningProcess-box-' + $(this).attr("color"));
+            }).addClass('learningProcess-box-' + $(this).attr("data-color"));
 
             $(this.parentNode).removeClass("opacity-half", 500);
 
@@ -113,15 +113,15 @@ $(document).ready(function () {
 
             $(this).removeClass("opacity-half", 500);
 
-            $(this).find(".icon-benefits-circle-" + $(this).attr("color"))
-                .switchClass("icon-benefits-circle-" + $(this).attr("color"),
-                    "icon-benefits-circle-selected-" + $(this).attr("color"), 500);
+            $(this).find(".icon-benefits-circle-" + $(this).attr("data-color"))
+                .switchClass("icon-benefits-circle-" + $(this).attr("data-color"),
+                    "icon-benefits-circle-selected-" + $(this).attr("data-color"), 500);
 
             $("#benefits-Tab a").not($(this)).each(function (index, element) {
                 $(element).addClass("opacity-half", 500);
                 $(element).find("span")
-                .switchClass("icon-benefits-circle-selected-" + $(element).attr("color"),
-                    "icon-benefits-circle-" + $(element).attr("color"), 500);
+                .switchClass("icon-benefits-circle-selected-" + $(element).attr("data-color"),
+                    "icon-benefits-circle-" + $(element).attr("data-color"), 500);
             });
         });
     });
