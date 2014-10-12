@@ -405,10 +405,11 @@ a:-webkit-any-link {
 
 #arrowHeader{
     width:100%;
-    top:30px;
+    top:35px;
     cursor:pointer;
     display:none;
     position:fixed;
+    z-index:7;
 }
 /******************************* 
 **** Pinbar Mobile
@@ -443,7 +444,7 @@ a:-webkit-any-link {
 }
 
 .pinbarMobile-Text {
-	height:55px;
+	height:30px;
 	display:table-cell;
 	vertical-align:middle;
 	text-align:center;
@@ -452,7 +453,7 @@ a:-webkit-any-link {
 .stuck { 
 	position: fixed; 
 	top: 0; 
-	z-index: 300;
+	z-index: 6;
 	overflow:hidden;
     .drop-shadow;
 }
@@ -468,6 +469,24 @@ a:-webkit-any-link {
 	height:0;
 	width:100%;
 	text-align:center;
+}
+
+.close{
+    background-color:@colorBlue;
+    color:@colorWhite;
+    float:left;
+}
+
+.modal-title{
+    display:inline-block;
+}
+
+.modal-body img{
+    padding:10px;
+    margin:10px;
+    border:1px solid darken(@colorGray,10%);
+    float:left;
+    width:200px;
 }
 /******************************* 
 **** padding & margin
