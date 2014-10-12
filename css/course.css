@@ -32,3 +32,18 @@
   background-color: #f3f3f3;
   padding: 20px;
 }
+/******************************* 
+**** Course snapshot 
+********************************/
+.course-snapshot li {
+  background-color: #f3f3f3;
+  min-height: 30px;
+  list-style: none;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
