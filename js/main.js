@@ -14,36 +14,21 @@
     };
 }(jQuery));
 
-function moveArrow(objectId, offsetSize, linkObject) {
-    var classesToRemove = $(objectId).attr("class").match(/col-\S{2}-offset-\d{1}/g);
-    var allClassesInline = "";
-    if ($(classesToRemove).length !== 0){
-        allClassesInline = classesToRemove.join(' ');
-	}
-    $(objectId).switchClass(allClassesInline, "col-lg-offset-" + offsetSize + " col-md-offset-" + offsetSize + " col-sm-offset-" + offsetSize + " col-xs-offset-" + offsetSize, 500);
-
-    $(objectId + " div").removeClass(function (index, css) {
-        return (css.match(/\bborder-\S+/g) || []).join(' ');
-    }).addClass('border-' + $(linkObject).attr("data-color"));
-}
-
 function handleSticky(dir) {
-	  if(isMobile) {
-		  return;
-	  }
-	  if(dir==='down')
-	  {
-		  $('#stickyHeader').animate({'height': '45px'});
-		  $('#pinbarText').animate({ 'height': '30px' });
-		  $('#arrowHeader').animate({ 'top': '35px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
-		  $('#arrowHeader').show();
-	  }
-	  else
-	  {
-		  $('#stickyHeader').animate({'height': '110px'});
-		  $('#pinbarText').animate({ 'height': '0px' });
-		  $('#arrowHeader').hide();
-	  }
+    if (isMobile) {
+        return;
+    }
+    if (dir === 'down') {
+        $('#stickyHeader').animate({ 'height': '45px' });
+        $('#pinbarText').animate({ 'height': '30px' });
+        $('#arrowHeader').animate({ 'top': '35px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
+        $('#arrowHeader').show();
+    }
+    else {
+        $('#stickyHeader').animate({ 'height': '110px' });
+        $('#pinbarText').animate({ 'height': '0px' });
+        $('#arrowHeader').hide();
+    }
 }
 
 $(document).ready(function () {
@@ -80,28 +65,6 @@ $(document).ready(function () {
             $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
         });
     }
-
-    $("#myTab a").each(function (index, element) {
-        $(element).click(function () {
-            $('html, body').animate({
-     			scrollTop: $("#learnTabContent").offset().top - 100
- 			}, 1000);
-
-            $(this).tab('show');
-
-            moveArrow("#learnArrow", index * 4, this);
-
-            $("#learnTabContent").removeClass(function (index, css) {
-                return (css.match(/\blearningProcess-box-\S+/g) || []).join(' ');
-            }).addClass('learningProcess-box-' + $(this).attr("data-color"));
-
-            $(this.parentNode).removeClass("opacity-half", 500);
-
-            $("#myTab a").not($(this)).each(function (index, element) {
-                $(element.parentNode).addClass("opacity-half", 500);
-            });
-        });
-    });
 
     $("#benefits-Tab a").each(function (index, element) {
         $(element).click(function (e) {
@@ -166,23 +129,6 @@ $(document).ready(function () {
             offset: 'bottom-in-view'
         });
 
-
-    if (isMobile) {
-        $('.testimonialCarousel').slick({
-            arrows: true,
-            dots: true,
-        });
-    }
-    else {
-        $('.testimonialCarousel').slick({
-            arrows: true,
-            dots: true,
-            appendArrows: $('#testimonialCarouselArrow'),
-            prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
-            nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
-        });
-    }
-
     $('.tutor-box').slick({
         arrows: true,
         slidesToShow: 2,
@@ -191,52 +137,40 @@ $(document).ready(function () {
         prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
         nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
     });
-	
-	$('#stickyHeader').waypoint('sticky', {
-    	handler:handleSticky,
-		offset: -50
-	});
 
-	$('.icon-arrow-header-circle').clickToggle(function () {
-	    $('#stickyHeader').animate({ 'height': '110px' });
-	    $('#pinbarText').animate({ 'height': '0px' });
-	    $('#arrowHeader').animate({ 'top': '95px' }).find('.icon').addClass('icon-arrow-up').removeClass('icon-arrow-down');
-	}, function () {
-	    $('#stickyHeader').animate({ 'height': '45px' });
-	    $('#pinbarText').animate({ 'height': '30px' });
-	    $('#arrowHeader').animate({ 'top': '35px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
-	});
+    if (!isMobile) {
+        $('#stickyHeader').waypoint('sticky', {
+            handler: handleSticky,
+            offset: -50
+        });
+    }
+
+    $('.icon-arrow-header-circle').clickToggle(function () {
+        $('#stickyHeader').animate({ 'height': '110px' });
+        $('#pinbarText').animate({ 'height': '0px' });
+        $('#arrowHeader').animate({ 'top': '95px' }).find('.icon').addClass('icon-arrow-up').removeClass('icon-arrow-down');
+    }, function () {
+        $('#stickyHeader').animate({ 'height': '45px' });
+        $('#pinbarText').animate({ 'height': '30px' });
+        $('#arrowHeader').animate({ 'top': '35px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
+    });
 });
 
 $(window).resize(function () {
     if ($(window).width() >= 992) {
         isMobile = false;
 
-        $('.testimonialCarousel').unslick();
-        $('.testimonialCarousel').slick({
-            arrows: true,
-            dots: true,
-            appendArrows: $('#testimonialCarouselArrow'),
-            prevArrow: '<span href="#" class="icon icon-arrow-left icon-arrowLeft-circle"></span>',
-            nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
+        $('#stickyHeader').waypoint('unsticky');
+        $('#stickyHeader').waypoint('sticky', {
+            handler: handleSticky,
+            offset: -50
         });
-		$('#stickyHeader').waypoint('unsticky');
-		$('#stickyHeader').waypoint('sticky', {
-    		handler:handleSticky,
-			offset: -50
-		});
     } else {
         isMobile = true;
         $(".collapse").each(function (index, element) {
             $(element).removeClass('in').prev('.panel-heading').find('.icon').removeClass('icon-minus').addClass('icon-plus');
         });
 
-        $('.testimonialCarousel').unslick();
-        $('.testimonialCarousel').slick({
-            arrows: true,
-            dots: true,
-        });
-		
-		$('#stickyHeader').waypoint('unsticky');
+        $('#stickyHeader').waypoint('unsticky');
     }
 });
