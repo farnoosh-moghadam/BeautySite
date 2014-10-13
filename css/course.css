@@ -22,28 +22,18 @@
 .fontSize-20 {
   font-size: 18px;
 }
-.enrol-course-box {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  background-color: #f3f3f3;
-  padding: 20px;
-}
 /******************************* 
 **** Course snapshot 
 ********************************/
-.course-snapshot li {
+.course-snapshot-box {
   background-color: #f3f3f3;
   min-height: 30px;
   list-style: none;
   margin-bottom: 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  border-radius: 10px 30px 30px 10px;
+  position: relative;
+}
+.course-snapshot-title {
+  display: inline-block;
+  vertical-align: top;
 }

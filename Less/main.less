@@ -308,6 +308,23 @@ a:-webkit-any-link {
 .icon-minus:after {
     content: "-";
 }
+.icon-star:after {
+    content: '\e619';
+}
+.icon-iPhone:after {
+    content: '\e618';
+}
+.icon-watch:after {
+    content: '\e618';
+}
+.icon-tickSquare:after {
+    content: '\e61a';
+}
+.icon-star, .icon-watch, .icon-iPhone, .icon-tickSquare{
+	.icon-socialMedia-circle;
+    background-color: @colorBlue;
+}
+
 
 /* ==========================================================================
    Common
@@ -565,24 +582,6 @@ a:-webkit-any-link {
 .pb-20 {
     .pb(20px);
 }
-.mt-7 {
-    .mt(7px);
-}
-.mt-10 {
-    .mt(10px);
-}
-.mt-20 {
-    .mt(20px);
-}
-
-.ml-5 {
-    .ml(5px);
-}
-
-.ml-150 {
-    .ml(150px);
-}
-
 .pt-pb-10-pr-pl-5 {
     .pt(10px);
     .pb(10px);
@@ -606,7 +605,6 @@ a:-webkit-any-link {
     .pt(5px);
     .pb(5px);
 }
-
 .pt-pb-10 {
     .pt(10px);
     .pb(10px);
@@ -635,6 +633,39 @@ a:-webkit-any-link {
 .mr-ml-5 {
     .mr(5px);
     .ml(5px);
+}
+.mr-ml-55 {
+    .mr(55px);
+    .ml(55px);
+}
+.mt-7 {
+    .mt(7px);
+}
+.mt-10 {
+    .mt(10px);
+}
+.mt-20 {
+    .mt(20px);
+}
+.mt-40 {
+    .mt(40px);
+}
+.mt-mb-40 {
+    .mt(40px);
+	.mb(40px);
+}
+.mb-25 {
+    .mb(25px);
+}
+.mb-40 {
+    .mb(40px);
+}
+.ml-5 {
+    .ml(5px);
+}
+
+.ml-150 {
+    .ml(150px);
 }
 /******************************* 
 **** Hero img
@@ -1035,6 +1066,28 @@ footer {
 	.pt(5px);
 	width:100%;
 	height:auto;
+}
+/******************************* 
+**** Course area-Enrol box
+********************************/
+.gray-box-rounded{
+	.border-radius;
+	background-color:@colorGray;
+	padding:20px;
+}
+.button-FindMore {
+    font-family: 'Plume-font';
+    background-color: @colorBlue;
+    border: 1px solid darken(@colorBlue, 2%);
+    color: #ffffff;
+    .pr(8px);
+    .pl(8px);
+    display: inline-block;
+    .border-radius;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: left;
+	width:70%;
 }
 /* ==========================================================================
    Imports

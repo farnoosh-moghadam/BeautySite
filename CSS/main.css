@@ -113,6 +113,9 @@ a:-webkit-any-link {
 .icon-arrow-down:before {
   content: '\e615';
 }
+.icon-arrow-up:before {
+  content: '\e617';
+}
 .icon-arrow-left:before {
   content: '\e600';
 }
@@ -123,6 +126,18 @@ a:-webkit-any-link {
   border-radius: 50%;
   border: 2px solid #222222;
   text-align: center;
+  width: 30px;
+  height: 30px;
+}
+.icon-arrow-header-circle {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  background: #05a8ba;
+  color: #ffffff;
+  padding-top: 10px;
   width: 30px;
   height: 30px;
 }
@@ -293,6 +308,31 @@ a:-webkit-any-link {
 .icon-minus:after {
   content: "-";
 }
+.icon-star:after {
+  content: '\e619';
+}
+.icon-iPhone:after {
+  content: '\e618';
+}
+.icon-watch:after {
+  content: '\e618';
+}
+.icon-tickSquare:after {
+  content: '\e61a';
+}
+.icon-star,
+.icon-watch,
+.icon-iPhone,
+.icon-tickSquare {
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 2em;
+  color: #FFFFFF;
+  background-color: #05a8ba;
+}
 /* ==========================================================================
    Common
    ========================================================================== */
@@ -374,6 +414,14 @@ a:-webkit-any-link {
   margin-left: auto;
   margin-right: auto;
 }
+#arrowHeader {
+  width: 100%;
+  top: 35px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 7;
+}
 /******************************* 
 **** Pinbar Mobile
 ********************************/
@@ -422,7 +470,7 @@ a:-webkit-any-link {
   margin: 12px 5px;
 }
 .pinbarMobile-Text {
-  height: 55px;
+  height: 30px;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -430,8 +478,11 @@ a:-webkit-any-link {
 .stuck {
   position: fixed;
   top: 0;
-  z-index: 300;
+  z-index: 6;
   overflow: hidden;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
 }
 #stickyHeader {
   width: 100%;
@@ -441,6 +492,21 @@ a:-webkit-any-link {
   height: 0;
   width: 100%;
   text-align: center;
+}
+.close {
+  background-color: #05a8ba;
+  color: #ffffff;
+  float: left;
+}
+.modal-title {
+  display: inline-block;
+}
+.modal-body img {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #dadada;
+  float: left;
+  width: 200px;
 }
 /******************************* 
 **** padding & margin
@@ -502,21 +568,6 @@ a:-webkit-any-link {
 .pb-20 {
   padding-bottom: 20px;
 }
-.mt-7 {
-  margin-top: 7px;
-}
-.mt-10 {
-  margin-top: 10px;
-}
-.mt-20 {
-  margin-top: 20px;
-}
-.ml-5 {
-  margin-left: 5px;
-}
-.ml-150 {
-  margin-left: 150px;
-}
 .pt-pb-10-pr-pl-5 {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -567,6 +618,38 @@ a:-webkit-any-link {
 .mr-ml-5 {
   margin-right: 5px;
   margin-left: 5px;
+}
+.mr-ml-55 {
+  margin-right: 55px;
+  margin-left: 55px;
+}
+.mt-7 {
+  margin-top: 7px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-mb-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-150 {
+  margin-left: 150px;
 }
 /******************************* 
 **** Hero img
@@ -942,6 +1025,9 @@ form select:hover {
 .tutor-box {
   clear: both;
 }
+.ui-dialog-content {
+  background-color: white;
+}
 /******************************* 
 **** Testimonials 
 ********************************/
@@ -1033,6 +1119,38 @@ footer {
   padding-top: 5px;
   width: 100%;
   height: auto;
+}
+/******************************* 
+**** Course area-Enrol box
+********************************/
+.gray-box-rounded {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+.button-FindMore {
+  font-family: 'Plume-font';
+  background-color: #05a8ba;
+  border: 1px solid #059fb0;
+  color: #ffffff;
+  padding-right: 8px;
+  padding-left: 8px;
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: left;
+  width: 70%;
 }
 /* ==========================================================================
    Imports
