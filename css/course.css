@@ -27,13 +27,6 @@
 ********************************/
 .course-snapshot-box {
   background-color: #f3f3f3;
-  min-height: 30px;
-  list-style: none;
-  margin-bottom: 10px;
+  min-height: 20px;
   border-radius: 10px 30px 30px 10px;
-  position: relative;
-}
-.course-snapshot-title {
-  display: inline-block;
-  vertical-align: top;
 }
