@@ -30,3 +30,15 @@
   min-height: 20px;
   border-radius: 10px 30px 30px 10px;
 }
+.job-potential-circle {
+  text-align: center;
+  color: #05a8ba;
+  padding: 22px 0px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 3px solid #05a8ba;
+}

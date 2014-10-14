@@ -43,7 +43,6 @@ h4 {
 h1 {
   font-size: 1.8em;
   line-height: 1em;
-  color: #444444;
 }
 h2 {
   font-weight: normal;
@@ -340,6 +339,7 @@ a:-webkit-any-link {
   font-size: 2em;
   font-size: 1.4em;
   background-color: #05a8ba;
+  font-size: 1.6em;
 }
 /* ==========================================================================
    Common
@@ -643,6 +643,13 @@ a:-webkit-any-link {
 .mt-40 {
   margin-top: 40px;
 }
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-mb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .mt-mb-40 {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -656,8 +663,16 @@ a:-webkit-any-link {
 .ml-5 {
   margin-left: 5px;
 }
+.ml-10 {
+  margin-left: 10px;
+}
 .ml-150 {
   margin-left: 150px;
+}
+.top-right-0 {
+  top: 0;
+  right: 0;
+  float: right;
 }
 /******************************* 
 **** Hero img
@@ -1049,6 +1064,7 @@ form select:hover {
   padding: 10px;
   margin: 1%;
   width: 27%;
+  max-width: 150px;
 }
 .testimonial-text-wrapper {
   float: left;
