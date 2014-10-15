@@ -119,6 +119,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/studyingOnline.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/studyingOnline.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/aboutUs_video.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -185,6 +194,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/beautyCourses-pic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19550,
+		"inputAbbreviatedPath": "\/images\/beautyCourses-pic.jpg",
+		"outputAbbreviatedPath": "\/images\/beautyCourses-pic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/BeautyTherapy-courseArea.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -247,6 +267,28 @@
 		"initialSize": 9863,
 		"inputAbbreviatedPath": "\/images\/leaf_about_bg.jpg",
 		"outputAbbreviatedPath": "\/images\/leaf_about_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/learningSupport-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4526,
+		"inputAbbreviatedPath": "\/images\/learningSupport-icon.png",
+		"outputAbbreviatedPath": "\/images\/learningSupport-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/learningSupport-icon01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6347,
+		"inputAbbreviatedPath": "\/images\/learningSupport-icon01.png",
+		"outputAbbreviatedPath": "\/images\/learningSupport-icon01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -350,6 +392,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/studentSupport_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4682,
+		"inputAbbreviatedPath": "\/images\/studentSupport_icon.png",
+		"outputAbbreviatedPath": "\/images\/studentSupport_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/studentSupport_icon01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6605,
+		"inputAbbreviatedPath": "\/images\/studentSupport_icon01.png",
+		"outputAbbreviatedPath": "\/images\/studentSupport_icon01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/studyOnline-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -368,6 +432,28 @@
 		"initialSize": 21530,
 		"inputAbbreviatedPath": "\/images\/StudyOnline-img.jpg",
 		"outputAbbreviatedPath": "\/images\/StudyOnline-img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/trainersSupport_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3666,
+		"inputAbbreviatedPath": "\/images\/trainersSupport_icon.png",
+		"outputAbbreviatedPath": "\/images\/trainersSupport_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/trainersSupport_icon01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5582,
+		"inputAbbreviatedPath": "\/images\/trainersSupport_icon01.png",
+		"outputAbbreviatedPath": "\/images\/trainersSupport_icon01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -524,6 +610,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/LearnTab-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/LearnTab-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/LearnTab-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -541,6 +638,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/menu-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/menu-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/moveArrow.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/moveArrow.js",
+		"outputAbbreviatedPath": "\/js\/min\/moveArrow-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -780,6 +888,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Less\/slick.less",
 		"outputAbbreviatedPath": "\/css\/slick.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/Less\/studyingOnline.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Less\/studyingOnline.less",
+		"outputAbbreviatedPath": "\/css\/studyingOnline.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

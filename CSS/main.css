@@ -314,6 +314,9 @@ a:-webkit-any-link {
 .icon-minus:after {
   content: "-";
 }
+.icon-arrowInCircle:after {
+  content: '\e61c';
+}
 .icon-star:after {
   content: '\e619';
 }
