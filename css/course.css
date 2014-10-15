@@ -18,7 +18,11 @@
   color: #ffffff;
   margin-top: -150px;
   padding: 20px;
+  border:10px solid rgba(255, 255, 255, .5);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box;
 }
+
 .fontSize-20 {
   font-size: 18px;
 }
