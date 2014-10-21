@@ -12,17 +12,15 @@
   -moz-border-radius: 5px;
   border-radius: 5px;
   -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
   background-color: #05a8ba;
   color: #ffffff;
   margin-top: -150px;
   padding: 20px;
-  border:10px solid rgba(255, 255, 255, .5);
-  -webkit-background-clip: padding-box; /* for Safari */
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: padding-box;
+  /* for Safari */
   background-clip: padding-box;
 }
-
 .fontSize-20 {
   font-size: 18px;
 }
@@ -45,4 +43,52 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 3px solid #05a8ba;
+}
+.course {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+.course li {
+  background-color: #f3f3f3;
+  min-height: 25px;
+  margin: 0 0 10px 0;
+  list-style: none;
+  padding: 15px 75px 15px 200px;
+  border-radius: 10px 30px 30px 10px;
+  position: relative;
+}
+.course li strong {
+  position: absolute;
+  left: 15px;
+}
+.course li:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.course li *:last-child {
+  margin-bottom: 0;
+}
+.course li.watch:after {
+  content: url(images/icon_clock.png);
+}
+.course li.money:after {
+  content: url(images/icon_dollor.png);
+}
+.course li.basket:after {
+  content: url(images/icon_mobile.png);
+}
+.course li.tick:after {
+  content: url(images/icon_tick.png);
+}
+.course li.flag:after {
+  content: url(images/icon_flag.png);
+}
+.mob-course-info-title {
+  color: #222222;
+  font-size: 0.9em;
+}
+.mob-course-info {
+  color: #222222;
+  font-size: 0.6em;
 }

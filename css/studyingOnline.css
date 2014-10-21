@@ -8,3 +8,16 @@
   max-width: 119px;
   width: 30%;
 }
+.courses-button-mobile {
+  max-width: 991px;
+  width: 80%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 2px solid #05a8ba;
+  display: block;
+  height: 30px;
+}

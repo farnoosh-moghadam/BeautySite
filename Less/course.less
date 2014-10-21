@@ -34,3 +34,51 @@
     .border-radius (@radius: 50%);
     border: 3px solid @colorBlue;
 }
+.course {
+		margin: 20px 0 0 0;
+		padding: 0;
+	}
+.course li {
+		background-color: @colorGray;
+		min-height: 25px;
+		margin: 0 0 10px 0;
+		list-style: none;
+		padding: 15px 75px 15px 200px;
+		border-radius: 10px 30px 30px 10px;
+		position: relative;
+	}
+.course li strong {
+		position: absolute;
+		left: 15px;
+	}
+.course li:after {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+.course li *:last-child {
+		margin-bottom: 0;
+	}
+.course li.watch:after {
+		content: url(images/icon_clock.png);
+	}
+.course li.money:after {
+		content: url(images/icon_dollor.png);
+	}
+.course li.basket:after {
+		content: url(images/icon_mobile.png);
+	}
+.course li.tick:after {
+		content: url(images/icon_tick.png);
+	}
+.course li.flag:after {
+		content: url(images/icon_flag.png);
+	}
+.mob-course-info-title{
+		color:@colorGrayD;
+		font-size:0.9em;
+}
+.mob-course-info{
+		color:@colorGrayD;
+		font-size:0.6em;
+}

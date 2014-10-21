@@ -1,12 +1,109 @@
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+/* ==========================================================================
+   Classes
+   ========================================================================== */
 #parallax3 {
   background-image: url(../images/Nail-courseArea.jpg);
-  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media (min-width: 1200px) {
+  #parallax3 {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parallax3 {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #parallax3 {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  #parallax3 {
+    height: 250px;
+  }
 }
 #parallax2 {
   background-image: url(../images/MakeUp-courseArea.jpg);
-  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media (min-width: 1200px) {
+  #parallax2 {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parallax2 {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #parallax2 {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  #parallax2 {
+    height: 250px;
+  }
 }
 #parallax1 {
   background-image: url(../images/BeautyTherapy-courseArea.jpg);
-  height: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media (min-width: 1200px) {
+  #parallax1 {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parallax1 {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #parallax1 {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  #parallax1 {
+    height: 250px;
+  }
+}
+.para {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+@media (min-width: 1200px) {
+  .para {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .para {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .para {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  .para {
+    height: 250px;
+  }
 }

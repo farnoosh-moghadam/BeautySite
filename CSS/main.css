@@ -55,7 +55,7 @@ h3 {
 }
 h4 {
   font-weight: normal;
-  font-size: 0.9em;
+  font-size: 14px;
 }
 h5 {
   font-weight: normal;
@@ -313,9 +313,6 @@ a:-webkit-any-link {
 }
 .icon-minus:after {
   content: "-";
-}
-.icon-arrowInCircle:after {
-  content: '\e61c';
 }
 .icon-star:after {
   content: '\e619';

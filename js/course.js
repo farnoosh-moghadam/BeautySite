@@ -3,7 +3,7 @@
         return;
     }
     if (dir === 'down') {
-        $('#stickyForm').find('.form-course-box').css({ 'margin-top': '0px','width':'262px' });
+        $('#stickyForm').find('.form-course-box').css({ 'margin-top': '0px','width':'360px' });
     }
     else {
         $('#stickyForm').find('.form-course-box').css({ 'margin-top': '-150px', 'width': '100%' });

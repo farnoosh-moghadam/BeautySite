@@ -1,7 +1,7 @@
-
-$(function () {
+$(document).ready(function () {
     $.stellar({
         horizontalScrolling: false,
-        verticalOffset: 90
+        verticalOffset: 130,
+		responsive: true,
     });
 });
