@@ -1,9 +1,3 @@
-/* ==========================================================================
-   Colors
-   ========================================================================== */
-/* ==========================================================================
-   Classes
-   ========================================================================== */
 #parallax3 {
   background-image: url(../images/Nail-courseArea.jpg);
   background-repeat: no-repeat;
@@ -27,7 +21,7 @@
 }
 @media (max-width: 767px) {
   #parallax3 {
-    height: 250px;
+    height: 150px;
   }
 }
 #parallax2 {
@@ -53,7 +47,7 @@
 }
 @media (max-width: 767px) {
   #parallax2 {
-    height: 250px;
+    height: 150px;
   }
 }
 #parallax1 {
@@ -79,7 +73,7 @@
 }
 @media (max-width: 767px) {
   #parallax1 {
-    height: 250px;
+    height: 150px;
   }
 }
 .para {
@@ -104,6 +98,26 @@
 }
 @media (max-width: 767px) {
   .para {
-    height: 250px;
+    height: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .course-description-margin {
+    margin: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .course-description-margin {
+    margin: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .course-description-margin {
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .course-description-margin {
+    margin: 5px;
   }
 }

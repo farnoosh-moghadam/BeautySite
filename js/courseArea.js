@@ -1,7 +1,9 @@
 $(document).ready(function () {
-    $.stellar({
-        horizontalScrolling: false,
-        verticalOffset: 130,
-		responsive: true,
-    });
+    if ($(window).width() >= 992) {
+        $.stellar({
+            horizontalScrolling: false,
+            verticalOffset: 130,
+            responsive: true,
+        });
+    }
 });
