@@ -124,23 +124,24 @@ $(document).ready(function () {
         });
     }
 
-    $('#stickyHeader').click(function () {
+    $('#stickyHeader,#arrowHeader').click(function (e) {
 		if(!isHeaderExpanded){
 			$('#stickyHeader').animate({ 'height': '110px' });
 			$('#pinbarText').animate({ 'height': '0px' });
 			$('#arrowHeader').animate({ 'top': '95px' }).find('.icon').addClass('icon-arrow-up').removeClass('icon-arrow-down');
-			isHeaderExpanded = true;					
+			isHeaderExpanded = true;	
+		}
+		else
+		{
+			if(e.currentTarget.id === 'arrowHeader')
+			{
+				$('#stickyHeader').animate({ 'height': '45px' });
+				$('#pinbarText').animate({ 'height': '30px' });
+				$('#arrowHeader').animate({ 'top': '35px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
+				isHeaderExpanded = false;
+			}
 		}
     });
-	
-    $('#arrowHeader').click(function () {
-		if(isHeaderExpanded){
-			$('#stickyHeader').animate({ 'height': '45px' });
-			$('#pinbarText').animate({ 'height': '30px' });
-			$('#arrowHeader').animate({ 'top': '35px' }).find('.icon').removeClass('icon-arrow-up').addClass('icon-arrow-down');
-			isHeaderExpanded = false;
-		}
-	});
 });
 
 $(window).resize(function () {

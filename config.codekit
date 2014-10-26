@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/contactUs.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -238,6 +247,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/calendar-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4323,
+		"inputAbbreviatedPath": "\/images\/calendar-icon.jpg",
+		"outputAbbreviatedPath": "\/images\/calendar-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/course-makeUp-video_03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -245,6 +265,17 @@
 		"initialSize": 21201,
 		"inputAbbreviatedPath": "\/images\/course-makeUp-video_03.jpg",
 		"outputAbbreviatedPath": "\/images\/course-makeUp-video_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/credit-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3685,
+		"inputAbbreviatedPath": "\/images\/credit-icon.jpg",
+		"outputAbbreviatedPath": "\/images\/credit-icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -399,6 +430,17 @@
 		"initialSize": 7921,
 		"inputAbbreviatedPath": "\/images\/oc-logo.png",
 		"outputAbbreviatedPath": "\/images\/oc-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/security-norton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3379,
+		"inputAbbreviatedPath": "\/images\/security-norton.jpg",
+		"outputAbbreviatedPath": "\/images\/security-norton.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

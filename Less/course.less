@@ -1,99 +1,107 @@
-﻿@import url(base.less);
-
+﻿
+@import url(base.less);
 .rightBox-border {
-    border: 10px solid rgba(255, 255, 255, 0.5);
+	border: 10px solid rgba(255, 255, 255, 0.5);
 }
-
 .form-course-box {
-    .border-radius;
-    background-color: @colorBlue;
-    color: @colorWhite;
-    .mt(-150px);
-    padding: 20px;
-    border: 10px solid rgba(255, 255, 255, .5);
-    -webkit-background-clip: padding-box; /* for Safari */
-    background-clip: padding-box;
+ 	.border-radius;
+ 	background-color: @colorBlue;
+	color: @colorWhite;
+ 	.mt(-150px);
+	padding: 20px;
+	border: 10px solid rgba(255, 255, 255, .5);
+	-webkit-background-clip: padding-box; /* for Safari */
+	background-clip: padding-box;
 }
-
 .fontSize-20 {
-    font-size: 18px;
+	font-size: 18px;
 }
 /******************************* 
 **** Course snapshot 
 ********************************/
 .course-snapshot-box {
-    background-color: @colorGray;
-    min-height: 20px;
-    border-radius: 10px 30px 30px 10px;
+ 	background-color: @colorGray;
+	min-height: 20px;
+	border-radius: 10px 30px 30px 10px;
 }
-
 .job-potential-circle {
-    text-align: center;
-    color: @colorBlue;
-    padding: 22px 0px;
-    .border-radius (@radius: 50%);
-    border: 3px solid @colorBlue;
+	text-align: center;
+ 	color: @colorBlue;
+	padding: 22px 0px;
+ 	.border-radius (@radius: 50%);
+ 	border: 3px solid @colorBlue;
 }
 .course {
-		margin: 20px 0 0 0;
-		padding: 0;
-	}
+	margin: 20px 0 0 0;
+	padding: 0;
+}
 .course li {
-		background-color: @colorGray;
-		min-height: 25px;
-		margin: 0 0 10px 0;
-		list-style: none;
-		padding: 15px 75px 15px 200px;
-		border-radius: 10px 30px 30px 10px;
-		position: relative;
-	}
+ 	background-color: @colorGray;
+	min-height: 25px;
+	margin: 0 0 10px 0;
+	list-style: none;
+	padding: 10px 10px 10px 150px;
+	border-radius: 10px 30px 30px 10px;
+	position: relative;
+}
 .course li strong {
-		position: absolute;
-		left: 15px;
-	}
+	position: absolute;
+	left: 15px;
+}
 .course li:after {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
+	position: absolute;
+	right: 0;
+	top: 0;
+}
 .course li *:last-child {
-		margin-bottom: 0;
-	}
+	margin-bottom: 0;
+}
 .course li.watch:after {
-		content: '\e61b';
-	}
-.course li.money:after {
-		content: url(images/icon_dollor.png);
-	}
-.course li.basket:after {
-		content: url(images/icon_mobile.png);
-	}
-.course li.tick:after {
-		content: url(images/icon_tick.png);
-	}
-.course li.flag:after {
-		content: url(images/icon_flag.png);
-	}
-.mob-course-info-title{
-		color:@colorGrayD;
-		font-size:0.9em;
+	content: '\e61b';
 }
-.mob-course-info{
-		color:@colorGrayD;
-		font-size:0.6em;
+.course li.star:after {
+	content: '\e619';
 }
-.course li.watch,
-.icon-watch,
-.icon-iPhone,
-.icon-tickSquare {
-  border-radius: 50%;
-  padding: 7px;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  color: #FFFFFF;
-  font-size: 2em;
-  font-size: 1.4em;
-  background-color: #05a8ba;
-  font-size: 1.6em;
+.course li.iPhone:after {
+	content: '\e618';
+}
+.course li.tickSquare:after {
+	content: '\e61a';
+}
+.mob-course-info-title {
+ color:@colorGrayD;
+	font-size: 0.9em;
+}
+.mob-course-info {
+ color:@colorGrayD;
+	font-size: 0.8em;
+}
+.course-snapshot-icons{
+	font-family:@iconFont;
+ border-radius: 50%;
+ padding: 5px 7px 9px 7px;
+ text-align: center;
+ width: 40px;
+ height: 40px;
+ color: #FFFFFF;
+ font-size: 2em;
+ font-size: 1.4em;
+ background-color: #05a8ba;
+ font-size: 1.6em;
+}
+ .watch:after, {
+.course-snapshot-icons;
+ content: '\e61b';
+}
+.star:after, {
+.course-snapshot-icons;
+ content: '\e619';
+}
+.tick:after, {
+.course-snapshot-icons;
+ content: '\e61a';
+}
+.iphone:after, {
+.course-snapshot-icons;
+ content: '\e618';
 }
