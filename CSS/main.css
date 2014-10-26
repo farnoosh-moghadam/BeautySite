@@ -406,6 +406,7 @@ a:-webkit-any-link {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
+
 /******************************* 
 **** Header
 ********************************/
@@ -663,6 +664,10 @@ a:-webkit-any-link {
 }
 .mb-40 {
   margin-bottom: 40px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
 }
 .ml-5 {
   margin-left: 5px;
@@ -1147,6 +1152,10 @@ footer {
   padding-top: 5px;
   width: 100%;
   height: auto;
+}
+
+.icon-socialMedia span{
+    margin-left:.2em;
 }
 /******************************* 
 **** Course area-Enrol box

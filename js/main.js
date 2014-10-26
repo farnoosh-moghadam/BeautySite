@@ -105,7 +105,7 @@ $(document).ready(function () {
     },
         {
             triggerOnce: true,
-            offset: 'bottom-in-view'
+            offset: '50%',
         });
 
     $('.tutor-box').slick({
