@@ -213,6 +213,15 @@ a:-webkit-any-link {
 .icon-download:before {
   content: '\e614';
 }
+.icon-address:before {
+  content: '\e61d';
+}
+.icon-overseas:before {
+  content: '\e61f';
+}
+.icon-postbox:before {
+  content: '\e61e';
+}
 .icon-socialMedia-circle,
 .icon-course-snapshot-circle {
   border-radius: 50%;
