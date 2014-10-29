@@ -3,6 +3,17 @@
 .rightBox-border {
 	border: 10px solid rgba(255, 255, 255, 0.5);
 }
+
+#stickyForm{
+    @media(min-width:@screen-lg-min) {
+		width:360px;
+	}
+	
+	@media(min-width:@screen-md-min) and (max-width:@screen-md-max) {
+		width:293px;
+	}
+}
+
 .form-course-box {
  	.border-radius;
  	background-color: @colorBlue;
@@ -89,19 +100,19 @@
  background-color: #05a8ba;
  font-size: 1.6em;
 }
- .watch:after, {
+ .watch:after {
 .course-snapshot-icons;
  content: '\e61b';
 }
-.star:after, {
+.star:after {
 .course-snapshot-icons;
  content: '\e619';
 }
-.tick:after, {
+.tick:after {
 .course-snapshot-icons;
  content: '\e61a';
 }
-.iphone:after, {
+.iphone:after {
 .course-snapshot-icons;
  content: '\e618';
 }

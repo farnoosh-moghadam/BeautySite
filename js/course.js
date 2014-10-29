@@ -3,10 +3,10 @@
         return;
     }
     if (dir === 'down') {
-        $('#stickyForm').find('.form-course-box').css({ 'margin-top': '0px','width':'360px' });
+        $('#stickyForm').find('.form-course-box').css({ 'margin-top': '0px' });
     }
     else {
-        $('#stickyForm').find('.form-course-box').css({ 'margin-top': '-150px', 'width': '100%' });
+        $('#stickyForm').find('.form-course-box').css({ 'margin-top': '-150px' });
     }
 }
 
