@@ -578,9 +578,6 @@ a:-webkit-any-link {
 .pl-30-important {
   padding-left: 30px !important;
 }
-.pl-negative-10 {
-  padding-left: -10px;
-}
 .pb-5 {
   padding-bottom: 5px;
 }
@@ -730,7 +727,7 @@ a:-webkit-any-link {
 **** Job growth
 ********************************/
 .border-gray {
-  border-color: 1px solid #222222;
+  border: 1px solid #222222;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -1245,9 +1242,6 @@ footer {
   }
   img {
     max-width: 100% !important;
-  }
-  @page {
-    margin: 0.5cm;
   }
   p,
   h2,
