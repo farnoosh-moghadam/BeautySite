@@ -8,7 +8,7 @@
   background-image: url(../images/Nail-courseArea.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
 }
 @media (min-width: 1200px) {
   #parallax3 {
@@ -34,7 +34,7 @@
   background-image: url(../images/MakeUp-courseArea.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
 }
 @media (min-width: 1200px) {
   #parallax2 {
@@ -60,7 +60,7 @@
   background-image: url(../images/BeautyTherapy-courseArea.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
 }
 @media (min-width: 1200px) {
   #parallax1 {
