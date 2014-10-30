@@ -10,7 +10,6 @@
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/menu.css">
     <link rel="stylesheet" type="text/css" href="CSS/course.css">
-    <link rel="stylesheet" type="text/css" href="CSS/Mediaquery.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/slick.css">
@@ -77,7 +76,7 @@
             <!-- left side -->
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-20">
                 <!-- course description -->
-                <div class="row border-gray-1 pt-pb-20 pr-pl-10">
+                <div class="row pt-pb-20 pr-pl-10 hidden-xs">
                     <h2 class="pb-20 pl-15">Maecenas Facilisis Urna Nulla Proin Et Dictum Metus</h2>
                     <h4 class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.
@@ -92,7 +91,7 @@
                 </div>
                 <!-- /course description -->
                 <!-- Watch the video -->
-                <div class="row border-gray-1 pt-pb-20 mt-20 pr-pl-10">
+                <div class="row pt-pb-20 mt-20 pr-pl-10 hidden-xs">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <h2 class="pb-20">Watch the video</h2>
                         <h4>
@@ -234,10 +233,10 @@
                     <div class="testimonialCarousel testimonial-box">
                         <div>
                             <!-- /Testimonial 1 img -->
-                            <div class="testimonial-image-wrapper border-gray-1 hidden-xs hidden-sm"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                            <div class="testimonial-image-wrapper hidden-xs hidden-sm"> <img src="images/student.jpg" class="img-responsive" alt="" /> </div>
                             <!-- /Testimonial 1 img -->
                             <div class="testimonial-text-wrapper">
-                                <!-- Testimonial 1 text -->
+                               <!-- Testimonial 1 text -->
                                 <h4>
                                     <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
                                     fringilla. sapien, nec rutrum justo. Cum sociis
@@ -253,7 +252,7 @@
                         </div>
                         <div>
                             <!-- /Testimonial 2 img -->
-                            <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                            <div class="testimonial-image-wrapper hidden-sm hidden-xs"> <img src="images/student.jpg" class="img-responsive" alt="" /> </div>
                             <!-- /Testimonial 2 img -->
                             <div class="testimonial-text-wrapper">
                                 <!-- Testimonial 2 text -->
@@ -267,7 +266,7 @@
                         </div>
                         <div>
                             <!-- /Testimonial 3 img -->
-                            <div class="testimonial-image-wrapper border-gray-1 hidden-sm hidden-xs"> <img src="images/student1.jpg" class="img-responsive" alt="" /> </div>
+                            <div class="testimonial-image-wrapper hidden-sm hidden-xs"> <img src="images/student.jpg" class="img-responsive" alt="" /> </div>
                             <!-- /Testimonial 3 img -->
                             <div class="testimonial-text-wrapper">
                                 <!-- Testimonial 2 text -->
@@ -306,9 +305,9 @@
                     </div>
                 </div>
                 <!-- /Testimonials -->
-                <div class="row">
+                <div class="row pt-pb-20">
                     <!-- Course Snapshot -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-mb-20">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <h2 class="pt-20">Course snapshot:</h2>
                         <ul class="course">
                             <li class="star"> <strong class="mob-course-info-title"> Duration: </strong><span class="mob-course-info"> Max 24 months </span> </li>
@@ -322,20 +321,14 @@
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <h2 class="pt-20">Job potentials:</h2>
                         <div class="row grayL-bg border-gray-1 pt-pb-20 mt-20 pr-pl-25">
-                            <div class="col-lg-6 col-md-6 col-sm-6 pt-20">
+                            <div class="col-lg-6 col-md-12 col-sm-12 pt-20">
                                 <h4 class="pb-10"><span class="icon icon-tick text-blue"></span> Beauty therapist </h4>
                                 <h4 class="pb-10"><span class="icon icon-tick text-blue"></span> Beautician </h4>
                                 <h4 class="pb-10"><span class="icon icon-tick text-blue"></span> Make up artist </h4>
                                 <h4 class="pb-10"><span class="icon icon-tick text-blue"></span> Salon manager </h4>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 job-potential-circle">
-                                <h3>More than</h3>
-                                <h1>710</h1>
-                                <h3>
-                                    jobs were available<br>
-                                    in April 2014
-                                </h3>
-                            </div>
+                            <div class="col-lg-6 hidden-md hidden-sm hidden-xs">
+                            <img src="images/job-available.gif" width="170" height="169" class="img-responsive"/> </div>
                         </div>
                     </div>
                     <!--Potential jobs -->
@@ -346,7 +339,7 @@
                         <div class="panel panel-default white-bg">
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#DiplomaOfBeautyTherapy">
-                                    <h3 class="panel-title blue-bg pl-20 pr-20 pt-10 pb-10">Course Details <span class="icon icon-accordion-circle icon-minus pull-right"></span></h3>
+                                    <h3 class="panel-title border-grayL-1 blue-bg pl-20 pr-20 pt-10 pb-10">Course Details <span class="icon icon-accordion-circle icon-minus pull-right"></span></h3>
                                 </a>
                             </div>
                             <div id="DiplomaOfBeautyTherapy" class="panel-collapse collapse in">
@@ -368,7 +361,7 @@
                         <div class="panel panel-default white-bg">
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#CertificateIVinBeautyTherapy">
-                                    <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Subjects<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
+                                    <h3 class="panel-title border-grayL-1 lighten-blue-1 pt-10 pb-10 pl-20 pr-20">Subjects<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
                                 </a>
                             </div>
                             <div id="CertificateIVinBeautyTherapy" class="panel-collapse collapse">
@@ -383,7 +376,7 @@
                         <div class="panel panel-default white-bg">
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#BeautyTherapy" href="#CertificateInBeautyTherapy">
-                                    <h3 class="panel-title blue-bg pt-10 pb-10 pl-20 pr-20">Requirements<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
+                                    <h3 class="panel-title border-grayL-1 lighten-blue-2 pt-10 pb-10 pl-20 pr-20">Requirements<span class="icon icon-accordion-circle icon-plus pull-right"></span> </h3>
                                 </a>
                             </div>
                             <div id="CertificateInBeautyTherapy" class="panel-collapse collapse">
@@ -400,7 +393,9 @@
                 <!-- /Accordions -->
                 <!-- Payment options -->
                 <div class="row border-gray-1 pr-pl-25 pt-pb-20">
+                <div class="row pb-10">
                     <h2>Payment options: <img src="images/security-norton.jpg" width="85" height="52" alt="" class="pull-right" /> </h2>
+                    </div>
                     <div class="row">
                         <!-- Pay in full -->
                         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -429,7 +424,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <button type="button" class="button-FindMore pt-pb-10 mt-mb-20 ml-5">
-                                <h3 class="text-center">Find out more »</h3>
+                                <h3 class="text-center">Enrol now »</h3>
                             </button>
                         </div>
                     </div>
