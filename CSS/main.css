@@ -19,6 +19,20 @@ Description: The 2014 Django theme for Open College's Beauty microsite
 /* ==========================================================================
    Classes
    ========================================================================== */
+.lighten-blue-1 {
+  background-color: #2ab5c4;
+}
+.lighten-blue-2 {
+  background-color: #5cc6d2;
+}
+.lighten-blue-3 {
+  background-color: #13e2f9;
+}
+.lighten-blue-1,
+.lighten-blue-2,
+.lighten-blue-3 {
+  color: #ffffff;
+}
 /* ==========================================================================
    Tags
    ========================================================================== */
@@ -222,6 +236,12 @@ a:-webkit-any-link {
 .icon-postbox:before {
   content: '\e61e';
 }
+.icon-address,
+.icon-overseas,
+.icon-postbox {
+  font-size: 1.9em;
+  color: #05a8ba;
+}
 .icon-socialMedia-circle,
 .icon-course-snapshot-circle {
   border-radius: 50%;
@@ -415,10 +435,12 @@ a:-webkit-any-link {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
-
 /******************************* 
 **** Header
 ********************************/
+.border-grayL-1 {
+  border-bottom: 1px solid #f3f3f3;
+}
 .topBorder {
   background: #222222;
   height: 4px;
@@ -545,6 +567,9 @@ a:-webkit-any-link {
 .pt-20 {
   padding-top: 20px;
 }
+.pt-30 {
+  padding-top: 30px;
+}
 .pt-27 {
   padding-top: 27px;
 }
@@ -601,6 +626,10 @@ a:-webkit-any-link {
   padding-right: 10px;
   padding-left: 10px;
 }
+.pr-pl-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 .pr-pl-25 {
   padding-right: 25px;
   padding-left: 25px;
@@ -620,6 +649,10 @@ a:-webkit-any-link {
 .pt-pb-20 {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.pt-pb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .pr-pl-60 {
   padding-right: 60px;
@@ -671,7 +704,6 @@ a:-webkit-any-link {
 .mb-40 {
   margin-bottom: 40px;
 }
-
 .mb-15 {
   margin-bottom: 15px;
 }
@@ -817,7 +849,6 @@ form select:hover {
   border: 1px solid #17a0ae;
 }
 .button-submit {
-  font-family: 'Plume-font';
   background-color: #b2d953;
   border: 1px solid #a1c54b;
   color: #000000;
@@ -839,7 +870,6 @@ form select:hover {
 **** Homepage-Course area
 ********************************/
 .button-courseArea {
-  font-family: 'Plume-font';
   background-color: #94bb37;
   border: 1px solid #a1c54b;
   color: #FFFFFF;
@@ -864,8 +894,8 @@ form select:hover {
 ********************************/
 .learningProsess-img {
   max-width: 100%;
-  border: 1px solid #ebebeb;
   padding: 10px;
+  margin-left: 15px;
 }
 .learningProcess-box-blue {
   border-top: 5px solid #05a8ba;
@@ -877,9 +907,6 @@ form select:hover {
   border-top: 5px solid #108432;
 }
 .learningProcess-drop-shadow {
-  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   margin-bottom: 20px;
 }
 .oneThirdWidth {
@@ -1159,9 +1186,8 @@ footer {
   width: 100%;
   height: auto;
 }
-
-.icon-socialMedia span{
-    margin-left:.2em;
+.icon-socialMedia span {
+  margin-left: .2em;
 }
 /******************************* 
 **** Course area-Enrol box
@@ -1194,6 +1220,41 @@ footer {
   vertical-align: middle;
   text-align: left;
   width: 70%;
+}
+/* ==========================================================================
+   Media quary
+   ========================================================================== */
+@media (max-width: 991px) {
+  .shadow {
+    -webkit-box-shadow: -3px 3px 7px #d7d4d4;
+    -moz-box-shadow: -3px 3px 7px #d7d4d4;
+    box-shadow: -3px 3px 7px #d7d4d4;
+    z-index: 3;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .aboutUs-mobile-header {
+    background-color: #888888;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+  }
+  .aboutUs-mobile-body {
+    background-color: #f3f3f3;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 15px;
+  }
+}
+.white-bg-mobile {
+  background-color: #f3f3f3;
+}
+@media (max-width: 767px) {
+  .white-bg-mobile {
+    background-color: #ffffff;
+  }
 }
 /* ==========================================================================
    Imports

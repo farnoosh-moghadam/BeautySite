@@ -247,6 +247,10 @@ a:-webkit-any-link {
 .icon-postbox:before {
     content: '\e61e';
 }
+.icon-address, .icon-overseas, .icon-postbox{
+	font-size:1.9em;
+	color:@colorBlue;
+}
 .icon-socialMedia-circle, .icon-course-snapshot-circle {
     border-radius: 50%;
     padding: 7px;
@@ -415,7 +419,9 @@ a:-webkit-any-link {
 /******************************* 
 **** Header
 ********************************/
-
+.border-grayL-1{
+	border-bottom:1px solid @colorGray;
+}
 .topBorder {
     background: @colorGrayD;
     height: 4px;
@@ -541,7 +547,9 @@ a:-webkit-any-link {
 .pt-20 {
     .pt(20px);
 }
-
+.pt-30 {
+    .pt(30px);
+}
 .pt-27 {
     .pt(27px);
 }
@@ -612,6 +620,10 @@ a:-webkit-any-link {
     .pr(10px);
     .pl(10px);
 }
+.pr-pl-20 {
+    .pr(20px);
+    .pl(20px);
+}
 .pr-pl-25 {
     .pr(25px);
     .pl(25px);
@@ -631,6 +643,10 @@ a:-webkit-any-link {
 .pt-pb-20 {
     .pt(20px);
     .pb(20px);
+}
+.pt-pb-30 {
+    .pt(30px);
+    .pb(30px);
 }
 
 .pr-pl-60 {
@@ -840,7 +856,6 @@ form select:hover {
 }
 
 .button-submit {
-    font-family: 'Plume-font';
     background-color: #b2d953;
     border: 1px solid #a1c54b;
     color: #000000;
@@ -857,7 +872,6 @@ form select:hover {
 **** Homepage-Course area
 ********************************/
 .button-courseArea {
-    font-family: 'Plume-font';
     background-color: #94bb37;
     border: 1px solid #a1c54b;
     color: #FFFFFF;
@@ -877,8 +891,8 @@ form select:hover {
 ********************************/
 .learningProsess-img {
     max-width: 100%;
-	.border-gray-1;
 	padding:10px;
+	margin-left:15px;
 }
 
 .learningProcess-box-blue {
@@ -894,7 +908,6 @@ form select:hover {
 }
 
 .learningProcess-drop-shadow {
-    .drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25);
     .mb(20px);
 }
 
@@ -1127,6 +1140,40 @@ footer {
     text-align: left;
 	width:70%;
 }
+/* ==========================================================================
+   Media quary
+   ========================================================================== */
+
+@media (max-width:@screen-sm-max) {
+  .shadow {
+    -webkit-box-shadow: -3px 3px 7px #d7d4d4;
+    -moz-box-shadow: -3px 3px 7px #d7d4d4;
+    box-shadow: -3px 3px 7px #d7d4d4;
+    z-index: 3;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: @screen-xs-max) {
+  .aboutUs-mobile-header {
+	  background-color:lighten(@colorGrayD, 40%);
+	  border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+	  padding:15px;
+	  color:@colorWhite;
+  }
+  .aboutUs-mobile-body {
+	  background-color:@colorGray;
+	  border-bottom-left-radius: 5px;
+	  border-bottom-right-radius: 5px;
+	  padding:15px;
+  }
+}
+.white-bg-mobile{
+		background-color:@colorGray;
+		@media (max-width: @screen-xs-max) {
+	  background-color:@colorWhite;
+	  }
+  }
 /* ==========================================================================
    Imports
    ========================================================================== */
