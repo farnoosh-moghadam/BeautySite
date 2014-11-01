@@ -648,7 +648,6 @@ a:-webkit-any-link {
     .pt(30px);
     .pb(30px);
 }
-
 .pr-pl-60 {
     .pr(60px);
     .pl(60px);
@@ -660,6 +659,9 @@ a:-webkit-any-link {
 }
 .padding-10{
 	padding:10px;
+}
+.padding-20{
+	padding:20px;
 }
 .mr-ml-5 {
     .mr(5px);
@@ -743,7 +745,12 @@ a:-webkit-any-link {
     border-left: 20px solid transparent;
     display: block;
 }
-
+.border-blue-top {
+    border-top-color: @colorBlue;
+}
+.border-gray-top {
+    border-top-color: @colorGray;
+}
 .border-blue {
     border-bottom-color: @colorBlue;
 }
@@ -1138,7 +1145,7 @@ footer {
     cursor: pointer;
     vertical-align: middle;
     text-align: left;
-	width:70%;
+	width:98%;
 }
 /* ==========================================================================
    Media quary
@@ -1166,6 +1173,15 @@ footer {
 	  border-bottom-left-radius: 5px;
 	  border-bottom-right-radius: 5px;
 	  padding:15px;
+  }
+  .pb-mobile-0{
+	  .pb(0px);	  
+  }
+  .mb-mobile-20{
+	  .mb(20px);	  
+  }
+  .pt-mobile-30{
+	  .pt(30px);	  
   }
 }
 .white-bg-mobile{
