@@ -316,7 +316,12 @@ a:-webkit-any-link {
     font-size: 1.4em;
     font-family: "Courier New", Courier, monospace;
 }
-
+.icon-arrowInCircle:after{
+	content: '\e61c';
+}
+.icon-arrowInCircle{
+	font-size:1.4em;
+}
 .icon-plus:after {
     content: "+";
 }
@@ -605,6 +610,9 @@ a:-webkit-any-link {
 .pb-20 {
     .pb(20px);
 }
+.pb-30 {
+    .pb(30px);
+}
 .pt-pb-10-pr-pl-5 {
     .pt(10px);
     .pb(10px);
@@ -738,11 +746,11 @@ a:-webkit-any-link {
 }
 
 .main-triangle-down {
-    border-top: 20px solid;
+    border-top: 18px solid;
     width: 0px;
     height: 0px;
-    border-right: 20px solid transparent;
-    border-left: 20px solid transparent;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
     display: block;
 }
 .border-blue-top {
@@ -750,6 +758,9 @@ a:-webkit-any-link {
 }
 .border-gray-top {
     border-top-color: @colorGray;
+}
+.border-white-top {
+    border-top-color: @colorWhite;
 }
 .border-blue {
     border-bottom-color: @colorBlue;
@@ -1031,6 +1042,11 @@ form select:hover {
 
 .ui-dialog-content{
     background-color:white;
+}
+.img-tutor{
+	text-align:center;
+	width:400px;
+	height:auto;
 }
 
 /******************************* 

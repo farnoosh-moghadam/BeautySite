@@ -24,7 +24,7 @@
 }
 @media (max-width: 767px) {
   .courses-button-mobile {
-    width: 80%;
+    width: 100%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -33,6 +33,8 @@
     background-clip: padding-box;
     border: 2px solid #05a8ba;
     display: block;
-    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fbfbfb;
   }
 }
