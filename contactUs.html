@@ -21,32 +21,24 @@
     <div class="topBorder">
         <div class="container blueBorder"> </div>
     </div>
-    <header class="shadow">
-        <div class="container">
-            <div class="row pt-10">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7"> <a href="#"><img src="images/OC-logo.png" alt="" class="logo"></a> </div>
-                <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
-                <div class="pull-right">
-                    <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225">
-                        <span class="icon icon-phone icon-phone-circle"></span>
-                        <h3 class="plume pr-pl-10 pull-right"> Free call on 1300 309 225</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <nav class="stickRight col-xs-12 pb-10">
-                    <ul class="main-menu-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="courseArea.html">Courses</a></li>
-                        <li><a href="studyingOnline.html">Studying online</a></li>
-                        <li><a href="aboutUs.html">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="contactUs.html">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <header>
+        <a href="/"><img class="logo" src="http://oca3-prod.s3.amazonaws.com/logo.svg" alt="Open Colleges Logo"></a>
+        <div class="tagline">
+            <p class="phone">Free call: <a href="tel://1300306595" class="dynamic-phone">1300 306 595</a></p>
         </div>
+        <ul class="main-nav hidden-sm hidden-xs"><li class=" first"><a href="index.html">Home</a></li><li class=""><a href="courseArea.html">Courses</a></li><li class=""><a href="studyingOnline.html">Studying online</a></li><li class=""><a href="aboutUs.html">About Us</a></li><li class=""><a href="#">Blog</a></li><li class=" last"><a href="contactUs.html">Contact Us</a></li></ul>
+        <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
     </header>
+    <nav class="main-menu visible-sm visible-xs">
+        <ul>
+            <li class=" first"><a href="index.html">Home</a></li>
+            <li class=""><a href="courseArea.html">Courses</a></li>
+            <li class=""><a href="studyingOnline.html">Studying online</a></li>
+            <li class=""><a href="aboutUs.html">About Us</a></li>
+            <li class=""><a href="#">Blog</a></li>
+            <li class=" last"><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <!-- /Header -->
     <!-- Top blue bar -->
     <div class="blue-bg hidden-xs hidden-sm">
@@ -55,63 +47,70 @@
         </div>
     </div>
     <!-- /Top blue bar -->
-    <div class="container">
-    	<div class="row bg-leaf mb-25">
-        <!-- Form -->
-        	<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-pb-20">
-            <h2 class="pb-10">Write to us:</h2>
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 form-group">
-            	<input type="first name" class="form-control" id="exampleInputEmail1" placeholder="First name">
-                <input type="last name" class="form-control mt-7" id="exampleInputEmail1" placeholder="Last name">
-                <input type="email" name="Email-address" required tabindex="3" class="form-control mt-7" placeholder="Email">
-                                <input type="number" title="phone" required name="phone" tabindex="4" class="form-control mt-7" placeholder="Phone number">
-                                <select required name="State" tabindex="5" class="form-control mt-7">
-                                    <option value="" selected="selected">--State --</option>
-                                    <option value="ACT">ACT</option>
-                                    <option value="NSW">NSW</option>
-                                    <option value="NT">NT</option>
-                                    <option value="QLD">QLD</option>
-                                    <option value="SA">SA</option>
-                                    <option value="TAS">TAS</option>
-                                    <option value="VIC">VIC</option>
-                                    <option value="WA">WA</option>
-                                    <option value="INTL">Overseas</option>
-                                </select>
-                                <select required name="interest" tabindex="6" class="form-control mt-7">
-                                    <option value="" selected="selected">--I'm interested in --</option>
-                                    <option value="34424">Diploma of Beauty Therapy</option>
-                                    <option value="3454645">Certificate IV in Beauty Therapy</option>
-                                    <option value="56765765">Certificate in Beauty Therapy</option>
-                                    <option value="7665">How to Apply Make up</option>
-                                    <option value="345345">
-                                        Certificate IV in Retail Make-Up and
-                                        Skin Care
-                                    </option>
-                                    <option value="2435">Nail Technician certificate</option>
-                                </select>
+    <div class="container page-header">
+        <div class="row mb-25">
+            <!-- Form -->
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-pb-20">
+                <h2 class="pb-10">Write to us:</h2>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 form-group">
+                    <input type="first name" class="form-control" id="exampleInputEmail1" placeholder="First name">
+                    <input type="last name" class="form-control mt-7" id="exampleInputEmail1" placeholder="Last name">
+                    <input type="email" name="Email-address" required tabindex="3" class="form-control mt-7" placeholder="Email">
+                    <input type="number" title="phone" required name="phone" tabindex="4" class="form-control mt-7" placeholder="Phone number">
+                    <select required name="State" tabindex="5" class="form-control mt-7">
+                        <option value="" selected="selected">--State --</option>
+                        <option value="ACT">ACT</option>
+                        <option value="NSW">NSW</option>
+                        <option value="NT">NT</option>
+                        <option value="QLD">QLD</option>
+                        <option value="SA">SA</option>
+                        <option value="TAS">TAS</option>
+                        <option value="VIC">VIC</option>
+                        <option value="WA">WA</option>
+                        <option value="INTL">Overseas</option>
+                    </select>
+                    <select required name="interest" tabindex="6" class="form-control mt-7">
+                        <option value="" selected="selected">--I'm interested in --</option>
+                        <option value="34424">Diploma of Beauty Therapy</option>
+                        <option value="3454645">Certificate IV in Beauty Therapy</option>
+                        <option value="56765765">Certificate in Beauty Therapy</option>
+                        <option value="7665">How to Apply Make up</option>
+                        <option value="345345">
+                            Certificate IV in Retail Make-Up and
+                            Skin Care
+                        </option>
+                        <option value="2435">Nail Technician certificate</option>
+                    </select>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <textarea rows="11" class="form-control" id="exampleInputEmail1" placeholder="Message"></textarea>
+                </div>
+                <button type="button" class="button-submit pt-pb-10 mt-7 mr-ml-55">
+                    Send the message <span class="icon icon-arrow-right"></span>
+                </button>
             </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-            <textarea rows="11" class="form-control" id="exampleInputEmail1" placeholder="Message"></textarea>
+            <!-- /Form -->
+            <!-- Right bar -->
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pt-pb-30">
+                <div>
+                    <span class="icon icon-address"></span> <span style="mr-ml-10">
+                        3Level 7, 280 Elizabeth Street
+                        Sydney NSW  2000
+                    </span>
+                </div>
+                <div><span class="icon icon-phone"></span> Call us on 1300 834 654</div>
+                <div>
+                    <span class="icon icon-overseas"></span> Overseas?</br>
+                    Call us on +61 2 9481 1111
+                </div>
+                <div>
+                    <span class="icon icon-postbox "></span> PO Box 1568<br>
+                    Strawberry Hills  NSW  2012
+                </div>
             </div>
-            <button type="button" class="button-submit pt-pb-10 mt-7 mr-ml-55">
-                                    Send the message <span class="icon icon-arrow-right"></span>
-                                </button>
-            </div>
-        <!-- /Form -->
+        </div>
         <!-- Right bar -->
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pt-pb-30">
-        <div><span class="icon icon-address"></span> <span style="mr-ml-10">3Level 7, 280 Elizabeth Street
-Sydney NSW  2000
-        </span></div>
-        <div><span class="icon icon-phone"></span> Call us on 1300 834 654</div>
-        <div><span class="icon icon-overseas"></span> Overseas?</br>
-Call us on +61 2 9481 1111</div>
-        <div><span class="icon icon-postbox "></span> PO Box 1568<br>
-Strawberry Hills  NSW  2012</div>
-        </div>
-        </div>
-        <!-- Right bar -->
-        </div>
+    </div>
     </div>
     <!-- Footer -->
     <footer>

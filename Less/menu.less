@@ -1,59 +1,40 @@
 ﻿@import url(base.less);
 
-.main-menu-list li a {
-	@media (max-width: @screen-sm-max) {
-        .pt(10px);
-		.pb(10px);
-    }
-    .pl(0px);
-    .pr(15px);
-    display: inline-block;
-    color: #444444;
-    font-size: 16px;
-
-    &:hover {
-        color: @colorWhite;
-        .transition(color 0.2s linear);
-        text-decoration: none;
-    }
+#burgerWrapper {
+    padding-top: 3px;
+    font-size: 3em;
+    color: @colorBlue;
+    line-height: 43px;
 }
 
-@media (min-width: @screen-md-min) {
-
-    .main-menu-list li:before {
-        content: '|';
-        color: @colorBlue;
-        font-size: 14px;
-        font-weight: bold;
-        .pr(15px);
-    }
+header {
+    clear: both;
+    overflow: auto;
+    padding: 1rem;
+    position: relative;
+    background-color: #FFFFFF;
 }
 
-.main-menu-list li:first-child:before {
-    content: '';
+header .logo {
+    float: left;
+    height: 6rem;
 }
 
-.main-menu-list {
-    @media (max-width: @screen-sm-max) {
-        display: none;
-    }
-    padding: 0;
+header h5 {
+    font-size: 2rem;
+    font-size: 1.4rem;
     margin: 0;
-    z-index: 2;
+    text-align: right;
 }
 
-.main-menu-list li {
-    @media (min-width: @screen-md-min) {
-        display: inline-block;
-    }
-    @media(max-width:@screen-sm-max)
-    {
-        border-bottom: 1px @colorBlue solid;
-    }
-    .ml(-7px);
-    vertical-align: top;
-    list-style: none;
-    text-align: center;
+header .main-nav {
+    float: right;
+    margin-right: 1rem;
+    line-height: 2.75rem;
+}
+
+header .main-nav li {
+    display: inline-block;
 
     &:hover {
         background-color: @colorBlue;
@@ -62,9 +43,116 @@
     }
 }
 
-#burgerWrapper
-{
-	font-size:3em;
-	color:@colorBlue;
-	.mt(-5px);
+header .main-nav a {
+    text-decoration: none;
+    color: #0D0F11;
+    border-right: 1px solid #0D0F11;
+    padding: 0 1rem;
+
+    &:hover {
+        color: @colorWhite;
+    }
+}
+
+header .tagline {
+    float: right;
+    font-family: 'Plume-font', serif;
+    font-size: 2rem;
+    text-align: right;
+    color: #6e6e6e;
+}
+
+header .tagline a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header .tagline a:hover {
+    text-decoration: underlined;
+}
+
+header .tagline p {
+    margin: 0;
+    line-height: 5rem;
+}
+
+header .phone {
+    color: #05a8ba;
+}
+
+header .tagline {
+    padding: 0;
+}
+
+@media (max-width: @screen-sm-max) {
+    header {
+        border-bottom: 1px solid #c9c7c6;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    header .logo {
+        height: 4rem;
+    }
+
+    header .tagline {
+        display: none;
+    }
+
+    header .menu-opener {
+        position: absolute;
+        right: 2rem;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        cursor: pointer;
+    }
+
+    .main-menu {
+        width: 55%;
+        margin-right: -55%;
+        position: fixed;
+        top: 4rem;
+        bottom: 0;
+        right: 0;
+        background-color: darken(@colorBlue, 2);
+        z-index: 5;
+    }
+
+    .main-menu ul {
+        list-style: none;
+        padding:0px;
+    }
+
+    .main-menu ul li {
+        border-bottom: 1px solid @colorWhite;
+        padding-left:1rem;
+    }
+
+    .main-menu a {
+        display: block;
+        padding: 0.5rem 0;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #FFFFFF;
+        border-top: 1px solid #6e6e6e;
+    }
+
+    .main-menu a:hover {
+        color: #9bca3c;
+    }
+
+    .main-menu a:first-child {
+        border-top: none;
+    }
+
+    .main-menu a:last-child {
+        border-bottom: none;
+    }
+
+    .main-menu a .fa {
+        margin-right: 2rem;
+    }
 }

@@ -30,37 +30,29 @@
     <div class="topBorder">
         <div class="container blueBorder"> </div>
     </div>
-    <header class="shadow">
-        <div class="container">
-            <div class="row pt-10">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7"> <a href="#"><img src="images/OC-logo.png" alt="" class="logo"></a> </div>
-                <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
-                <div class="pull-right">
-                    <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225">
-                        <span class="icon icon-phone icon-phone-circle"></span>
-                        <h3 class="plume pr-pl-10 pull-right"> Free call on 1300 309 225</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <nav class="stickRight col-xs-12 pb-10">
-                    <ul class="main-menu-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="courseArea.html">Courses</a></li>
-                        <li><a href="studyingOnline.html">Studying online</a></li>
-                        <li><a href="aboutUs.html">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="contactUs.html">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <header>
+        <a href="/"><img class="logo" src="http://oca3-prod.s3.amazonaws.com/logo.svg" alt="Open Colleges Logo"></a>
+        <div class="tagline">
+            <p class="phone">Free call: <a href="tel://1300306595" class="dynamic-phone">1300 306 595</a></p>
         </div>
+        <ul class="main-nav hidden-sm hidden-xs"><li class=" first"><a href="index.html">Home</a></li><li class=""><a href="courseArea.html">Courses</a></li><li class=""><a href="studyingOnline.html">Studying online</a></li><li class=""><a href="aboutUs.html">About Us</a></li><li class=""><a href="#">Blog</a></li><li class=" last"><a href="contactUs.html">Contact Us</a></li></ul>
+        <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
     </header>
+    <nav class="main-menu visible-sm visible-xs">
+        <ul>
+            <li class=" first"><a href="index.html">Home</a></li>
+            <li class=""><a href="courseArea.html">Courses</a></li>
+            <li class=""><a href="studyingOnline.html">Studying online</a></li>
+            <li class=""><a href="aboutUs.html">About Us</a></li>
+            <li class=""><a href="#">Blog</a></li>
+            <li class=" last"><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <!-- /Header -->
     <!-- Hero img -->
-    <div class="homepageHero-bg">
+    <div class="homepageHero-bg page-header">
         <div class="container">
-            <div class="row home-heroImg "> <img src="images/makeUp-course-hero.jpg" width="1407" height="294" alt="" class="img-responsive" /> </div>
+            <div class="row home-heroImg "> <img src="images/makeUp-course-hero.jpg" alt="" class="img-responsive" /> </div>
         </div>
     </div>
     <!-- /Hero img -->
@@ -74,7 +66,7 @@
     <div class="container">
         <div class="row">
             <!-- left side -->
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-20">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <!-- course description -->
                 <div class="row pt-pb-20 pr-pl-10 hidden-xs">
                     <h2 class="pb-20 pl-15">Maecenas Facilisis Urna Nulla Proin Et Dictum Metus</h2>
@@ -104,7 +96,7 @@
                 </div>
                 <!-- /Watch the video -->
                 <!-- What you will learn -->
-                <div class="row grayL-bg border-gray-1 pt-pb-20 mt-20 pr-pl-25">
+                <div class="row grayL-bg border-gray-1 pt-pb-20 pr-pl-25">
                     <h2 class="pb-20">What you will learn</h2>
                     <h3 class="pb-10"><span class="icon icon-tick text-blue"></span> Proofreading marks, editing notes and colloquial speech </h3>
                     <h3 class="pb-10"><span class="icon icon-tick text-blue"></span> Editing on computers and electronic publishing </h3>
@@ -236,7 +228,7 @@
                             <div class="testimonial-image-wrapper hidden-xs hidden-sm"> <img src="images/student.jpg" class="img-responsive" alt="" /> </div>
                             <!-- /Testimonial 1 img -->
                             <div class="testimonial-text-wrapper">
-                               <!-- Testimonial 1 text -->
+                                <!-- Testimonial 1 text -->
                                 <h4>
                                     <span class="icon icon-quote text-blue"></span>Duis pulvinar risus nisl, id feugiat mi porttitor
                                     fringilla. sapien, nec rutrum justo. Cum sociis
@@ -328,7 +320,8 @@
                                 <h4 class="pb-10"><span class="icon icon-tick text-blue"></span> Salon manager </h4>
                             </div>
                             <div class="col-lg-6 hidden-md hidden-sm hidden-xs">
-                            <img src="images/job-available.gif" width="170" height="169" class="img-responsive"/> </div>
+                                <img src="images/job-available.gif" width="170" height="169" class="img-responsive" />
+                            </div>
                         </div>
                     </div>
                     <!--Potential jobs -->
@@ -393,14 +386,14 @@
                 <!-- /Accordions -->
                 <!-- Payment options -->
                 <div class="row border-gray-1 pr-pl-25 pt-pb-20">
-                <div class="row pb-10">
-                    <h2>Payment options: <img src="images/security-norton.jpg" width="85" height="52" alt="" class="pull-right" /> </h2>
+                    <div class="row pb-10">
+                        <h2>Payment options: <img src="images/security-norton.jpg" width="85" height="52" alt="" class="pull-right" /> </h2>
                     </div>
                     <div class="row">
                         <!-- Pay in full -->
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="border-gray-1 grayL-bg pt-pb-10 pr-pl-10">
-                                <img src="images/credit-icon.jpg" width="119" height="117" alt="" class="maxWidth-119 pull-left pr-10" />
+                        <div class="col-lg-6 col-md-6 col-sm-12 mb-mobile-20">
+                            <div class="border-gray-1 grayL-bg pt-pb-10 pr-pl-10 clearfix">
+                                <img src="images/credit-icon.jpg" alt="" class="maxWidth-119 pull-left pr-10" />
                                 <h3 class="pt-10 pb-20 text-blue">Pay in full</h3>
                                 <h4 class="pb-10">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
                             </div>
@@ -408,8 +401,8 @@
                         <!-- /Pay in full -->
                         <!-- Pay by installment -->
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="border-gray-1 grayL-bg pt-pb-10 pr-pl-10">
-                                <img src="images/calendar-icon.jpg" width="119" height="117" alt="" class="maxWidth-119 pull-left pr-10" />
+                            <div class="border-gray-1 grayL-bg pt-pb-10 pr-pl-10 clearfix">
+                                <img src="images/calendar-icon.jpg" alt="" class="maxWidth-119 pull-left pr-10" />
                                 <h3 class="pt-10 pb-20 text-blue">Pay by installment</h3>
                                 <h4 class="pb-10">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
                             </div>
@@ -418,14 +411,16 @@
                     </div>
                     <h3>Enrol Online via EduPay - the Trusted and Secure enrolment gateway preferred by thousands of students.</h3>
                     <!-- Enrol now -->
-                    <div class="row border-gray-1 grayL-bg ">
-                        <div class="col-lg-8 col-md-8 col-sm-12">
-                            <h2 class="pt-20 pb-10">Course: Diploma of Beauty Therapy</h2>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
-                            <button type="button" class="button-FindMore pt-pb-10 mt-mb-20 ml-5">
-                                <h3 class="text-center">Enrol now »</h3>
-                            </button>
+                    <div class="row pr-pl-10">
+                        <div class="grayL-bg clearfix">
+                            <div class="col-lg-8 col-md-8 col-sm-12">
+                                <h2 class="pt-20 pb-10">Course: Diploma of Beauty Therapy</h2>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <button type="button" class="button-FindMore pt-pb-10 mt-mb-20 ml-5">
+                                    <h3 class="text-center">Enrol now »</h3>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <!-- /Enrol now -->

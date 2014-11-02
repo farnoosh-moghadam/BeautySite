@@ -1,14 +1,9 @@
-﻿
-$(document).ready(function () {
-    $('#burger').click(function () {
-        $('.main-menu-list').toggle('slow');
+﻿$(function () {
+    $('#burger').click(function (e) {
+        if ($('.main-menu').css('margin-right') != '0px') e.stopPropagation();
+        $('.main-menu').animate({ 'margin-right': 0 });
     });
-});
-
-$(window).resize(function () {
-    if ($(window).width() >= 992) {
-        $(".main-menu-list").show();
-    } else {
-        $(".main-menu-list").hide();
-    }
+    $(window).click(function () {
+        $('.main-menu').animate({ 'margin-right': '-55%' });
+    });
 });

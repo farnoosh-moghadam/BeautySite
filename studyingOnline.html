@@ -16,44 +16,36 @@
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/menu.js"></script>
-	<script src="js/moveArrow.js"></script>
-	<script src="js/LearnTab.js"></script>
-	<script src="js/benefit.js"></script>
+    <script src="js/moveArrow.js"></script>
+    <script src="js/LearnTab.js"></script>
+    <script src="js/benefit.js"></script>
 </head>
 <body>
     <!-- Header -->
     <div class="topBorder">
         <div class="container blueBorder"> </div>
     </div>
-    <header class="shadow">
-        <div class="container">
-            <div class="row pt-10">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-7"> <a href="#"><img src="images/OC-logo.png" alt="" class="logo"></a> </div>
-                <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
-                <div class="pull-right">
-                    <a class="hidden-sm hidden-xs" href="tel://1300309225" title="Freecall us on 1300309225">
-                        <span class="icon icon-phone icon-phone-circle"></span>
-                        <h3 class="plume pr-pl-10 pull-right"> Free call on 1300 309 225</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <nav class="stickRight col-xs-12 pb-10">
-                    <ul class="main-menu-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="courseArea.html">Courses</a></li>
-                        <li><a href="studyingOnline.html">Studying online</a></li>
-                        <li><a href="aboutUs.html">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="contactUs.html">Contact us</a></li>
-                    </ul>
-                </nav>
-            </div>
+    <header>
+        <a href="/"><img class="logo" src="http://oca3-prod.s3.amazonaws.com/logo.svg" alt="Open Colleges Logo"></a>
+        <div class="tagline">
+            <p class="phone">Free call: <a href="tel://1300306595" class="dynamic-phone">1300 306 595</a></p>
         </div>
+        <ul class="main-nav hidden-sm hidden-xs"><li class=" first"><a href="index.html">Home</a></li><li class=""><a href="courseArea.html">Courses</a></li><li class=""><a href="studyingOnline.html">Studying online</a></li><li class=""><a href="aboutUs.html">About Us</a></li><li class=""><a href="#">Blog</a></li><li class=" last"><a href="contactUs.html">Contact Us</a></li></ul>
+        <div id="burgerWrapper" class="visible-xs-block visible-sm-block pull-right"> <span id="burger" class="icon icon-burger"> </span></div>
     </header>
+    <nav class="main-menu visible-sm visible-xs">
+        <ul>
+            <li class=" first"><a href="index.html">Home</a></li>
+            <li class=""><a href="courseArea.html">Courses</a></li>
+            <li class=""><a href="studyingOnline.html">Studying online</a></li>
+            <li class=""><a href="aboutUs.html">About Us</a></li>
+            <li class=""><a href="#">Blog</a></li>
+            <li class=" last"><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
     <!-- /Header -->
     <!-- Hero img -->
-    <div class="homepageHero-bg">
+    <div class="homepageHero-bg page-header">
         <div class="container">
             <div class="row home-heroImg"><img src="images/studyOnline-hero.jpg" width="1408" height="304" alt="" class="img-responsive" /></div>
         </div>
@@ -68,227 +60,97 @@
     <!-- /Top blue bar -->
     <!-- Studying online is easy -->
     <div class="container">
-    	<div class="row pt-pb-30">
-        	<div class="col-lg-8 col-md-8 col-sm-12">
-            <h2 class="pb-20">Studying Beauty online with Open Colleges is easy</h2>
-            <h4 class="pb-30">Studying a beauty course at Open Colleges allows you to learn when and where you want to – the ultimate in convenience for people with busy lives. All you need is an internet connection and you can access your trainers and 
-assessors, fellow students and course materials through our custom-created student portal, OpenSpace. Studying beauty online allows you to get your qualification and accreditation in the most convenient way – making sure you move towards your personal and professional goals as quickly as possible. When you study online with Open Colleges, you are never alone. </h4>
+        <div class="row pt-pb-30">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h2 class="pb-20">Studying Beauty online with Open Colleges is easy</h2>
+                <h4 class="pb-30">
+                    Studying a beauty course at Open Colleges allows you to learn when and where you want to – the ultimate in convenience for people with busy lives. All you need is an internet connection and you can access your trainers and
+                    assessors, fellow students and course materials through our custom-created student portal, OpenSpace. Studying beauty online allows you to get your qualification and accreditation in the most convenient way – making sure you move towards your personal and professional goals as quickly as possible. When you study online with Open Colleges, you are never alone.
+                </h4>
             </div>
             <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-            	<img src="images/studyingOnline.jpg" width="278" height="202" alt="" class="img-responsive"/>
+                <img src="images/studyingOnline.jpg" width="278" height="202" alt="" class="img-responsive" />
             </div>
         </div>
     </div>
     <!-- Triangle white -->
     <div class="row hidden-xs grayL-bg">
-                        <div class="main-triangle-down border-white-top center-block"></div>
-                </div>
+        <div class="main-triangle-down border-white-top center-block"></div>
+    </div>
     <!-- /Triangle white -->
     <!-- /Studying online is easy -->
     <!-- Suport section -->
     <div class="grayL-bg">
-    <div class="container">
-    	<div class="row pt-20 pb-30">
-        <h4 class="pb-20 pr-pl-20">There are three ways we provide you with the ultimate support network to get you through your studies:</h4>
-        	<!-- Trainers Support -->
-            <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="border-gray-1 white-bg pt-pb-10 pr-pl-10">
-            <img src="images/trainersSupport_icon01.png" width="119" height="117" alt="" class="maxWidth-119 pull-left pr-10"/>
-            <h3 class="pt-10 pb-20">Student Support</h3>
-            <h4 class="pb-10">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
+        <div class="container">
+            <div class="row pt-20 pb-30">
+                <h4 class="pb-20 pr-pl-20">There are three ways we provide you with the ultimate support network to get you through your studies:</h4>
+                <!-- Trainers Support -->
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-mobile-20">
+                    <div class="border-gray-1 white-bg pt-pb-10 pr-pl-10 clearfix">
+                        <img src="images/trainersSupport_icon01.png" alt="" class="maxWidth-119 pull-left pr-10" />
+                        <h3 class="pt-10 pb-20">Student Support</h3>
+                        <h4 class="pb-10">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
+                    </div>
+                </div>
+                <!-- /Trainers Support -->
+                <!-- Student Support -->
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-mobile-20">
+                    <div class="border-gray-1 white-bg pt-pb-10 pr-pl-10 clearfix">
+                        <img src="images/studentSupport_icon01.png" alt="" class="maxWidth-119 pull-left pr-10" />
+                        <h3 class="pt-10 pb-20">Student Support</h3>
+                        <h4 class="pb-10">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
+                    </div>
+                </div>
+                <!-- /Student Support -->
+                <!-- Learning Support -->
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="border-gray-1 white-bg pt-pb-10 pr-pl-10 clearfix">
+                        <img src="images/learningSupport-icon01.png" alt="" class="maxWidth-119 pull-left pr-10" />
+                        <h3 class="pt-10 pb-20">Student Support</h3>
+                        <h4 class="pb-20">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
+                    </div>
+                </div>
+                <!-- /Learning Support -->
+                <h4 class="pt-20 pr-pl-20">There are three ways we provide you with the ultimate support network to get you through your studies:</h4>
             </div>
-            </div>
-            <!-- /Trainers Support -->
-            <!-- Student Support -->
-            <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="border-gray-1 white-bg pt-pb-10 pr-pl-10">
-            <img src="images/studentSupport_icon01.png" width="119" height="117" alt="" class="maxWidth-119 pull-left pr-10"/>
-            <h3 class="pt-10 pb-20">Student Support</h3>
-            <h4 class="pb-10">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
-            </div>
-            </div>
-            <!-- /Student Support -->
-            <!-- Learning Support -->
-            <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="border-gray-1 white-bg pt-pb-10 pr-pl-10">
-            <img src="images/learningSupport-icon01.png" width="119" height="117" alt="" class="maxWidth-119 pull-left pr-10"/>
-            <h3 class="pt-10 pb-20">Student Support</h3>
-            <h4 class="pb-20">Studying a beauty course at Opfgijnfgbo mdfvdpomvc oin fi fn fgibnf </h4>
-            </div>
-            </div>
-            <!-- /Learning Support -->
-            <h4 class="pt-20 pr-pl-20">There are three ways we provide you with the ultimate support network to get you through your studies:</h4>
         </div>
-    </div>
     </div>
     <!-- Triangle gray -->
     <div class="row hidden-xs">
-                        <div class="main-triangle-down border-gray-top center-block"></div>
-                </div>
+        <div class="main-triangle-down border-gray-top center-block"></div>
+    </div>
     <!-- /Triangle gray -->
     <!-- /Support section -->
     <!-- Language tool -->
     <div class="container">
-    	<div class="row pt-pb-30">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-        	<img src="images/language-tool.jpg" width="323" height="301" alt="" class="img-responsive"/>
-        </div>
-        	<div class="col-lg-8 col-md-8 col-sm-12 hidden-xs">
-            <h2 class="pb-20">Check your language, literacy and numeracy level </h2>
-            <h4>Each course level (from Certificate II to Advanced Diploma) requires a specific degree of reading, writing and maths skills to complete. If you want to check your readiness for a course, use this free online language, literacy and numeracy tool.<br><br>
+        <div class="row pt-pb-30">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+                <img src="images/language-tool.jpg" width="323" height="301" alt="" class="img-responsive" />
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 hidden-xs">
+                <h2 class="pb-20">Check your language, literacy and numeracy level </h2>
+                <h4>
+                    Each course level (from Certificate II to Advanced Diploma) requires a specific degree of reading, writing and maths skills to complete. If you want to check your readiness for a course, use this free online language, literacy and numeracy tool.<br><br>
 
-The tool will ask you a series of multiple answer questions that require you to solve basic to advanced problems. By doing the self-assessment, you can plan your studies more effectively and ensure you are studying the correct course level for your needs. 
-<br><br>
-Access the language, literacy and numeracy level tool <a href="#"><u>here</u></a>. </h4> 
+                    The tool will ask you a series of multiple answer questions that require you to solve basic to advanced problems. By doing the self-assessment, you can plan your studies more effectively and ensure you are studying the correct course level for your needs.
+                    <br><br>
+                    Access the language, literacy and numeracy level tool <a href="#"><u>here</u></a>.
+                </h4>
             </div>
         </div>
     </div>
     <!-- Triangle white -->
     <div class="row hidden-xs grayL-bg">
-                        <div class="main-triangle-down border-white-top center-block"></div>
-                </div>
+        <div class="main-triangle-down border-white-top center-block"></div>
+    </div>
     <!-- /Triangle white -->
     <!-- /Language tool -->
     <!-- How you learn -->
     <div class="grayL-bg pt-pb-30">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <h2 class="pb-20">How you learn</h2>
-                <h4 class="hidden-sm hidden-xs">
-                    If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
-                    <br>
-                    Our Professional Editing & Proofreading course will introduce you to proofreading marks and show you effective procedures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive working relationships with authors.<br>
-                    <br>
-                    ures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive
-                    working relationships with authors.
-                </h4>
-            </div>
-            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                <div class="row">
-                    <table class="pt-10" id="myTab">
-                        <tr>
-                            <td class="oneThirdWidth blue-bg">
-                                <a href="#learn1" data-color="blue">
-                                    <!-- how you learn 1 -->
-                                    <div class="hidden-xs">
-                                        <img src="images/StudyOnline-img.jpg" alt="Study online" class="img-responsive" />
-                                        <h4 class="pr-20 pl-20 pt-10 pb-10"> Learn the theory as you STUDY ONLINE at your own pace. </h4>
-                                        <h4 class="pr-20 pl-20 pb-10"> Click to read more </h4>
-                                    </div>
-                                    <div class="visible-xs-block">
-                                        <h4 class="text-center pt-pb-10-pr-pl-5">
-                                            Study<br />
-                                            Online
-                                        </h4>
-                                    </div>
-                                    <!-- /how you learn 1 -->
-                                </a>
-                            </td>
-                            <td class="oneThirdWidth greenL-bg opacity-half">
-                                <a href="#learn2" data-color="greenL">
-                                    <!-- how you learn 2 -->
-                                    <div class="hidden-xs">
-                                        <img src="images/Workplacement-img.jpg" alt="Workplacement" class="img-responsive" />
-                                        <h4 class="pr-20 pl-20 pt-10 pb-10"> Get hands-on real world experience through structures Work placement </h4>
-                                        <h4 class="pr-20 pl-20 pb-10"> Click to read more </h4>
-                                    </div>
-                                    <div class="visible-xs-block">
-                                        <h4 class="text-center pt-pb-10-pr-pl-5">
-                                            Work<br />
-                                            Placement
-                                        </h4>
-                                    </div>
-                                    <!-- /how you learn 2 -->
-                                </a>
-                            </td>
-                            <td class="oneThirdWidth greenD-bg opacity-half">
-                                <a href="#learn3" data-color="greenD">
-                                    <!-- how you learn 3 -->
-                                    <div class="hidden-xs">
-                                        <img src="images/SkillWorkshop-img.jpg" alt="Skill workshop" class="img-responsive" />
-                                        <h4 class="pr-20 pl-20 pt-10 pb-10"> Accelerate your knowledge with face-to-face Skills workshops </h4>
-                                        <h4 class="pr-20 pl-20 pb-10"> Click to read more </h4>
-                                    </div>
-                                    <div class="visible-xs-block">
-                                        <h4 class="text-center pt-pb-10-pr-pl-5">
-                                            Skills<br />
-                                            Workshop
-                                        </h4>
-                                    </div>
-                                    <!-- /how you learn 3 -->
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="row">
-                    <div id="learnArrow" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pt-10">
-                        <div class="main-triangle-up border-blue center-block"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Seperator -->
-    <div class="container">
-        <div class="row">
-            <div id="learnTabContent" class="tab-content learningProcess-box-blue"></div>
-        </div>
-    </div>
-    <!-- How you learn -->
-    <div class="container learningProcess-drop-shadow">
-        <div class="row">
-            <div class="tab-content">
-                <!-- How you learn1-clicked1 -->
-                <div id="learn1" class="tab-pane active fade in">
-                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img " /> </div>
-                    <div class="col-lg-8 col-md-8">
-                        <div class="row pr-pl-20 pt-20">
-                            <h2 class="pb-10"> Study Online</h2>
-                            <h4> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- /How you learn1-clicked1 -->
-                <!-- How you learn1-clicked2 -->
-                <div id="learn2" class="tab-pane fade">
-                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /> </div>
-                    <div class="col-lg-8 col-md-8">
-                        <div class="row pr-pl-20 pt-20">
-                            <h2 class="pb-10"> Study Online</h2>
-                            <h4> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- /How you learn1-clicked2 -->
-                <!-- How you learn1-clicked3 -->
-                <div id="learn3" class="tab-pane fade">
-                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20 pb-10"><img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /></div>
-                    <div class="col-lg-8 col-md-8">
-                        <div class="row pr-pl-20 pt-20">
-                            <h2 class="pb-10"> Study Online</h2>
-                            <h4> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h4>
-                        </div>
-                    </div>
-                </div>
-                <!-- /How you learn1-clicked3 -->
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- Triangle gray -->
-    <div class="row hidden-xs">
-                        <div class="main-triangle-down border-gray-top center-block"></div>
-                </div>
-    <!-- /Triangle gray -->
-    <!-- /How you learn -->
-    <!-- About Open Colleges -->
         <div class="container">
-            <div class="row pt-pb-30">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <h2 class="hidden-xs pb-20">Something about Open Colleges</h2>
-                    <h2 class="hidden-lg hidden-md hidden-sm">Why Open Colleges</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="pb-20">How you learn</h2>
                     <h4 class="hidden-sm hidden-xs">
                         If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
                         <br>
@@ -299,108 +161,245 @@ Access the language, literacy and numeracy level tool <a href="#"><u>here</u></a
                     </h4>
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                    <div id="benefits-Tab" class="row pt-20">
-                        <a href="#benefits_affordability" data-color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <!-- Affordability -->
-                            <span class="icon icon-affordability icon-benefits-circle-selected-blue center-block"></span>
-                            <div class="text-center pt-5">
-                                <h4>Affordable</h4>
-                            </div>
-                            <!-- /Affordability -->
-                        </a> <a href="#benefits_support" data-color="greenL" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
-    <!-- Support -->
-    <span class="icon icon-support icon-benefits-circle-greenL center-block"></span>
-    <div class="text-center pt-5">
-        <h4>Support</h4>
-    </div>
-    <!-- /Support -->
-</a> <a href="#benefits_flexibility" data-color="greenD" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
-    <!-- Flexibility -->
-    <span class="icon icon-study icon-benefits-circle-greenD center-block"></span>
-    <div class="text-center pt-5">
-        <h4>Flexibility</h4>
-    </div>
-    <!-- /Flexibility -->
-</a> <a href="#benefits_quality" data-color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
-    <!-- Quality -->
-    <span class="icon icon-quality icon-benefits-circle-blue center-block"></span>
-    <div class="text-center pt-5">
-        <h4>Quality</h4>
-    </div>
-    <!-- /Quality -->
-</a>
+                    <div class="row">
+                        <table class="pt-10" id="myTab">
+                            <tr>
+                                <td class="oneThirdWidth blue-bg">
+                                    <a href="#learn1" data-color="blue">
+                                        <!-- how you learn 1 -->
+                                        <div class="hidden-xs">
+                                            <img src="images/StudyOnline-img.jpg" alt="Study online" class="img-responsive" />
+                                            <h4 class="pr-20 pl-20 pt-10 pb-10"> Learn the theory as you STUDY ONLINE at your own pace. </h4>
+                                            <h4 class="pr-20 pl-20 pb-10"> Click to read more </h4>
+                                        </div>
+                                        <div class="visible-xs-block">
+                                            <h4 class="text-center pt-pb-10-pr-pl-5">
+                                                Study<br />
+                                                Online
+                                            </h4>
+                                        </div>
+                                        <!-- /how you learn 1 -->
+                                    </a>
+                                </td>
+                                <td class="oneThirdWidth greenL-bg opacity-half">
+                                    <a href="#learn2" data-color="greenL">
+                                        <!-- how you learn 2 -->
+                                        <div class="hidden-xs">
+                                            <img src="images/Workplacement-img.jpg" alt="Workplacement" class="img-responsive" />
+                                            <h4 class="pr-20 pl-20 pt-10 pb-10"> Get hands-on real world experience through structures Work placement </h4>
+                                            <h4 class="pr-20 pl-20 pb-10"> Click to read more </h4>
+                                        </div>
+                                        <div class="visible-xs-block">
+                                            <h4 class="text-center pt-pb-10-pr-pl-5">
+                                                Work<br />
+                                                Placement
+                                            </h4>
+                                        </div>
+                                        <!-- /how you learn 2 -->
+                                    </a>
+                                </td>
+                                <td class="oneThirdWidth greenD-bg opacity-half">
+                                    <a href="#learn3" data-color="greenD">
+                                        <!-- how you learn 3 -->
+                                        <div class="hidden-xs">
+                                            <img src="images/SkillWorkshop-img.jpg" alt="Skill workshop" class="img-responsive" />
+                                            <h4 class="pr-20 pl-20 pt-10 pb-10"> Accelerate your knowledge with face-to-face Skills workshops </h4>
+                                            <h4 class="pr-20 pl-20 pb-10"> Click to read more </h4>
+                                        </div>
+                                        <div class="visible-xs-block">
+                                            <h4 class="text-center pt-pb-10-pr-pl-5">
+                                                Skills<br />
+                                                Workshop
+                                            </h4>
+                                        </div>
+                                        <!-- /how you learn 3 -->
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="row">
-                        <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-                            <div class="main-triangle-up border-blue center-block pt-10"></div>
+                        <div id="learnArrow" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 pt-10">
+                            <div class="main-triangle-up border-blue center-block"></div>
                         </div>
                     </div>
-                    <!-- benefits -->
-                    <div class="row">
-                        <div class="tab-content">
-                            <div id="benefits_affordability" class="tab-pane active in col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
-                                <!-- Affordability -->
-                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-                                <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
-                                <!-- /Affordability -->
-                            </div>
-                            <div id="benefits_support" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenL">
-                                <!-- Affordability -->
-                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-                                <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
-                                <!-- /Affordability -->
-                            </div>
-                            <div id="benefits_flexibility" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenD">
-                                <!-- Flexibility -->
-                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-                                <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
-                                <!-- /Affordability -->
-                            </div>
-                            <div id="benefits_quality" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
-                                <!-- Quality -->
-                                <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
-                                <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
-                                <!-- /Quality -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /benefits -->
                 </div>
             </div>
         </div>
-        <!-- Triangle white -->
-    <div class="row hidden-xs grayL-bg">
-                        <div class="main-triangle-down border-white-top center-block"></div>
+        <!-- Seperator -->
+        <div class="container">
+            <div class="row">
+                <div id="learnTabContent" class="tab-content learningProcess-box-blue"></div>
+            </div>
+        </div>
+        <!-- How you learn -->
+        <div class="container learningProcess-drop-shadow">
+            <div class="row">
+                <div class="tab-content">
+                    <!-- How you learn1-clicked1 -->
+                    <div id="learn1" class="tab-pane active fade in">
+                        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img " /> </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="row pr-pl-20 pt-20">
+                                <h2 class="pb-10"> Study Online</h2>
+                                <h4> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /How you learn1-clicked1 -->
+                    <!-- How you learn1-clicked2 -->
+                    <div id="learn2" class="tab-pane fade">
+                        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20"> <img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /> </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="row pr-pl-20 pt-20">
+                                <h2 class="pb-10"> Study Online</h2>
+                                <h4> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /How you learn1-clicked2 -->
+                    <!-- How you learn1-clicked3 -->
+                    <div id="learn3" class="tab-pane fade">
+                        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs pt-20 pb-10"><img src="images/StudyOnline-img.jpg" width="276" alt="" class="learningProsess-img" /></div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="row pr-pl-20 pt-20">
+                                <h2 class="pb-10"> Study Online</h2>
+                                <h4> All Open Colleges courses are created by consulting with the beauty, makeup and nail technology industries and their relevant professionals. You will receive content in rich-media format, such as training videos and information from our industry partners. You will also participate in online forums with other students. Every course is updated regularly to ensure that current techniques and products are featured so your learning will reflect the industry standards required in the Australian beauty industry.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /How you learn1-clicked3 -->
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- Triangle gray -->
+    <div class="row hidden-xs">
+        <div class="main-triangle-down border-gray-top center-block"></div>
+    </div>
+    <!-- /Triangle gray -->
+    <!-- /How you learn -->
+    <!-- About Open Colleges -->
+    <div class="container">
+        <div class="row pt-pb-30">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <h2 class="hidden-xs pb-20">Something about Open Colleges</h2>
+                <h2 class="hidden-lg hidden-md hidden-sm">Why Open Colleges</h2>
+                <h4 class="hidden-sm hidden-xs">
+                    If you have a passion for words and an eye for detail, proofreading could be the perfect profession for you.<br>
+                    <br>
+                    Our Professional Editing & Proofreading course will introduce you to proofreading marks and show you effective procedures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive working relationships with authors.<br>
+                    <br>
+                    ures for ensuring that documents are accurate, error-free and adhere to style guidelines. You'll also learn valuabletive
+                    working relationships with authors.
+                </h4>
+            </div>
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <div id="benefits-Tab" class="row pt-20">
+                    <a href="#benefits_affordability" data-color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <!-- Affordability -->
+                        <span class="icon icon-affordability icon-benefits-circle-selected-blue center-block"></span>
+                        <div class="text-center pt-5">
+                            <h4>Affordable</h4>
+                        </div>
+                        <!-- /Affordability -->
+                    </a> <a href="#benefits_support" data-color="greenL" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                        <!-- Support -->
+                        <span class="icon icon-support icon-benefits-circle-greenL center-block"></span>
+                        <div class="text-center pt-5">
+                            <h4>Support</h4>
+                        </div>
+                        <!-- /Support -->
+                    </a> <a href="#benefits_flexibility" data-color="greenD" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                        <!-- Flexibility -->
+                        <span class="icon icon-study icon-benefits-circle-greenD center-block"></span>
+                        <div class="text-center pt-5">
+                            <h4>Flexibility</h4>
+                        </div>
+                        <!-- /Flexibility -->
+                    </a> <a href="#benefits_quality" data-color="blue" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 opacity-half">
+                        <!-- Quality -->
+                        <span class="icon icon-quality icon-benefits-circle-blue center-block"></span>
+                        <div class="text-center pt-5">
+                            <h4>Quality</h4>
+                        </div>
+                        <!-- /Quality -->
+                    </a>
+                </div>
+                <div class="row">
+                    <div id="benefitArrow" class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <div class="main-triangle-up border-blue center-block pt-10"></div>
+                    </div>
+                </div>
+                <!-- benefits -->
+                <div class="row">
+                    <div class="tab-content">
+                        <div id="benefits_affordability" class="tab-pane active in col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
+                            <!-- Affordability -->
+                            <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                            <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
+                            <!-- /Affordability -->
+                        </div>
+                        <div id="benefits_support" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenL">
+                            <!-- Affordability -->
+                            <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                            <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
+                            <!-- /Affordability -->
+                        </div>
+                        <div id="benefits_flexibility" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-greenD">
+                            <!-- Flexibility -->
+                            <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                            <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
+                            <!-- /Affordability -->
+                        </div>
+                        <div id="benefits_quality" class="tab-pane col-lg-12 col-md-12 benefits-box-bg benefits-box-bg-blue">
+                            <!-- Quality -->
+                            <h2 class=" pr-20 pl-20 pt-20">Affordability</h2>
+                            <h4 class=" pr-20 pl-20 pt-10 pb-20"> Making the decision to study is a significant investment. We assist you with making that decision by giving you the option to pay in weekly or monthly installments, meaning that you don’t have to come up with a large portion of payment upfront. However, if you do choose to pay upfront, significant savings can be a benefit.</h4>
+                            <!-- /Quality -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /benefits -->
+            </div>
+        </div>
+    </div>
+    <!-- Triangle white -->
+    <div class="row hidden-xs grayL-bg">
+        <div class="main-triangle-down border-white-top center-block"></div>
+    </div>
     <!-- /Triangle white -->
     <!-- /About Open Colleges -->
     <!-- Beauty courses -->
-<div class="grayL-bg pt-pb-30">
-  <div class="container">
-    	<div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs"><img src="images/beautyCourses-pic.jpg" width="400" height="281" alt="" class="img-responsive"/>
-          </div>
-        	<div class="col-lg-8 col-md-8 col-sm-8">
-            <h2 class="pb-20">Beauty courses: </h2>
-            <h4 class="pb-20 hidden-sm hidden-xs">Vivamus eu lobortis neque, quis auctor orci. Morbi massa diam, fringilla sit amet odio vel, tincidunt consequat lectus. Cras quam justo,
-interdum quis varius sit amet, semper id felis. Morbi nec neque hendrerit, facilisis tortor sit amet, iaculis leo. Phasellus dapibus feugiat
-velit. Mauris ac posuere erat. Praesent iaculis lorem velit. Morbi mattis erat sit amet lorem accumsan, a gravida lorem semper.</h4>
+    <div class="grayL-bg pt-pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+                    <img src="images/beautyCourses-pic.jpg" width="400" height="281" alt="" class="img-responsive" />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <h2 class="pb-20">Beauty courses: </h2>
+                    <h4 class="pb-20 hidden-sm hidden-xs">
+                        Vivamus eu lobortis neque, quis auctor orci. Morbi massa diam, fringilla sit amet odio vel, tincidunt consequat lectus. Cras quam justo,
+                        interdum quis varius sit amet, semper id felis. Morbi nec neque hendrerit, facilisis tortor sit amet, iaculis leo. Phasellus dapibus feugiat
+                        velit. Mauris ac posuere erat. Praesent iaculis lorem velit. Morbi mattis erat sit amet lorem accumsan, a gravida lorem semper.
+                    </h4>
 
-            <div class="col-lg-6 col-md-6 col-sm-6">
-            <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Diploma of Beauty Therapy </h4> 
-            <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate IV in Beauty Therapy  </h4> 
-            <h4 class="pb-10  courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate IV in Nail Technology  </h4> 
-            <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate in Beauty Therapy  </h4> 
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-            <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate IV in Retail Make-Up & Skin Care </h4> 
-            <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> How to Apply Make up  </h4> 
-            <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Nail Technician certificate </h4> 
-            </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Diploma of Beauty Therapy </h4>
+                        <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate IV in Beauty Therapy  </h4>
+                        <h4 class="pb-10  courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate IV in Nail Technology  </h4>
+                        <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate in Beauty Therapy  </h4>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Certificate IV in Retail Make-Up & Skin Care </h4>
+                        <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> How to Apply Make up  </h4>
+                        <h4 class="pb-10 courses-button-mobile"><span class="icon icon-arrowInCircle text-blue"></span> Nail Technician certificate </h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-      </div>
     <!-- /Beauty courses -->
     <!-- Footer -->
     <footer>
