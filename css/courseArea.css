@@ -1,1 +1,143 @@
-.lighten-blue-1{background-color:#2ab5c4}.lighten-blue-2{background-color:#5cc6d2}.lighten-blue-3{background-color:#13e2f9}.lighten-blue-1,.lighten-blue-2,.lighten-blue-3{color:#fff}#parallax3{background-image:url(../images/Nail-courseArea.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center}@media (min-width:1200px){#parallax3{height:340px}}@media (min-width:992px) and (max-width:1199px){#parallax3{height:300px}}@media (min-width:768px) and (max-width:991px){#parallax3{height:280px}}@media (max-width:767px){#parallax3{height:150px}}#parallax2{background-image:url(../images/MakeUp-courseArea.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center}@media (min-width:1200px){#parallax2{height:340px}}@media (min-width:992px) and (max-width:1199px){#parallax2{height:300px}}@media (min-width:768px) and (max-width:991px){#parallax2{height:280px}}@media (max-width:767px){#parallax2{height:150px}}#parallax1{background-image:url(../images/BeautyTherapy-courseArea.jpg);background-repeat:no-repeat;background-size:cover;background-position:center center}@media (min-width:1200px){#parallax1{height:340px}}@media (min-width:992px) and (max-width:1199px){#parallax1{height:300px}}@media (min-width:768px) and (max-width:991px){#parallax1{height:280px}}@media (max-width:767px){#parallax1{height:150px}}.para{background-repeat:no-repeat;background-size:cover;background-position:center center}@media (min-width:1200px){.para{height:340px}}@media (min-width:992px) and (max-width:1199px){.para{height:300px}}@media (min-width:768px) and (max-width:991px){.para{height:280px}}@media (max-width:767px){.para{height:150px}}@media (min-width:1200px){.course-description-margin{margin:30px}}@media (min-width:992px) and (max-width:1199px){.course-description-margin{margin:20px}}@media (min-width:768px) and (max-width:991px){.course-description-margin{margin:10px}}@media (max-width:767px){.course-description-margin{margin:5px}}
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+/* ==========================================================================
+   Classes
+   ========================================================================== */
+.lighten-blue-1 {
+  background-color: #2ab5c4;
+}
+.lighten-blue-2 {
+  background-color: #5cc6d2;
+}
+.lighten-blue-3 {
+  background-color: #13e2f9;
+}
+.lighten-blue-1,
+.lighten-blue-2,
+.lighten-blue-3 {
+  color: #ffffff;
+}
+#parallax3 {
+  background-image: url(../images/Nail-courseArea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1200px) {
+  #parallax3 {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parallax3 {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #parallax3 {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  #parallax3 {
+    height: 150px;
+  }
+}
+#parallax2 {
+  background-image: url(../images/MakeUp-courseArea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1200px) {
+  #parallax2 {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parallax2 {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #parallax2 {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  #parallax2 {
+    height: 150px;
+  }
+}
+#parallax1 {
+  background-image: url(../images/BeautyTherapy-courseArea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1200px) {
+  #parallax1 {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #parallax1 {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #parallax1 {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  #parallax1 {
+    height: 150px;
+  }
+}
+.para {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media (min-width: 1200px) {
+  .para {
+    height: 340px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .para {
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .para {
+    height: 280px;
+  }
+}
+@media (max-width: 767px) {
+  .para {
+    height: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .course-description-margin {
+    margin: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .course-description-margin {
+    margin: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .course-description-margin {
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .course-description-margin {
+    margin: 5px;
+  }
+}

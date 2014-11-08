@@ -1,1 +1,25 @@
-.lighten-blue-1{background-color:#2ab5c4}.lighten-blue-2{background-color:#5cc6d2}.lighten-blue-3{background-color:#13e2f9}.lighten-blue-1,.lighten-blue-2,.lighten-blue-3{color:#fff}.bg-leaf{background-image:url(../images/leaf_about_bg.jpg);background-position:top left;background-repeat:no-repeat}
+/* ==========================================================================
+   Colors
+   ========================================================================== */
+/* ==========================================================================
+   Classes
+   ========================================================================== */
+.lighten-blue-1 {
+  background-color: #2ab5c4;
+}
+.lighten-blue-2 {
+  background-color: #5cc6d2;
+}
+.lighten-blue-3 {
+  background-color: #13e2f9;
+}
+.lighten-blue-1,
+.lighten-blue-2,
+.lighten-blue-3 {
+  color: #ffffff;
+}
+.bg-leaf {
+  background-image: url(../images/leaf_about_bg.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+}

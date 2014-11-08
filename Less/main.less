@@ -256,12 +256,27 @@ a:-webkit-any-link {
 .icon-postbox:before {
     content: '\e61e';
 }
-
-.icon-address, .icon-overseas, .icon-postbox {
+.icon-phone-contact:before {
+    content: '\e609';
+}
+.icon-address, .icon-overseas, .icon-postbox, .icon-phone-contact {
     font-size: 1.9em;
     color: @colorBlue;
+	.icon-phone-circle;
 }
+.icon-phone-contact {
+font-size: 1.4em;
+}
+.icon-address, .icon-overseas, .icon-postbox {
+    font-size: 1.9em;
+}
+.icon-phone-circle {
+    border-radius: 50%;
+    border: 2px solid @colorBlue;
+    padding: 3px;
+    text-align: center;
 
+}
 .icon-socialMedia-circle, .icon-course-snapshot-circle {
     border-radius: 50%;
     padding: 7px;
@@ -311,13 +326,6 @@ a:-webkit-any-link {
 
 .icon-quote {
     font-size: 2em;
-}
-
-.icon-phone-circle {
-    border-radius: 50%;
-    border: 2px solid @colorBlue;
-    padding: 3px;
-    text-align: center;
 }
 
 .icon-accordion-circle {
@@ -630,7 +638,9 @@ a:-webkit-any-link {
 .pb-10 {
     .pb(10px);
 }
-
+.pb-15 {
+    .pb(15px);
+}
 .pb-20 {
     .pb(20px);
 }
@@ -654,6 +664,10 @@ a:-webkit-any-link {
 .pr-pl-10 {
     .pr(10px);
     .pl(10px);
+}
+.pr-pl-15 {
+    .pr(15px);
+    .pl(15px);
 }
 
 .pr-pl-20 {
@@ -1287,14 +1301,44 @@ footer a {
     .pt-mobile-30 {
         .pt(30px);
     }
+	.pb-mobile-70 {
+        .pb(70px);
+    }
+.actionbar{ 
+		position: fixed; 
+		bottom: 0px; 
+		width: 100%; 
+		display: block !important; 
+		background-color: lighten(@colorGrayD, 10%); 
+		height: 8rem; 
+		padding: 1em; 
+		text-align: center; 
+		line-height: 3rem; 
+		z-index: 10; 
 }
-
+.actionbar a { 
+	display: inline-block; 
+	border: 3px solid @colorBlue; 
+	border-radius: 5px; 
+	text-decoration: none; 
+	color: #FFFFFF; 
+	padding: 0 1rem; 
+	font-size: 1.5rem; 
+	margin: 0 0.5rem; 
+	font-weight: bold; 
+	position: relative; 
+	top: 6px; 
+}
+}
 .white-bg-mobile {
     background-color: @colorGray;
 
     @media (max-width: @screen-xs-max) {
         background-color: @colorWhite;
     }
+}
+.actionbar{ 
+	display: none; 
 }
 /* ==========================================================================
    Imports

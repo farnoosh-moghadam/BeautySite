@@ -101,6 +101,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/print.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/slick.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -961,7 +970,7 @@
 		"fileType": 1,
 		"ieCompatibility": 1,
 		"ignore": 0,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Less\/menu.less",
 		"outputAbbreviatedPath": "\/css\/menu.css",
 		"outputPathIsOutsideProject": 0,
