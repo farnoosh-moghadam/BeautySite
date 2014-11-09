@@ -9,6 +9,7 @@
     <link rel="shortcut icon" type="image/png" href="https://oca3-prod.s3.amazonaws.com/images/favicon.png">
     <link rel="stylesheet" type="text/css" href="CSS/main.css">
     <link rel="stylesheet" type="text/css" href="CSS/menu.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Tutor.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap-theme.min.css">
     <link href="CSS/slick.css" type="text/css" rel="stylesheet" />
@@ -126,8 +127,8 @@
                                 </div>
                                 <div class="col-lg-3 col-md-4 pt-10">
                                     <button type="button" class="button-submit pt-pb-14 text-center">
-                                    Download your free <br>course guide <span class="icon icon-download" > </span>
-                                    
+                                        Download your free <br>course guide <span class="icon icon-download"> </span>
+
                                     </button>
                                 </div>
                             </div>
@@ -551,59 +552,75 @@
     </div>
     <!-- /Job growth -->
     <!-- Our tutors and Testimonial -->
+    <div class="modal fade" id="dialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h3 class="modal-title" id="myModalLabel">Andrew Harward</h3>
+                </div>
+                <div class="modal-body clearfix">
+                    <div class="totur-modal-image-wrapper"><img src="images/Andrew-inColor.jpg" alt="" /></div>
+                    <div class="totur-modal-text-wrapper">
+                        <h4>This trainer and assessor hold a Diploma of Beauty Therapy and Aromatherapy, a Certificate IV in Training and Assessment and also has 25 years of experience in the skin, body care and spa industries. Jeanne has owned her own beauty clinic and carried out internationally-certified college training and assessments in beauty therapy, aromatherapy and spa. She has done extensive international business coaching and practical product training for spa and beauty therapists.  Jeanne is also a beauty column writer and international spa conference guest speaker who is passionate about the beauty industry and loves to share her knowledge to inspire new therapists.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row mt-mb-20">
             <!-- Meet our tutors -->
             <div class="col-lg-6 col-md-6 hidden-xs hidden-sm">
-                <div class="modal fade" id="dialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header text-center">
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                <h3 class="modal-title" id="myModalLabel">Andrew Harward</h3>
-                            </div>
-                            <div class="modal-body">
-                                <img src="images/Andrew-inColor.jpg" alt="" class="img-tutor" />
-                                <h4>This trainer and assessor hold a Diploma of Beauty Therapy and Aromatherapy, a Certificate IV in Training and Assessment and also has 25 years of experience in the skin, body care and spa industries. Jeanne has owned her own beauty clinic and carried out internationally-certified college training and assessments in beauty therapy, aromatherapy and spa. She has done extensive international business coaching and practical product training for spa and beauty therapists.  Jeanne is also a beauty column writer and international spa conference guest speaker who is passionate about the beauty industry and loves to share her knowledge to inspire new therapists.</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <h1 class="pull-left pr-10">Meet our tutors:</h1>
                 <div class="pt-27 hidden-xs hidden-sm pull-left" id="tutorCarouselArrow">
                 </div>
                 <div class="tutor-box">
                     <!-- Tutor 1 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="pt-pb-10 pr-pl-10 border-gray-1" data-toggle="modal" data-target="#dialog"><img src="images/Andrew-inColor.jpg" alt="" class="img-responsive" /></div>
-                        <div class="border-gray-1 text-center pt-10 pb-10">
-                            <h4 class="text-blue">Andrew Harward</h4>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="border-gray-1 tutor-item" data-toggle="modal" data-target="#dialog">
+                            <div class="overlay">
+                                <h4>Andrew Harward</h4>
+                                <p>This trainer and assessor hold a Diploma of Beauty Therapy and Aromatherapy</p>
+                                <input class="button-FindMore" value="Read more" />
+                            </div>
+                            <img src="images/Andrew-inColor.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <!-- /Tutor 1 -->
                     <!-- Tutor 2 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="pt-pb-10 pr-pl-10 border-gray-1" data-toggle="modal" data-target="#dialog"><img src="images/Jessica-inColor.jpg" alt="" class="img-responsive" /></div>
-                        <div class="border-gray-1 text-center pt-10 pb-10">
-                            <h4 class="text-blue">Jessica Malbowa</h4>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="border-gray-1 tutor-item" data-toggle="modal" data-target="#dialog">
+                            <div class="overlay">
+                                <h4>Jessica Malbowa</h4>
+                                <p>This trainer and assessor hold a Diploma of Beauty Therapy and Aromatherapy</p>
+                                <input class="button-FindMore" value="Read more" />
+                            </div>
+                            <img src="images/Jessica-inColor.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <!-- /Tutor 2 -->
                     <!-- Tutor 3 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="pt-pb-10 pr-pl-10 border-gray-1" data-toggle="modal" data-target="#dialog"><img src="images/Andrew-inColor.jpg" alt="" class="img-responsive" /></div>
-                        <div class="border-gray-1 text-center pt-10 pb-10">
-                            <h4>Andrew Harward</h4>
-                            <h4 class="text-blue">Web, development</h4>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="border-gray-1 tutor-item" data-toggle="modal" data-target="#dialog">
+                            <div class="overlay">
+                                <h4>Andrew Harward</h4>
+                                <p>This trainer and assessor hold a Diploma of Beauty Therapy and Aromatherapy</p>
+                                <input class="button-FindMore" value="Read more" />
+                            </div>
+                            <img src="images/Andrew-inColor.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <!-- /Tutor 3 -->
                     <!-- Tutor 4 -->
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="pt-pb-10 pr-pl-10 border-gray-1" data-toggle="modal" data-target="#dialog"><img src="images/Jessica-inColor.jpg" alt="" class="img-responsive" /></div>
-                        <div class="border-gray-1 text-center pt-10 pb-10">
-                            <h4>Jessica Malbowa</h4>
-                            <h4 class="text-blue">Web, development</h4>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="border-gray-1 tutor-item" data-toggle="modal" data-target="#dialog">
+                            <div class="overlay">
+                                <h4>Jessica Malbowa</h4>
+                                <p>This trainer and assessor hold a Diploma of Beauty Therapy and Aromatherapy</p>
+                                <input class="button-FindMore" value="Read more" />
+                            </div>
+                            <img src="images/Jessica-inColor.jpg" alt="" class="img-responsive" />
                         </div>
                     </div>
                     <!-- /Tutor 4 -->
@@ -731,8 +748,8 @@
     </footer>
     <!-- /Footer -->
     <nav class="actionbar">
-				<a href="#">Call us</a>
-				<a href="#">Download free guide</a>
-			</nav>
+        <a href="#">Call us</a>
+        <a href="#">Download free guide</a>
+    </nav>
 </body>
 </html>

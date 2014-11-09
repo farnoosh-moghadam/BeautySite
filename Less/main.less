@@ -39,7 +39,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 1.8em;
     line-height: 1em;
 }
 
@@ -79,6 +78,10 @@ a:-webkit-any-link {
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 /* ==========================================================================
@@ -261,25 +264,33 @@ a:-webkit-any-link {
     content: '\e609';
 }
 
-.icon-address, .icon-overseas, .icon-postbox, .icon-phone-contact {
+.icon-address {
     font-size: 1.9em;
     color: @colorBlue;
-    .icon-phone-circle;
+    padding: 2px 5px 4px 6px;
 }
 
-.icon-phone-contact {
-    font-size: 1.4em;
-}
-
-.icon-address, .icon-overseas, .icon-postbox {
+.icon-overseas{
     font-size: 1.9em;
+    color: @colorBlue;
+    padding: 3px 2px 3px 3px;
 }
 
-.icon-phone-circle {
+.icon-postbox{
+    font-size: 1.9em;
+    color: @colorBlue;
+    padding: 3px 2px 3px 3px;
+}
+
+.icon-phone-contact{
+    font-size: 1.4em;
+    color: @colorBlue;
+    padding: 6px 5px;
+}
+
+.icon-contactus-circle {
     border-radius: 50%;
     border: 2px solid @colorBlue;
-    padding: 3px;
-    text-align: center;
 }
 
 .icon-socialMedia-circle, .icon-course-snapshot-circle {
@@ -288,15 +299,8 @@ a:-webkit-any-link {
     text-align: center;
     width: 30px;
     height: 30px;
-    color: #FFFFFF;
-}
-
-.icon-socialMedia-circle, .icon-course-snapshot-circle {
+    color: #FFFFFF; 
     font-size: 2em;
-}
-
-.icon-course-snapshot-circle {
-    font-size: 1.4em;
 }
 
 .icon-facebook {
@@ -377,7 +381,6 @@ a:-webkit-any-link {
 }
 
 .icon-star, .icon-watch, .icon-iPhone, .icon-tickSquare {
-    .icon-course-snapshot-circle;
     background-color: @colorBlue;
     font-size: 1.6em;
 }
@@ -552,23 +555,7 @@ a:-webkit-any-link {
     text-align: center;
 }
 
-.close {
-    background-color: @colorBlue;
-    color: @colorWhite;
-    float: left;
-}
 
-.modal-title {
-    display: inline-block;
-}
-
-.modal-body img {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid darken(@colorGray,10%);
-    float: left;
-    width: 200px;
-}
 /******************************* 
 **** padding & margin
 ********************************/
@@ -748,6 +735,11 @@ a:-webkit-any-link {
 .mt-10 {
     .mt(10px);
 }
+
+.mt-15 {
+    .mt(15px);
+}
+
 
 .mt-20 {
     .mt(20px);

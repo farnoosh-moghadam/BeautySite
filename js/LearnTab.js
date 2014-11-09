@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#myTab a").each(function (index, element) {
         $(element).click(function () {
             $('html, body').animate({
-                scrollTop: $(".tab-content").offset().top-100
+                scrollTop: $("#myTab").offset().top -50
             }, 1000);
 
             $(this).tab('show');

@@ -12,6 +12,7 @@
 
 .tutor-item {
     padding: 10px;
+    text-align:center;
 }
 
 .tutor-item:hover img {
@@ -69,12 +70,65 @@
     width: 100%;
     padding: 5px;
     text-align: center;
-    margin-top: 10%;
-    .transform(translateY(220px));
-    .transition(all 0.2s ease-in-out);
+    font-size:.8em;
+    opacity:0;
+    .transform(translateY(100px));
+    .transition(all 0.2s linear);
 }
 
 .tutor-item:hover p {
+     opacity:1;
     .transform(translateY(0px));
-    .transition(all 0.2s ease-in-out);
+    .transition(all 0.2s linear);
 }
+
+.tutor-item input{
+    width:90px;
+    opacity:0;
+}
+
+.tutor-item:hover input{
+    opacity:1;
+}
+
+.totur-modal-image-wrapper{
+    width:40%;
+    float:left;
+    text-align:center;
+
+    @media(max-width:@screen-sm-max) {
+        width:100%;
+        float:none;
+    }
+}
+
+.totur-modal-text-wrapper{
+    width:60%;
+    float:right;
+
+    @media(max-width:@screen-sm-max) {
+        width:100%;
+    }
+}
+.close {
+    background-color: @colorBlue;
+    color: @colorWhite;
+    float: left;
+}
+
+.modal-title {
+    display: inline-block;
+}
+
+.modal-body img {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid darken(@colorGray,10%);
+    width: 200px;
+}
+
+.modal-body{
+    overflow:auto;
+    max-height: 100vh;
+}
+
