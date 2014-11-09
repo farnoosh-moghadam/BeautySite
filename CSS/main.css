@@ -460,6 +460,20 @@ a:-webkit-any-link {
 /******************************* 
 **** Header
 ********************************/
+header ul .active {
+  background-color: #05a8ba;
+  opacity: 0.9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #FFFFFF;
+}
+header ul .active a {
+  color: #FFFFFF;
+}
 .border-grayL-1 {
   border-bottom: 1px solid #f3f3f3;
 }
@@ -1276,7 +1290,6 @@ footer a {
   padding: 20px;
 }
 .button-FindMore {
-  font-family: 'Plume-font';
   background-color: #05a8ba;
   border: 1px solid #059fb0;
   color: #ffffff;

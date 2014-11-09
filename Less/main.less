@@ -454,6 +454,15 @@ font-size: 1.4em;
 /******************************* 
 **** Header
 ********************************/
+header ul .active{
+	background-color: @colorBlue;
+	opacity:0.9;
+    .border-radius(3px);
+	color: #FFFFFF;
+}
+header ul .active a{
+	color: #FFFFFF;
+}
 .border-grayL-1 {
     border-bottom: 1px solid @colorGray;
 }
@@ -1243,7 +1252,6 @@ footer a {
 }
 
 .button-FindMore {
-    font-family: 'Plume-font';
     background-color: @colorBlue;
     border: 1px solid darken(@colorBlue, 2%);
     color: #ffffff;

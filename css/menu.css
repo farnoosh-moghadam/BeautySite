@@ -51,6 +51,7 @@ header .main-nav li {
 }
 header .main-nav li:hover {
   background-color: #05a8ba;
+  opacity: 0.6;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
