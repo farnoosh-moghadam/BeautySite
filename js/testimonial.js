@@ -17,9 +17,8 @@
 });
 
 $(window).resize(function () {
+    $('.testimonialCarousel').unslick();
     if ($(window).width() >= 992) {
-
-        $('.testimonialCarousel').unslick();
         $('.testimonialCarousel').slick({
             arrows: true,
             dots: true,
@@ -28,7 +27,6 @@ $(window).resize(function () {
             nextArrow: '<span class="icon icon-arrow-right icon-arrowRight-circle ml-5"></span>',
         });
     } else {
-        $('.testimonialCarousel').unslick();
         $('.testimonialCarousel').slick({
             arrows: true,
             dots: true,
