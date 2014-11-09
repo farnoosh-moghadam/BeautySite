@@ -188,3 +188,14 @@
   font-size: 1.6em;
   content: '\e618';
 }
+.payment-icons {
+  max-width: 119px;
+  min-width: 85px;
+  margin-top: 20px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .payment-icons {
+    margin-top: 0px;
+  }
+}

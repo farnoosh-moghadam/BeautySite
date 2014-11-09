@@ -18,10 +18,16 @@
 .lighten-blue-3 {
   color: #ffffff;
 }
-.maxWidth-119 {
+.support-icons {
   max-width: 119px;
   min-width: 90px;
+  margin-top: 20px;
   width: 100%;
+}
+@media (max-width: 991px) {
+  .support-icons {
+    margin-top: 0px;
+  }
 }
 @media (max-width: 767px) {
   .courses-button-mobile {
